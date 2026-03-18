@@ -7,7 +7,13 @@ Full-Stack & Data Science Engineer with a proven track record in building **scal
 ## 🌟 Professional Summary
 - Delivered solutions that **reduced operational inefficiencies by 35%** and **improved system performance by 30%**.  
 - Experienced in full-stack development, data science, AI integration, and real-time systems.  
-- Open to **remote opportunities** and **global relocation**.
+- **Passport-ready and open to global relocation**, remote work, or offline projects.  
+- Flexible for **full-time, contract, or freelance opportunities**.
+
+---
+
+## 🎓 Education
+**BEng in Computer Science** – Wenzhou University, China  
 
 ---
 
@@ -34,12 +40,14 @@ Full-Stack & Data Science Engineer with a proven track record in building **scal
 ---
 
 ## 🤝 Collaboration
-I’m open to collaborating on **AI projects, full-stack applications, automation workflows, and data science pipelines**.
+I’m open to collaborating on **AI projects, full-stack applications, automation workflows, and data science pipelines**.  
+- **Remote or offline projects** are welcome  
+- **Available for relocation anywhere in the world**  
 
 ---
 
 ## 📫 How to Reach Me
-- Email: brianmahlatini@gmail.com  
+- Email: [mahlatinibrian@gmail.com](mailto:mahlatinibrian@gmail.com)  
 - GitHub: [github.com/brianmahlatini](https://github.com/brianmahlatini)  
 
 ---
