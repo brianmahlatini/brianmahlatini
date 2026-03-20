@@ -21,18 +21,31 @@ Full-Stack & Data Science Engineer with a proven track record in building **scal
 ---
 
 ## 💻 Core Technical Skills
+
 **Frontend:** React.js, Next.js, Angular, TypeScript, JavaScript (ES6+), HTML5, CSS3  
+
 **Backend:** Node.js, Express.js, NestJS, Django, Django REST Framework, FastAPI, Spring Boot, ASP.NET  
+
 **Databases / ORM:** PostgreSQL, MongoDB, Mongoose ORM, Django ORM, Prisma  
+
 **AI & ML:** OpenAI API, Hugging Face, LangChain, Scikit-learn, Transformers, TensorFlow, PyTorch, NLP (BERT/GPT), CNNs, RNNs/LSTMs, Time Series Forecasting, Transfer Learning, **AI Agents (autonomous workflows & decision-making systems)**  
+
 **Authentication & Security:** Firebase Authentication, Auth0, Clerk, JWT, OAuth2, Role-Based Access Control (RBAC)  
+
 **Automation & Workflow:** n8n, Python scripting, workflow optimization  
+
 **Payments & Integrations:** Stripe (payments, subscriptions, webhooks, billing automation)  
+
 **Data Science & Big Data:** NumPy, Pandas, Matplotlib, Seaborn, Power BI, Tableau, Apache Spark, Hadoop, Kafka, Hive, Pig, Flink, ML pipelines, model optimization, SHAP, LIME  
+
 **DevOps & Cloud:** Docker, Kubernetes, GitHub Actions (CI/CD), Vercel, Render, Railway, AWS (S3, Lambda, Glue), Flask API  
+
 **Real-Time Systems:** WebSockets, Django Channels  
+
 **Testing & Quality:** Jest, React Testing Library, Cypress, Pytest, ESLint, Prettier  
+
 **Workflow & Agile:** Git, GitHub, Scrum, Kanban  
+
 ---
 
 ## 🚀 What I’m Working On
