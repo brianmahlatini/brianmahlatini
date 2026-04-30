@@ -1,5 +1,4 @@
 👋 Hi, I'm Brian Mahlatini
-Full-Stack & AI Solutions Developer
 
 Full-Stack & AI Solutions Developer with a proven track record in designing and building scalable, real-time, cloud-native, production-grade applications. I specialize in integrating AI systems, AI agents, machine learning, automation, secure authentication systems, and payment systems (Stripe) into enterprise environments to deliver robust, high-performance software solutions.
 
