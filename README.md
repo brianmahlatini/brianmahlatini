@@ -91,8 +91,6 @@ Available for relocation anywhere in the world
 
 Email: mahlatinibrian@gmail.com
 
-GitHub: github.com/brianmahlatini
-
 ⚡ Fun Fact
 
 I specialize in combining AI agents, automation systems, authentication architectures, payment systems, workflow automation tools (n8n), and cloud technologies to build efficient, scalable, real-world production systems.
