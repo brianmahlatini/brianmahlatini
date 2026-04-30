@@ -1,73 +1,98 @@
-# 👋 Hi, I'm Brian Mahlatini
+👋 Hi, I'm Brian Mahlatini
+Full-Stack & AI Solutions Developer
 
-Full-Stack & AI Solutions Developer with a proven track record in building **scalable, real-time, cloud-ready applications**. I specialize in integrating **AI, AI agents, machine learning, automation, secure authentication systems, and payment systems (Stripe)** into production environments to deliver robust, high-performance solutions.
+Full-Stack & AI Solutions Developer with a proven track record in designing and building scalable, real-time, cloud-native, production-grade applications. I specialize in integrating AI systems, AI agents, machine learning, automation, secure authentication systems, and payment systems (Stripe) into enterprise environments to deliver robust, high-performance software solutions.
 
----
+🌟 Professional Summary
 
-## 🌟 Professional Summary
-- Delivered solutions that **reduced operational inefficiencies by 35%** and **improved system performance by 30%**  
-- Experienced in full-stack development, AI integration, AI agents, and real-time systems  
-- Built and integrated **secure payment systems using Stripe** for modern applications  
-- Implemented **secure authentication systems (Firebase Auth, Auth0, Clerk)**  
-- Experienced in **containerized and scalable deployments using Kubernetes**  
-- **Passport-ready and open to global relocation**, remote work, or offline projects  
-- Flexible for **full-time, contract, or freelance opportunities**
+Delivered engineering solutions that reduced operational inefficiencies by 35% and improved system performance by 30% through scalable backend optimization and system design.
+Strong experience in full-stack development, AI integration, AI agents, and real-time distributed systems.
+Designed and implemented secure payment systems using Stripe in production environments.
+Implemented secure authentication systems (Firebase Auth, Auth0, Clerk).
+Experienced in containerized, scalable deployments using Kubernetes.
+Strong exposure to production-grade system design, distributed systems, and cloud infrastructure.
+Passport-ready and open to global relocation, remote work, or contract-based roles.
+Flexible for full-time, contract, or freelance opportunities.
 
----
+🎓 Education
 
-## 🎓 Education
-**BEng in Computer Science** – Wenzhou University, China  
+BEng in Computer Science – Wenzhou University, China
 
----
+💻 Core Technical Skills
 
-## 💻 Core Technical Skills
+Frontend: React.js, Next.js, Angular, TypeScript, JavaScript (ES6+), HTML5, CSS3
 
-**Frontend:** React.js, Next.js, Angular, TypeScript, JavaScript (ES6+), HTML5, CSS3  
+Backend: Node.js, Express.js, ASP.NET
 
-**Backend:** Node.js, Express.js, Django, Django REST Framework, FastAPI, Spring Boot, ASP.NET  
+Databases / ORM: PostgreSQL, MongoDB, Mongoose ORM, Prisma
 
-**Databases / ORM:** PostgreSQL, MongoDB, Mongoose ORM, Django ORM, Prisma  
+🤖 AI & Machine Learning
 
-**AI & ML:** OpenAI API, Hugging Face, LangChain, Scikit-learn, Transformers, TensorFlow, PyTorch, NLP (BERT/GPT), CNNs, RNNs/LSTMs, Time Series Forecasting, Transfer Learning, **AI Agents (autonomous workflows & decision-making systems)**  
+Python for Machine Learning, NumPy, Pandas, Scikit-learn, data preprocessing, feature engineering, supervised & unsupervised learning, regression & classification, model evaluation, decision trees, random forest, XGBoost, time series forecasting, PyTorch, CNNs, RNNs/LSTMs, NLP (TF-IDF, embeddings, transformers/BERT), OpenAI API, RAG systems, FastAPI deployment, Redis, Docker, CI/CD, MLOps basics
 
-**Authentication & Security:** Firebase Authentication, Auth0, Clerk, JWT, OAuth2, Role-Based Access Control (RBAC)  
+⚙️ Backend Engineering & System Design
 
-**Automation & Workflow:** n8n, Python scripting, workflow optimization  
+Redis caching for performance optimization
+Background job processing (queues) for asynchronous workloads
+Bull / RabbitMQ for distributed task processing
+WebSockets for real-time applications and event-driven systems
+API rate limiting for secure and scalable services
+Logging & monitoring for production-grade system observability
 
-**Payments & Integrations:** Stripe (payments, subscriptions, webhooks, billing automation)  
+🔐 Authentication & Security
 
-**DevOps & Cloud:** Docker, Kubernetes, GitHub Actions (CI/CD), Vercel, Render, Railway, AWS (S3, Lambda, Glue), Flask API  
+Firebase Authentication, Auth0, Clerk, JWT, OAuth2, Role-Based Access Control (RBAC)
 
-**Real-Time Systems:** WebSockets, Django Channels  
+⚙️ Automation & Workflow
 
-**Testing & Quality:** Jest, React Testing Library, Cypress, Pytest, ESLint, Prettier  
+n8n, Python scripting, workflow optimization
 
-**Workflow & Agile:** Git, GitHub, Scrum, Kanban  
+☁️ DevOps & Cloud
 
----
+Docker, Kubernetes, GitHub Actions (CI/CD), Vercel, Render, Railway, AWS (S3, Lambda, Glue), Flask API
 
-## 🚀 What I'm Working On
-- AI-powered chatbots, AI agents, and automation systems  
-- Stripe-integrated applications with billing/subscription logic  
-- Secure authentication systems (Firebase, Auth0, Clerk)  
-- Cloud-native applications using Docker & Kubernetes  
-- Real-time data pipelines and analytics dashboards  
+💳 Payments & Integrations
 
----
+Stripe (payments, subscriptions, webhooks, billing automation)
 
-## 🤝 Collaboration
-I'm open to collaborating on **AI projects, AI agents, full-stack applications, automation workflows, Stripe-integrated platforms, authentication systems**  
+📡 Real-Time Systems
 
-- **Remote or offline projects** are welcome  
-- **Available for relocation anywhere in the world**  
+WebSockets
 
----
+🧪 Testing & Quality
 
-## 📫 How to Reach Me
-- Email: [mahlatinibrian@gmail.com](mailto:mahlatinibrian@gmail.com)  
-- GitHub: [github.com/brianmahlatini](https://github.com/brianmahlatini)
+Jest, React Testing Library, Cypress, Pytest, ESLint, Prettier
 
----
+📊 Backend Engineering & System Design
 
-## ⚡ Fun Fact
-I love combining **AI agents, automation, authentication systems, payments, and cloud technologies** to solve real-world problems efficiently.
+Caching (Redis)
+Background jobs (queues)
+Bull / RabbitMQ
+WebSockets (real-time apps)
+API rate limiting
+Logging & monitoring
+
+🚀 What I'm Working On
+
+AI-powered chatbots, AI agents, and automation systems
+Stripe-integrated applications with billing/subscription logic
+Secure authentication systems (Firebase, Auth0, Clerk)
+Cloud-native applications using Docker & Kubernetes
+Real-time data pipelines and analytics dashboards
+
+🤝 Collaboration
+
+I'm open to collaborating on AI systems, AI agents, full-stack applications, automation workflows, Stripe-integrated platforms, authentication systems
+
+Remote or offline projects are welcome
+Available for relocation anywhere in the world
+
+📫 How to Reach Me
+
+Email: mahlatinibrian@gmail.com
+
+GitHub: github.com/brianmahlatini
+
+⚡ Fun Fact
+
+I specialize in combining AI agents, automation systems, authentication architectures, payment systems, workflow automation tools (n8n), and cloud technologies to build efficient, scalable, real-world production systems.
