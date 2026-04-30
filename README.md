@@ -19,7 +19,9 @@ BEng in Computer Science – Wenzhou University, China
 
 💻 Core Technical Skills
 
-Frontend: React.js, Next.js, Angular, TypeScript, JavaScript (ES6+), HTML5, CSS3
+Programming Languages: Python, JavaScript, C#
+
+Frontend: React.js, Next.js, Angular, TypeScript, JavaScript (ES6+), HTML5, Tailwind CSS
 
 Backend: Node.js, Express.js, ASP.NET
 
