@@ -2,7 +2,7 @@
 
 Full-Stack & AI Solutions Developer with a proven track record in designing and building scalable, real-time, cloud-native, production-grade applications. I specialize in integrating AI systems, AI agents, machine learning, automation, secure authentication systems, and payment systems (Stripe) into enterprise environments to deliver robust, high-performance software solutions.
 
-🌟 Professional Summary
+🌟 Professional Summary=>
 Delivered engineering solutions that reduced operational inefficiencies by 35% and improved system performance by 30% through scalable backend optimization and system design.
 Strong experience in full-stack development, AI integration, AI agents, and real-time distributed systems.
 Designed and implemented secure payment systems using Stripe in production environments.
