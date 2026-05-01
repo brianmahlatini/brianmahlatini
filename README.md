@@ -43,6 +43,7 @@ Bull / RabbitMQ for distributed task processing
 WebSockets for real-time applications and event-driven systems
 API rate limiting for secure and scalable services
 Logging & monitoring for production-grade system observability
+
 🔐 Authentication & Security
 
 Firebase Authentication, Auth0, Clerk, JWT, OAuth2, Role-Based Access Control (RBAC)
