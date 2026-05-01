@@ -10,7 +10,9 @@ Designed and implemented secure payment systems using Stripe in production envir
 Implemented secure authentication systems (Firebase Auth, Auth0, Clerk).
 Experienced in containerized, scalable deployments using Kubernetes.
 Strong exposure to production-grade system design, distributed systems, and cloud infrastructure.
+
 Passport-ready and open to global relocation, remote work, or contract-based roles.
+
 Flexible for full-time, contract, or freelance opportunities.
 
 🎓 Education
@@ -23,7 +25,7 @@ Programming Languages:
 Python, JavaScript
 
 Frontend:
-React.js, Next.js, Angular, TypeScript, JavaScript (ES6+), HTML5, Tailwind CSS
+React.js, Next.js, TypeScript, JavaScript (ES6+), HTML5, Tailwind CSS
 
 Backend:
 Node.js, Express.js
@@ -84,6 +86,7 @@ Stripe-integrated applications with billing/subscription logic
 Secure authentication systems (Firebase, Auth0, Clerk)
 Cloud-native applications using Docker & Kubernetes
 Real-time data pipelines and analytics dashboards
+
 🤝 Collaboration
 
 I'm open to collaborating on AI systems, AI agents, full-stack applications, automation workflows, Stripe-integrated platforms, authentication systems.
