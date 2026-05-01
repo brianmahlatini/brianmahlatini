@@ -2,7 +2,8 @@
 
 Full-Stack & AI Solutions Developer with a proven track record in designing and building scalable, real-time, cloud-native, production-grade applications. I specialize in integrating AI systems, AI agents, machine learning, automation, secure authentication systems, and payment systems (Stripe) into enterprise environments to deliver robust, high-performance software solutions.
 
-🌟 Professional Summary=>
+🌟 Professional Summary
+
 Delivered engineering solutions that reduced operational inefficiencies by 35% and improved system performance by 30% through scalable backend optimization and system design.
 Strong experience in full-stack development, AI integration, AI agents, and real-time distributed systems.
 Designed and implemented secure payment systems using Stripe in production environments.
@@ -11,6 +12,7 @@ Experienced in containerized, scalable deployments using Kubernetes.
 Strong exposure to production-grade system design, distributed systems, and cloud infrastructure.
 Passport-ready and open to global relocation, remote work, or contract-based roles.
 Flexible for full-time, contract, or freelance opportunities.
+
 🎓 Education
 
 BEng in Computer Science – Wenzhou University, China
@@ -34,6 +36,7 @@ PostgreSQL, MongoDB, Mongoose ORM, Prisma
 Python for Machine Learning, NumPy, Pandas, Scikit-learn, data preprocessing, feature engineering, supervised & unsupervised learning, regression & classification, model evaluation, decision trees, random forest, XGBoost, time series forecasting, PyTorch, CNNs, RNNs/LSTMs, NLP (TF-IDF, embeddings, transformers/BERT), OpenAI API, RAG systems, FastAPI deployment, Redis, Docker, CI/CD, MLOps basics
 
 ⚙️ Backend Engineering & System Design
+
 Redis caching for performance optimization
 Background job processing (queues) for asynchronous workloads
 Bull / RabbitMQ for distributed task processing
@@ -65,13 +68,16 @@ WebSockets
 Jest, React Testing Library, Cypress, Pytest, ESLint, Prettier
 
 📊 Backend Engineering & System Design
+
 Caching (Redis)
 Background jobs (queues)
 Bull / RabbitMQ
 WebSockets (real-time apps)
 API rate limiting
 Logging & monitoring
+
 🚀 What I'm Working On
+
 AI-powered chatbots, AI agents, and automation systems
 Stripe-integrated applications with billing/subscription logic
 Secure authentication systems (Firebase, Auth0, Clerk)
