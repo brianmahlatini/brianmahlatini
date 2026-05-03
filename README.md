@@ -28,7 +28,7 @@ Frontend:
 React.js, Next.js, TypeScript, JavaScript (ES6+), HTML5, Tailwind CSS
 
 Backend:
-Node.js, Express.js
+Node.js, Express.js, Django, FastAPI, REST APIs, Microservices
 
 Databases / ORM:
 PostgreSQL, MongoDB, Mongoose ORM, Prisma
