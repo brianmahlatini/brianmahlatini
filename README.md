@@ -25,7 +25,7 @@ Programming Languages:
 Python, JavaScript
 
 Frontend:
-React.js, Angular.js, Next.js, TypeScript, JavaScript (ES6+), HTML5, Tailwind CSS
+React.js, Angular, Next.js, TypeScript, JavaScript (ES6+), HTML5, Tailwind CSS
 
 Backend:
 Node.js, Express.js, Django, FastAPI, REST APIs, Microservices
