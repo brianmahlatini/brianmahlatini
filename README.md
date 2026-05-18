@@ -1,15 +1,10 @@
-👋 Hi, I'm Brian Mahlatini
+# Hi, I'm Brian Mahlatini
 
 Full-Stack & AI Solutions Developer with a proven track record in designing and building scalable, real-time, cloud-native, production-grade applications. I specialize in integrating AI systems, AI agents, machine learning, automation, secure authentication systems, and payment systems (Stripe) into enterprise environments to deliver robust, high-performance software solutions.
 
 🌟 Professional Summary
 
-Delivered engineering solutions that reduced operational inefficiencies by 35% and improved system performance by 30% through scalable backend optimization and system design.
-Strong experience in full-stack development, AI integration, AI agents, and real-time distributed systems.
-Designed and implemented secure payment systems using Stripe in production environments.
-Implemented secure authentication systems (Firebase Auth, Auth0, Clerk).
-Experienced in containerized, scalable deployments using Kubernetes.
-Strong exposure to production-grade system design, distributed systems, and cloud infrastructure.
+Delivered engineering solutions that reduced operational inefficiencies by 35% and improved system performance by 30% through scalable backend optimization and system design. Strong experience in full-stack development, AI integration, AI agents, and real-time distributed systems. Designed and implemented secure payment systems using Stripe in production environments. Implemented secure authentication systems (Firebase Auth, Auth0, Clerk). Experienced in containerized, scalable deployments using Kubernetes. Strong exposure to production-grade system design, distributed systems, and cloud infrastructure.
 
 Passport-ready and open to global relocation, remote work, or contract-based roles.
 
@@ -21,17 +16,13 @@ BEng in Computer Science – Wenzhou University, China
 
 💻 Core Technical Skills
 
-Programming Languages:
-Python, JavaScript
+Programming Languages: Python, JavaScript, C#
 
-Frontend:
-React.js, Angular, Next.js, TypeScript, JavaScript (ES6+), HTML5, Tailwind CSS
+Frontend: React.js, Angular, Next.js, Razor Pages, TypeScript, JavaScript (ES6+), HTML5, Tailwind CSS
 
-Backend:
-Node.js, Express.js, Django, FastAPI, REST APIs, Microservices
+Backend: Node.js, Express.js, Django, FastAPI, ASP.NET Core, Flask API, REST APIs, Microservices
 
-Databases / ORM:
-PostgreSQL, MongoDB, Mongoose ORM, Prisma
+Databases / ORM: PostgreSQL, MongoDB, Mongoose ORM, Prisma
 
 🤖 AI & Machine Learning
 
@@ -40,11 +31,18 @@ Python for Machine Learning, NumPy, Pandas, Scikit-learn, data preprocessing, fe
 ⚙️ Backend Engineering & System Design
 
 Redis caching for performance optimization
+
 Background job processing (queues) for asynchronous workloads
+
 Bull / RabbitMQ for distributed task processing
+
 WebSockets for real-time applications and event-driven systems
+
 API rate limiting for secure and scalable services
+
 Logging & monitoring for production-grade system observability
+
+Distributed systems & scalable architecture design
 
 🔐 Authentication & Security
 
@@ -56,7 +54,7 @@ n8n, Python scripting, workflow optimization
 
 ☁️ DevOps & Cloud
 
-Docker, Kubernetes, GitHub Actions (CI/CD), Vercel, Render, Railway, AWS (S3, Lambda, Glue), Flask API
+Docker, Kubernetes, GitHub Actions (CI/CD), Vercel, Render, Railway, AWS (S3, Lambda, Glue), Azure
 
 💳 Payments & Integrations
 
@@ -73,26 +71,36 @@ Jest, React Testing Library, Cypress, Pytest, ESLint, Prettier
 📊 Backend Engineering & System Design
 
 Caching (Redis)
+
 Background jobs (queues)
+
 Bull / RabbitMQ
+
 WebSockets (real-time apps)
+
 API rate limiting
+
 Logging & monitoring
+
+RESTful API architecture
 
 🚀 What I'm Working On
 
 AI-powered chatbots, AI agents, and automation systems
+
 Stripe-integrated applications with billing/subscription logic
+
 Secure authentication systems (Firebase, Auth0, Clerk)
+
 Cloud-native applications using Docker & Kubernetes
+
 Real-time data pipelines and analytics dashboards
 
 🤝 Collaboration
 
 I'm open to collaborating on AI systems, AI agents, full-stack applications, automation workflows, Stripe-integrated platforms, authentication systems.
 
-Remote or offline projects are welcome.
-Available for relocation anywhere in the world.
+Remote or offline projects are welcome. Available for relocation anywhere in the world.
 
 📫 How to Reach Me
 
