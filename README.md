@@ -16,11 +16,11 @@ BEng in Computer Science – Wenzhou University, China
 
 💻 Core Technical Skills
 
-Programming Languages: Python, JavaScript, C#
+Programming Languages: Python, JavaScript, C#, Java
 
 Frontend: React.js, Angular, Next.js, Razor Pages, TypeScript, JavaScript (ES6+), HTML5, Tailwind CSS
 
-Backend: Node.js, Express.js, Django, FastAPI, ASP.NET Core, Flask API, REST APIs, Microservices
+Backend: Node.js, Express.js, Django, FastAPI, ASP.NET Core, Spring Boot, Flask API, REST APIs, Microservices
 
 Databases / ORM: PostgreSQL, MongoDB, Mongoose ORM, Prisma
 
