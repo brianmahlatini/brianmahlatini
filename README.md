@@ -2,110 +2,218 @@
 
 Full-Stack & AI Solutions Developer with a proven track record in designing and building scalable, real-time, cloud-native, production-grade applications. I specialize in integrating AI systems, AI agents, machine learning, automation, secure authentication systems, and payment systems (Stripe) into enterprise environments to deliver robust, high-performance software solutions.
 
-🌟 Professional Summary
+---
 
-Delivered engineering solutions that reduced operational inefficiencies by 35% and improved system performance by 30% through scalable backend optimization and system design. Strong experience in full-stack development, AI integration, AI agents, and real-time distributed systems. Designed and implemented secure payment systems using Stripe in production environments. Implemented secure authentication systems (Firebase Auth, Auth0, Clerk). Experienced in containerized, scalable deployments using Kubernetes. Strong exposure to production-grade system design, distributed systems, and cloud infrastructure.
+## 🌟 Professional Summary
+
+Delivered engineering solutions that reduced operational inefficiencies by 35% and improved system performance by 30% through scalable backend optimization and system design. Strong experience in full-stack development, AI integration, AI agents, and real-time distributed systems.
+
+Designed and implemented secure payment systems using Stripe in production environments. Implemented secure authentication systems using Firebase Auth, Auth0, and Clerk.
+
+Experienced in containerized, scalable deployments using Kubernetes and Docker with strong exposure to production-grade system design, distributed systems, cloud infrastructure, and microservices architecture.
+
+Strong backend engineering experience across:
+- Spring Boot
+- ASP.NET Core
+- Node.js
+- Django
+- FastAPI
 
 Passport-ready and open to global relocation, remote work, or contract-based roles.
 
 Flexible for full-time, contract, or freelance opportunities.
 
-🎓 Education
+---
 
-BEng in Computer Science – Wenzhou University, China
+## 🎓 Education
 
-💻 Core Technical Skills
+**BEng in Computer Science**  
+Wenzhou University, China
 
-Programming Languages: Python, JavaScript, C#, Java
+---
 
-Frontend: React.js, Angular, Next.js, Razor Pages, TypeScript, JavaScript (ES6+), HTML5, Tailwind CSS
+## 💻 Core Technical Skills
 
-Backend: Node.js, Express.js, Django, FastAPI, ASP.NET Core, Spring Boot, Flask API, REST APIs, Microservices
+### Programming Languages
+- Python
+- JavaScript
+- TypeScript
+- Java
+- C#
 
-Databases / ORM: PostgreSQL, MongoDB, Mongoose ORM, Prisma
+### Frontend
+- React.js
+- Angular
+- Next.js
+- Razor Pages
+- TypeScript
+- JavaScript (ES6+)
+- HTML5
+- Tailwind CSS
 
-🤖 AI & Machine Learning
+### Backend
+- Node.js
+- Express.js
+- Django
+- FastAPI
+- ASP.NET Core
+- Spring Boot
+- Flask API
+- REST APIs
+- Microservices
 
-Python for Machine Learning, NumPy, Pandas, Scikit-learn, data preprocessing, feature engineering, supervised & unsupervised learning, regression & classification, model evaluation, decision trees, random forest, XGBoost, time series forecasting, PyTorch, CNNs, RNNs/LSTMs, NLP (TF-IDF, embeddings, transformers/BERT), OpenAI API, RAG systems, FastAPI deployment, Redis, Docker, CI/CD, MLOps basics
+### Databases / ORM
+- PostgreSQL
+- MongoDB
+- Mongoose ORM
+- Prisma
 
-⚙️ Backend Engineering & System Design
+---
 
-Redis caching for performance optimization
+## 🤖 AI & Machine Learning
 
-Background job processing (queues) for asynchronous workloads
+- Python for Machine Learning
+- NumPy
+- Pandas
+- Scikit-learn
+- Data preprocessing
+- Feature engineering
+- Supervised & unsupervised learning
+- Regression & classification
+- Model evaluation
+- Decision Trees
+- Random Forest
+- XGBoost
+- Time series forecasting
+- PyTorch
+- CNNs
+- RNNs / LSTMs
+- NLP (TF-IDF, embeddings, transformers/BERT)
+- OpenAI API
+- RAG systems
+- FastAPI deployment
+- Redis
+- Docker
+- CI/CD
+- MLOps basics
 
-Bull / RabbitMQ for distributed task processing
+---
 
-WebSockets for real-time applications and event-driven systems
+## ⚙️ Backend Engineering & System Design
 
-API rate limiting for secure and scalable services
+- Redis caching for performance optimization
+- Background job processing (queues)
+- Bull / RabbitMQ for distributed task processing
+- WebSockets for real-time applications
+- API rate limiting
+- Logging & monitoring
+- Distributed systems architecture
+- Scalable backend design
+- RESTful API architecture
+- Event-driven systems
 
-Logging & monitoring for production-grade system observability
+---
 
-Distributed systems & scalable architecture design
+## 🔐 Authentication & Security
 
-🔐 Authentication & Security
+- Firebase Authentication
+- Auth0
+- Clerk
+- JWT
+- OAuth2
+- Role-Based Access Control (RBAC)
 
-Firebase Authentication, Auth0, Clerk, JWT, OAuth2, Role-Based Access Control (RBAC)
+---
 
-⚙️ Automation & Workflow
+## ⚙️ Automation & Workflow
 
-n8n, Python scripting, workflow optimization
+- n8n
+- Python scripting
+- Workflow automation
+- Process optimization
 
-☁️ DevOps & Cloud
+---
 
-Docker, Kubernetes, GitHub Actions (CI/CD), Vercel, Render, Railway, AWS (S3, Lambda, Glue), Azure
+## ☁️ DevOps & Cloud
 
-💳 Payments & Integrations
+- Docker
+- Kubernetes
+- GitHub Actions (CI/CD)
+- AWS (S3, Lambda, Glue)
+- Azure
+- Vercel
+- Render
+- Railway
 
-Stripe (payments, subscriptions, webhooks, billing automation)
+---
 
-📡 Real-Time Systems
+## 💳 Payments & Integrations
 
-WebSockets
+- Stripe Payments
+- Stripe Subscriptions
+- Stripe Webhooks
+- Billing automation systems
 
-🧪 Testing & Quality
+---
 
-Jest, React Testing Library, Cypress, Pytest, ESLint, Prettier
+## 📡 Real-Time Systems
 
-📊 Backend Engineering & System Design
+- WebSockets
+- Real-time event-driven systems
+- Live data streaming
 
-Caching (Redis)
+---
 
-Background jobs (queues)
+## 🧪 Testing & Quality
 
-Bull / RabbitMQ
+- Jest
+- React Testing Library
+- Cypress
+- Pytest
+- ESLint
+- Prettier
 
-WebSockets (real-time apps)
+---
 
-API rate limiting
+## 🚀 What I'm Working On
 
-Logging & monitoring
+- AI-powered chatbots
+- AI agents & automation systems
+- Stripe-integrated applications
+- Billing & subscription logic
+- Secure authentication systems
+- Cloud-native applications using Docker & Kubernetes
+- Real-time data pipelines
+- Analytics dashboards
+- Distributed backend systems
+- Scalable microservices platforms
 
-RESTful API architecture
+---
 
-🚀 What I'm Working On
+## 🤝 Collaboration
 
-AI-powered chatbots, AI agents, and automation systems
+I'm open to collaborating on:
+- AI systems
+- AI agents
+- Full-stack applications
+- Automation workflows
+- Stripe-integrated platforms
+- Authentication systems
+- Cloud-native applications
+- Scalable backend systems
 
-Stripe-integrated applications with billing/subscription logic
+Remote, hybrid, onsite, freelance, or contract opportunities are welcome.
 
-Secure authentication systems (Firebase, Auth0, Clerk)
+Available for global relocation.
 
-Cloud-native applications using Docker & Kubernetes
+---
 
-Real-time data pipelines and analytics dashboards
+## 📫 How to Reach Me
 
-🤝 Collaboration
+📧 Email: mahlatinibrian@gmail.com
 
-I'm open to collaborating on AI systems, AI agents, full-stack applications, automation workflows, Stripe-integrated platforms, authentication systems.
+---
 
-Remote or offline projects are welcome. Available for relocation anywhere in the world.
+## ⚡ Fun Fact
 
-📫 How to Reach Me
-
-Email: mahlatinibrian@gmail.com
-
-⚡ Fun Fact
-
-I specialize in combining AI agents, automation systems, authentication architectures, payment systems, workflow automation tools (n8n), and cloud technologies to build efficient, scalable, real-world production systems.
+I specialize in combining AI agents, automation systems, authentication architectures, payment systems, workflow automation tools (n8n), distributed backend systems, and cloud technologies to build scalable, efficient, real-world production applications.
