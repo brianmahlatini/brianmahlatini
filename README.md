@@ -1,27 +1,16 @@
 # Hi, I'm Brian Mahlatini
 
-Full-Stack & AI Solutions Developer with a proven track record in designing and building scalable, real-time, cloud-native, production-grade applications. I specialize in integrating AI systems, AI agents, machine learning, automation, secure authentication systems, and payment systems (Stripe) into enterprise environments to deliver robust, high-performance software solutions.
+### Full-Stack & AI Systems Engineer | React, Angular, Node.js, Python, C#/.NET, Spring Boot | Cloud-Native & Real-Time Applications
 
----
+Full-Stack & AI Solutions Developer with a proven track record in designing and building scalable, real-time, cloud-native, production-grade applications.
 
-## 🌟 Professional Summary
+I specialize in AI systems, AI agents, machine learning, automation platforms, secure authentication systems, Stripe-integrated payment systems, distributed systems, and enterprise-grade backend architecture.
 
-Delivered engineering solutions that reduced operational inefficiencies by 35% and improved system performance by 30% through scalable backend optimization and system design. Strong experience in full-stack development, AI integration, AI agents, and real-time distributed systems.
+Experienced in building high-performance applications using React, Angular, Node.js, Django, FastAPI, ASP.NET Core, and Spring Boot with strong exposure to Kubernetes, Docker, Redis, WebSockets, CI/CD, and scalable cloud infrastructure.
 
-Designed and implemented secure payment systems using Stripe in production environments. Implemented secure authentication systems using Firebase Auth, Auth0, and Clerk.
+Delivered engineering solutions that reduced operational inefficiencies by 35% and improved system performance by 30% through scalable backend optimization and system design.
 
-Experienced in containerized, scalable deployments using Kubernetes and Docker with strong exposure to production-grade system design, distributed systems, cloud infrastructure, and microservices architecture.
-
-Strong backend engineering experience across:
-- Spring Boot
-- ASP.NET Core
-- Node.js
-- Django
-- FastAPI
-
-Passport-ready and open to global relocation, remote work, or contract-based roles.
-
-Flexible for full-time, contract, or freelance opportunities.
+Open to remote, relocation, freelance, contract, and full-time opportunities worldwide.
 
 ---
 
@@ -32,26 +21,24 @@ Wenzhou University, China
 
 ---
 
-## 💻 Core Technical Skills
+# 💻 Tech Stack
 
-### Programming Languages
+## Languages
 - Python
 - JavaScript
 - TypeScript
 - Java
 - C#
 
-### Frontend
+## Frontend
 - React.js
 - Angular
 - Next.js
 - Razor Pages
-- TypeScript
-- JavaScript (ES6+)
 - HTML5
 - Tailwind CSS
 
-### Backend
+## Backend
 - Node.js
 - Express.js
 - Django
@@ -62,79 +49,58 @@ Wenzhou University, China
 - REST APIs
 - Microservices
 
-### Databases / ORM
+## Databases & ORM
 - PostgreSQL
 - MongoDB
-- Mongoose ORM
 - Prisma
+- Mongoose ORM
 
 ---
 
-## 🤖 AI & Machine Learning
+# 🤖 AI & Machine Learning
 
-- Python for Machine Learning
+- Scikit-learn
+- PyTorch
 - NumPy
 - Pandas
-- Scikit-learn
-- Data preprocessing
-- Feature engineering
-- Supervised & unsupervised learning
-- Regression & classification
-- Model evaluation
-- Decision Trees
-- Random Forest
 - XGBoost
-- Time series forecasting
-- PyTorch
 - CNNs
 - RNNs / LSTMs
-- NLP (TF-IDF, embeddings, transformers/BERT)
+- NLP (TF-IDF, Embeddings, Transformers/BERT)
 - OpenAI API
-- RAG systems
-- FastAPI deployment
-- Redis
-- Docker
-- CI/CD
-- MLOps basics
+- RAG Systems
+- FastAPI AI Deployment
+- MLOps Basics
 
 ---
 
-## ⚙️ Backend Engineering & System Design
+# ⚙️ Backend Engineering & System Design
 
-- Redis caching for performance optimization
-- Background job processing (queues)
-- Bull / RabbitMQ for distributed task processing
-- WebSockets for real-time applications
-- API rate limiting
-- Logging & monitoring
-- Distributed systems architecture
-- Scalable backend design
-- RESTful API architecture
-- Event-driven systems
+- Redis Caching
+- Bull / RabbitMQ
+- Background Job Processing
+- WebSockets
+- Distributed Systems
+- Event-Driven Architecture
+- API Rate Limiting
+- Logging & Monitoring
+- RESTful API Architecture
+- Scalable Backend Design
 
 ---
 
-## 🔐 Authentication & Security
+# 🔐 Authentication & Security
 
 - Firebase Authentication
 - Auth0
 - Clerk
 - JWT
 - OAuth2
-- Role-Based Access Control (RBAC)
+- RBAC
 
 ---
 
-## ⚙️ Automation & Workflow
-
-- n8n
-- Python scripting
-- Workflow automation
-- Process optimization
-
----
-
-## ☁️ DevOps & Cloud
+# ☁️ DevOps & Cloud
 
 - Docker
 - Kubernetes
@@ -142,29 +108,21 @@ Wenzhou University, China
 - AWS (S3, Lambda, Glue)
 - Azure
 - Vercel
-- Render
 - Railway
+- Render
 
 ---
 
-## 💳 Payments & Integrations
+# 💳 Payments & Integrations
 
 - Stripe Payments
 - Stripe Subscriptions
 - Stripe Webhooks
-- Billing automation systems
+- Billing Automation
 
 ---
 
-## 📡 Real-Time Systems
-
-- WebSockets
-- Real-time event-driven systems
-- Live data streaming
-
----
-
-## 🧪 Testing & Quality
+# 🧪 Testing
 
 - Jest
 - React Testing Library
@@ -175,45 +133,32 @@ Wenzhou University, China
 
 ---
 
-## 🚀 What I'm Working On
+# 🚀 Currently Working On
 
 - AI-powered chatbots
 - AI agents & automation systems
-- Stripe-integrated applications
-- Billing & subscription logic
-- Secure authentication systems
-- Cloud-native applications using Docker & Kubernetes
-- Real-time data pipelines
-- Analytics dashboards
+- Stripe-integrated SaaS platforms
+- Cloud-native applications
+- Real-time analytics dashboards
 - Distributed backend systems
 - Scalable microservices platforms
 
 ---
 
-## 🤝 Collaboration
+# 🤝 Collaboration
 
-I'm open to collaborating on:
-- AI systems
-- AI agents
-- Full-stack applications
-- Automation workflows
-- Stripe-integrated platforms
-- Authentication systems
-- Cloud-native applications
-- Scalable backend systems
+Open to collaborating on:
+- AI Systems
+- Full-Stack Applications
+- Automation Platforms
+- SaaS Platforms
+- Authentication Systems
+- Scalable Backend Infrastructure
 
-Remote, hybrid, onsite, freelance, or contract opportunities are welcome.
-
-Available for global relocation.
+Remote, hybrid, onsite, freelance, and contract opportunities are welcome.
 
 ---
 
-## 📫 How to Reach Me
+# 📫 Contact
 
-📧 Email: mahlatinibrian@gmail.com
-
----
-
-## ⚡ Fun Fact
-
-I specialize in combining AI agents, automation systems, authentication architectures, payment systems, workflow automation tools (n8n), distributed backend systems, and cloud technologies to build scalable, efficient, real-world production applications.
+📧 mahlatinibrian@gmail.com
