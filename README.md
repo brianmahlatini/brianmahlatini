@@ -72,7 +72,22 @@ Open to **remote, relocation, freelance, contract, and full-time** opportunities
 ---
 
 ## 🤖 AI & Machine Learning
-Scikit-learn · PyTorch · NumPy · Pandas · XGBoost · CNNs · RNNs/LSTMs · NLP (TF-IDF, Embeddings, Transformers/BERT) · OpenAI API · RAG Systems · FAISS · FastAPI AI Deployment · MLOps Basics
+
+**Data & Feature Engineering:** NumPy · Pandas · Data Cleaning · Missing Value Handling · Feature Scaling (Normalization/Standardization)
+
+**Core ML:** Scikit-learn Pipelines · Random Forest · XGBoost · LightGBM · Hyperparameter Tuning · Imbalanced Dataset Handling
+
+**Model Evaluation:** Precision/Recall/F1 · ROC-AUC · Cross-Validation · Error Analysis · Data Leakage Detection
+
+**Time Series:** Trend/Seasonality/Stationarity Analysis · Time-Based Train/Test Splitting · Prophet
+
+**Deep Learning:** PyTorch · Neural Networks · Autograd · Custom Training Loops · CNNs · Transfer Learning · Image Classification
+
+**LLMs & Fine-Tuning:** Hugging Face Training Pipelines · BERT Fine-Tuning · LoRA/QLoRA · Llama 3 Fine-Tuning · RAG Systems · OpenAI API
+
+**MLOps:** MLflow Experiment Tracking · Model Versioning & Registry · Drift Detection & Monitoring · Retraining Pipelines · Model Deployment
+
+**Explainability:** SHAP · LIME · Feature Importance Analysis
 
 ## ⚙️ Backend Engineering & System Design
 Redis Caching · Bull/RabbitMQ · Celery · Background Job Processing · WebSockets · Socket.io · Distributed Systems · Event-Driven Architecture · API Rate Limiting · Logging & Monitoring · Scalable Backend Design
