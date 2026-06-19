@@ -18,7 +18,7 @@ Open to **remote, relocation, freelance, contract, and full-time** opportunities
 - Integrated **Stripe billing** and **OpenAI/Claude APIs** for SaaS monetization and workflow automation
 - Reduced deployment issues by **20–40%** through Docker-based CI/CD pipelines
 
-**Full-Stack Developer** — Wenzhou Hams IT Co., Ltd, Wenzhou, China *(Feb 2021 – Jun 2024)*
+**Freelance Full-Stack Developer** — Remote Clients (China-based) *(Feb 2021 – Jun 2024)*
 - Built enterprise backend systems using **ASP.NET Core, Spring Boot, and Node.js**
 - Improved database performance by **20–30%** through schema design, indexing, and query optimization
 - Delivered production REST APIs supporting core business workflows
