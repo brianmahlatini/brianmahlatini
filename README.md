@@ -1,124 +1,67 @@
 # Hi, I'm Brian Mahlatini 👋
 
 ### Full-Stack & AI Systems Engineer
-**React · Angular · Node.js · Python · C#/.NET · Spring Boot · Cloud-Native & Real-Time Systems**
+**Java/Spring Boot · C#/.NET · Node.js · Python · React · Angular**
 
-I build scalable, real-time, production-grade applications — with a focus on **AI systems, AI agents, and automation platforms**. My work spans secure authentication, Stripe-integrated payments, distributed systems, and enterprise backend architecture, with measurable impact: **35% reduction in operational inefficiencies** and **30% improvement in system performance** through backend optimization and system design.
+I build backend-heavy, production-grade systems — distributed microservices, event-driven architectures, and AI-powered platforms. I've shipped across three stacks (Spring Boot + Kafka, ASP.NET Core + SignalR, Node.js/Python + AI) because I'd rather solve the right problem with the right tool than force everything into one framework.
 
-Open to **remote, relocation, freelance, contract, and full-time** opportunities worldwide.
+📍 Cape Town, South Africa · Open to **remote, relocation, freelance, contract, and full-time** work worldwide
+
+---
+
+## 💼 Experience
+
+**Full-Stack Software Engineer** — Genius Humans *(Jul 2024 – Present)*
+Architecting microservices and event-driven systems across Spring Boot, Kafka, ASP.NET Core, and RabbitMQ. Improved API performance by up to **45%** through caching and query optimization, and cut deployment failures by up to **40%** with Docker-based CI/CD.
+
+**Full-Stack Developer** — Wenzhou Hams IT Co., Ltd *(Feb 2021 – Jun 2024)*
+Built enterprise backend systems across ASP.NET Core, Spring Boot, and Node.js, improving database performance by ~30% through schema design and query optimization.
 
 ---
 
 ## 🚀 Selected Projects
 
-### [AI SaaS Automation Platform (AI Workflow System)](https://github.com/brianmahlatini/AI-SAAS-AUTOMATION-PLATFORM)
-**Next.js · Node.js · Redis · AWS · Stripe · OpenAI**
-- Built AI-powered workflow automation system with a distributed execution engine
-- Designed scalable background processing using **BullMQ** queues
-- Implemented real-time workflow tracking using **WebSockets**
-- Integrated **OpenAI** for task automation and token-based usage tracking
-- Built **Stripe** subscription and usage-based billing system
+### [Real-Time Banking Transaction System](https://github.com/brianmahlatini/Real-Time-Banking-Transaction-System.git)
+**Spring Boot · Kafka · PostgreSQL · Redis · Docker**
+Financial-grade transaction system with ACID-compliant transfers, immutable ledger design, and a Kafka-based event pipeline for reliable async processing.
 
-### [Multi-Vendor E-Commerce Marketplace](https://github.com/brianmahlatini/MULTI-VENDOR-E-COMMERCE-MARKETPLACE)
-**React · Node.js · PostgreSQL · Redis · AWS · Stripe**
-- Built a scalable, Amazon-style marketplace supporting multi-vendor architecture
-- Designed product catalog, checkout flow, and order management system
-- Integrated **Stripe** payments and webhook-based transaction handling
-- Improved performance using **Redis** caching and background job processing
-- Implemented real-time order tracking system
+### [Distributed E-Commerce Microservices System](https://github.com/brianmahlatini/Distributed-E-Commerce-Microservices-System.git)
+**Spring Boot · Spring Cloud · Kafka · PostgreSQL · MongoDB**
+Decomposed a monolith into independent services, improving scalability by ~40%, with hybrid PostgreSQL/MongoDB modeling and Stripe webhook integration.
 
-### [Real-Time Collaboration Chat Platform](https://github.com/brianmahlatini/REAL-TIME-COLLABORATION-CHAT-PLATFORM)
-**React · Node.js · Socket.io · MongoDB · Redis · AWS**
-- Built real-time messaging system with channels, direct messaging, and presence tracking
-- Designed scalable WebSocket architecture using **Redis pub/sub** for multi-instance support
-- Implemented message persistence and optimized **MongoDB** data models
-- Integrated **AWS S3** for file uploads and storage
-- Built rate-limited APIs and a notification system
+### [Real-Time Logistics & Delivery Platform](https://github.com/brianmahlatini/REAL-TIME-LOGISTICS-DELIVERY-PLATFORM)
+**ASP.NET Core · SignalR · RabbitMQ · Prometheus · Grafana**
+Live fleet-tracking platform with an automated dispatch engine and near real-time GPS streaming via SignalR, monitored with Prometheus + Grafana.
+
+### [AI Recruitment & ATS Platform](https://github.com/brianmahlatini/AI-Recruitment-ATS-Platform.git)
+**ASP.NET Core · Elasticsearch · RabbitMQ · SignalR**
+Full recruitment pipeline with AI-driven CV analysis and candidate ranking. Elasticsearch indexing improved search performance by ~50%.
+
+### [AI SaaS Automation Platform](https://github.com/brianmahlatini/AI-SAAS-AUTOMATION-PLATFORM)
+**Next.js · Node.js · Redis · OpenAI · Stripe**
+AI-powered workflow automation engine with BullMQ background processing, real-time tracking via WebSockets, and usage-based Stripe billing.
 
 ### [AI Document Q&A System (RAG Platform)](https://github.com/brianmahlatini/RAG-PROJECT)
-**FastAPI · React · OpenAI · FAISS · Docker**
-- Built a production-ready **Retrieval-Augmented Generation (RAG)** system for document Q&A
-- Designed document retrieval pipeline using TF-IDF with optional **FAISS** acceleration
-- Integrated **OpenAI** for context-aware response generation
-- Implemented multilingual support with a translation pipeline
-- Built an admin dashboard with analytics, audit logs, and export features
-- Applied rate limiting, authentication, and structured logging
-
-### [Multi-Tenant SaaS Platform (Django Backend)](https://github.com/brianmahlatini/SaaS-Multi-Tenant-Platform-Django-React-Stripe-RBAC-.git)
-**Django · PostgreSQL · Redis · Celery · Stripe**
-- Designed multi-tenant backend with organization-level data isolation
-- Implemented **JWT authentication** and role-based access control (**RBAC**)
-- Built **Stripe**-based subscription billing system with webhook handling
-- Developed API key management and usage tracking system
-- Used **Celery** for background job processing and system scalability
+**FastAPI · OpenAI · FAISS · Docker**
+Production-ready Retrieval-Augmented Generation system with multilingual support and an admin dashboard for analytics and audit logs.
 
 ---
 
-## 🎓 Education
-**BEng in Computer Science** — Wenzhou University, China
+## 🛠️ Tech Stack
+
+**Languages** Java · C# · Python · JavaScript · TypeScript
+**Frontend** React · Angular · Next.js · Tailwind CSS
+**Backend** Spring Boot · Spring Cloud · ASP.NET Core · Node.js · Django · FastAPI
+**Databases** PostgreSQL · MongoDB · SQL Server · Redis
+**Messaging & Real-Time** Kafka · RabbitMQ · SignalR · WebSockets
+**AI & ML** PyTorch · Scikit-learn · OpenAI/Claude APIs · RAG Systems · Hugging Face · LoRA/QLoRA fine-tuning · MLflow
+**Cloud & DevOps** AWS · Azure · Docker · Kubernetes · Terraform · GitHub Actions · n8n
+**Auth & Security** JWT · OAuth2 · RBAC · Spring Security
+**Payments** Stripe (Subscriptions, Webhooks, Billing)
 
 ---
 
-## 💻 Tech Stack
+## 🤝 Let's Build Something
+Open to **AI Systems**, **Distributed & Microservices Architecture**, **SaaS Platforms**, and **Real-Time Systems** — remote, hybrid, or contract.
 
-**Languages:** Python · JavaScript · TypeScript · Java · C#
-
-**Frontend:** React.js · Angular · Next.js · Razor Pages · HTML5 · Tailwind CSS
-
-**Backend:** Node.js · Express.js · Django · FastAPI · ASP.NET Core · Spring Boot · Flask API · REST APIs · Microservices
-
-**Databases & ORM:** PostgreSQL · MongoDB · Prisma · Mongoose ORM
-
----
-
-## 🤖 AI & Machine Learning
-
-**Data & Feature Engineering:** NumPy · Pandas · Data Cleaning · Missing Value Handling · Feature Scaling (Normalization/Standardization)
-
-**Core ML:** Scikit-learn Pipelines · Random Forest · XGBoost · LightGBM · Hyperparameter Tuning · Imbalanced Dataset Handling
-
-**Model Evaluation:** Precision/Recall/F1 · ROC-AUC · Cross-Validation · Error Analysis · Data Leakage Detection
-
-**Time Series:** Trend/Seasonality/Stationarity Analysis · Time-Based Train/Test Splitting · Prophet
-
-**Deep Learning:** PyTorch · Neural Networks · Autograd · Custom Training Loops · CNNs · Transfer Learning · Image Classification
-
-**LLMs & Fine-Tuning:** Hugging Face Training Pipelines · BERT Fine-Tuning · LoRA/QLoRA · Llama 3 Fine-Tuning · RAG Systems · OpenAI API
-
-**MLOps:** MLflow Experiment Tracking · Model Versioning & Registry · Drift Detection & Monitoring · Retraining Pipelines · Model Deployment
-
-**Explainability:** SHAP · LIME · Feature Importance Analysis
-
-## ⚙️ Backend Engineering & System Design
-Redis Caching · Bull/RabbitMQ · Celery · Background Job Processing · WebSockets · Socket.io · Distributed Systems · Event-Driven Architecture · API Rate Limiting · Logging & Monitoring · Scalable Backend Design
-
-## 🔐 Authentication & Security
-Firebase Authentication · Auth0 · Clerk · JWT · OAuth2 · RBAC
-
-## ☁️ DevOps, Cloud & Infrastructure
-Docker · Kubernetes · Terraform · GitHub Actions (CI/CD) · n8n · AWS (S3, Lambda, Glue) · Azure · Linux · Vercel · Railway · Render
-
-## 💳 Payments & Integrations
-Stripe Payments · Stripe Subscriptions · Stripe Webhooks · Billing Automation
-
-## 🧪 Testing & Quality
-Jest · React Testing Library · Cypress · Pytest · Unit & Integration Testing · ESLint · Prettier
-
----
-
-## 🚀 Currently Working On
-- AI-powered chatbots
-- AI agents & automation systems
-- Stripe-integrated SaaS platforms
-- Real-time analytics dashboards
-- Distributed backend & microservices systems
-
----
-
-## 🤝 Let's Collaborate
-I'm open to working on **AI Systems**, **Full-Stack Applications**, **Automation Platforms**, **SaaS Platforms**, **Authentication Systems**, and **Scalable Backend Infrastructure** — remote, hybrid, onsite, freelance, or contract.
-
----
-
-## 📫 Contact
-**Email:** mahlatinibrian@gmail.com
+📫 **mahlatinibrian@gmail.com**
