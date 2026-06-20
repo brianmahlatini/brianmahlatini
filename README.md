@@ -13,10 +13,11 @@ I'm a backend-heavy Full-Stack Engineer who builds scalable, real-time, producti
 
 **Full-Stack Software Engineer** — Genius Humans, Cape Town, South Africa *(Jul 2024 – Present)*
 - Architected microservices and event-driven systems using **Spring Boot, Kafka, ASP.NET Core, RabbitMQ, and Node.js**
+- Developed backend services and APIs using **Python (Django, FastAPI)** alongside Node.js and .NET workflows
 - Improved API performance by **35–45%** through Redis caching and query optimization
 - Built real-time systems using **SignalR** and **WebSockets** for live dashboards and notifications
 - Reduced manual workflows by ~35% by integrating **OpenAI and Claude APIs** for AI-driven automation
-- Integrated **Stripe billing** for SaaS subscription and usage-based monetization
+- Integrated **Stripe** and **PayFast** billing for SaaS subscription and usage-based monetization
 - Deployed and maintained cloud infrastructure on **AWS** (EC2, S3, Lambda) with Docker-based CI/CD, reducing deployment issues by **20–40%**
 
 **Freelance Full-Stack Developer** — Remote Clients (China-based) *(Feb 2021 – Jun 2024)*
