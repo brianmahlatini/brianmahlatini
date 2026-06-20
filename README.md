@@ -1,73 +1,58 @@
 # Hi, I'm Brian Mahlatini 👋
 
 ### Full-Stack & AI Systems Engineer
-**Java/Spring Boot · C#/.NET · Node.js · Python · React · Angular · Cloud-Native & Real-Time Systems**
+**Java/Spring Boot · C#/.NET · Node.js · Python · React · Angular**
 
-I'm a backend-heavy Full-Stack Engineer who builds scalable, real-time, production-grade systems across multiple stacks — Spring Boot + Kafka, ASP.NET Core + SignalR, and Node.js/Python + AI. My work spans distributed systems, microservices, event-driven architecture, secure authentication, Stripe billing, and AI-powered automation, with measurable production impact: **30–45% improvements in API performance, scalability, and deployment reliability** across enterprise systems.
+I'm a backend-heavy Full-Stack Engineer who builds scalable, real-time, production-grade systems across multiple stacks — Spring Boot + Kafka, ASP.NET Core + SignalR, and Node.js/Python + AI. I'd rather solve the right problem with the right tool than force everything into one framework. My work spans distributed systems, microservices, event-driven architecture, secure authentication, payment integrations, and AI-powered automation.
 
-Open to **remote, relocation, freelance, contract, and full-time** opportunities worldwide.
+📍 Cape Town, South Africa · Open to **remote, relocation, freelance, contract, and full-time** opportunities worldwide
 
 ---
 
 ## 💼 Professional Experience
 
 **Full-Stack Software Engineer** — Genius Humans, Cape Town, South Africa *(Jul 2024 – Present)*
-- Architected microservices and event-driven systems using **Spring Boot, Kafka, ASP.NET Core, and RabbitMQ**
+- Architected microservices and event-driven systems using **Spring Boot, Kafka, ASP.NET Core, RabbitMQ, and Node.js**
 - Improved API performance by **35–45%** through Redis caching and query optimization
 - Built real-time systems using **SignalR** and **WebSockets** for live dashboards and notifications
-- Integrated **Stripe billing** and **OpenAI/Claude APIs** for SaaS monetization and workflow automation
-- Reduced deployment issues by **20–40%** through Docker-based CI/CD pipelines
+- Reduced manual workflows by ~35% by integrating **OpenAI and Claude APIs** for AI-driven automation
+- Integrated **Stripe billing** for SaaS subscription and usage-based monetization
+- Deployed and maintained cloud infrastructure on **AWS** (EC2, S3, Lambda) with Docker-based CI/CD, reducing deployment issues by **20–40%**
 
 **Freelance Full-Stack Developer** — Remote Clients (China-based) *(Feb 2021 – Jun 2024)*
-- Built enterprise backend systems using **ASP.NET Core, Spring Boot, and Node.js**
-- Improved database performance by **20–30%** through schema design, indexing, and query optimization
-- Delivered production REST APIs supporting core business workflows
+- Built enterprise backend systems using **ASP.NET Core, Spring Boot, Node.js, and Express**
+- Developed REST APIs and backend services using **Python (Django, FastAPI)** for scalable application workflows
+- Improved database performance by **20–30%** through schema design, indexing, and query optimization (PostgreSQL, MongoDB)
+- Supported **AWS-based deployments** and infrastructure setup
+- Delivered production-ready software in agile, cross-functional teams
 
 ---
 
 ## 🚀 Selected Projects
 
 ### [Real-Time Banking Transaction System](https://github.com/brianmahlatini/Real-Time-Banking-Transaction-System.git)
-**Spring Boot · Angular · PostgreSQL · Redis · Kafka · Docker**
-- Built secure, financial-grade transaction system with ACID-compliant transfers and immutable ledger design
-- Implemented Kafka-based event-driven transaction pipeline for reliable async processing
-- Reduced authentication latency by ~25-30% using JWT + Redis session caching
-- Built rule-based fraud scoring for high-risk transaction detection
+**Spring Boot · Kafka · PostgreSQL · Redis · Docker**
+Financial-grade transaction system with ACID-compliant transfers, immutable ledger design, and a Kafka-based event pipeline for reliable async processing.
 
 ### [Distributed E-Commerce Microservices System](https://github.com/brianmahlatini/Distributed-E-Commerce-Microservices-System.git)
-**Spring Boot · Spring Cloud · Kafka · PostgreSQL · MongoDB · Redis · Docker**
-- Designed microservices e-commerce platform, improving scalability by ~40% via decomposition from a monolith
-- Reduced inter-service coupling using Kafka event-driven communication
-- Integrated Stripe payments with asynchronous webhook handling
-- Designed hybrid PostgreSQL + MongoDB architecture for optimized data modeling
+**Spring Boot · Spring Cloud · Kafka · PostgreSQL · MongoDB**
+Decomposed a monolith into independent services, improving scalability by ~40%, with hybrid PostgreSQL/MongoDB modeling and Stripe webhook integration.
 
 ### [Real-Time Logistics & Delivery Platform](https://github.com/brianmahlatini/REAL-TIME-LOGISTICS-DELIVERY-PLATFORM)
-**C# · ASP.NET Core · React · SignalR · PostgreSQL · Redis · RabbitMQ · Prometheus · Grafana**
-- Built live fleet-tracking and delivery platform with automated dispatch engine
-- Implemented near real-time GPS tracking using SignalR for high-frequency event streaming
-- Improved system responsiveness by ~45–60% using event-driven architecture + caching
-- Added Prometheus + Grafana monitoring for full system observability
+**ASP.NET Core · SignalR · RabbitMQ · Prometheus · Grafana**
+Live fleet-tracking platform with an automated dispatch engine and near real-time GPS streaming via SignalR, monitored with Prometheus + Grafana.
 
 ### [AI Recruitment & ATS Platform](https://github.com/brianmahlatini/AI-Recruitment-ATS-Platform.git)
-**C# · ASP.NET Core · React · PostgreSQL · Elasticsearch · Redis · RabbitMQ · SignalR · Hangfire**
-- Built enterprise ATS system with end-to-end recruitment pipeline and tenant-aware data isolation
-- Improved search performance by ~50% using optimized Elasticsearch indexing
-- Reduced background processing latency by ~45% using RabbitMQ event-driven jobs
-- Integrated AI services for CV analysis, candidate ranking, and interview generation
+**ASP.NET Core · Elasticsearch · RabbitMQ · SignalR**
+Full recruitment pipeline with AI-driven CV analysis and candidate ranking. Elasticsearch indexing improved search performance by ~50%.
 
-### [AI SaaS Automation Platform (AI Workflow System)](https://github.com/brianmahlatini/AI-SAAS-AUTOMATION-PLATFORM)
-**Next.js · Node.js · Redis · AWS · Stripe · OpenAI**
-- Built AI-powered workflow automation system with a distributed execution engine
-- Designed scalable background processing using **BullMQ** queues
-- Implemented real-time workflow tracking using **WebSockets**
-- Built Stripe subscription and usage-based billing system
+### [AI SaaS Automation Platform](https://github.com/brianmahlatini/AI-SAAS-AUTOMATION-PLATFORM)
+**Next.js · Node.js · Redis · OpenAI · Stripe**
+AI-powered workflow automation engine with BullMQ background processing, real-time tracking via WebSockets, and usage-based Stripe billing.
 
 ### [AI Document Q&A System (RAG Platform)](https://github.com/brianmahlatini/RAG-PROJECT)
-**FastAPI · React · OpenAI · FAISS · Docker**
-- Built a production-ready **Retrieval-Augmented Generation (RAG)** system for document Q&A
-- Designed document retrieval pipeline using TF-IDF with optional FAISS acceleration
-- Implemented multilingual support with a translation pipeline
-- Built an admin dashboard with analytics, audit logs, and export features
+**FastAPI · OpenAI · FAISS · Docker**
+Production-ready Retrieval-Augmented Generation system with multilingual support and an admin dashboard for analytics and audit logs.
 
 ---
 
@@ -76,49 +61,47 @@ Open to **remote, relocation, freelance, contract, and full-time** opportunities
 
 ---
 
-## 💻 Tech Stack
+## 🛠️ Tech Stack
 
-**Languages:** Java · C# · Python · JavaScript · TypeScript
-
-**Frontend:** React.js · Angular · Next.js · Razor Pages · TypeScript · Tailwind CSS
-
-**Backend:** Spring Boot · Spring Cloud · Spring Security · Spring Data JPA · ASP.NET Core · Node.js · Express.js · Django · FastAPI · REST APIs · Microservices
-
-**Databases & ORM:** PostgreSQL · MongoDB · SQL Server · Redis · Prisma · Entity Framework Core · Dapper
-
-**Messaging & Real-Time:** Kafka · RabbitMQ · SignalR · Socket.io · WebSockets
+**Languages** Java · C# · Python · JavaScript · TypeScript
+**Frontend** React · Angular · Next.js · Razor Pages · Tailwind CSS
+**Backend** Spring Boot · Spring Cloud · ASP.NET Core · Node.js · Express.js · Django · FastAPI
+**Databases & ORM** PostgreSQL · MongoDB · SQL Server · Redis · Prisma · Entity Framework Core · Dapper
+**Messaging & Real-Time** Kafka · RabbitMQ · SignalR · Socket.io · WebSockets
 
 ---
 
 ## 🤖 AI & Machine Learning
 
-**Data & Feature Engineering:** NumPy · Pandas · Data Cleaning · Missing Value Handling · Feature Scaling (Normalization/Standardization)
+**Data & Feature Engineering:** NumPy · Pandas · Data Cleaning · Feature Scaling
 
-**Core ML:** Scikit-learn Pipelines · Random Forest · XGBoost · LightGBM · Hyperparameter Tuning · Imbalanced Dataset Handling
+**Core ML:** Scikit-learn Pipelines · Random Forest · XGBoost · LightGBM · Hyperparameter Tuning
 
-**Model Evaluation:** Precision/Recall/F1 · ROC-AUC · Cross-Validation · Error Analysis · Data Leakage Detection
+**Model Evaluation:** Precision/Recall/F1 · ROC-AUC · Cross-Validation · Data Leakage Detection
 
-**Time Series:** Trend/Seasonality/Stationarity Analysis · Time-Based Train/Test Splitting · Prophet
+**Time Series:** Trend/Seasonality/Stationarity · Time-Based Train/Test Splitting · Prophet
 
-**Deep Learning:** PyTorch · Neural Networks · Autograd · Custom Training Loops · CNNs · Transfer Learning · Image Classification
+**Deep Learning:** PyTorch · Neural Networks · CNNs · Transfer Learning · Image Classification
 
-**LLMs & Fine-Tuning:** Hugging Face Training Pipelines · BERT Fine-Tuning · LoRA/QLoRA · Llama 3 Fine-Tuning · RAG Systems · OpenAI API · Claude API · AI Agents & Tool Calling · Prompt Engineering
+**LLMs & Fine-Tuning:** Hugging Face · BERT Fine-Tuning · LoRA/QLoRA · Llama 3 Fine-Tuning · RAG Systems · OpenAI/Claude APIs · AI Agents & Tool Calling · Prompt Engineering
 
-**MLOps:** MLflow Experiment Tracking · Model Versioning & Registry · Drift Detection & Monitoring · Retraining Pipelines · Model Deployment
+**MLOps:** MLflow · Model Versioning & Registry · Drift Detection · Retraining Pipelines · Model Deployment
 
 **Explainability:** SHAP · LIME · Feature Importance Analysis
 
+---
+
 ## ⚙️ Backend Engineering & System Design
-Redis Caching · Kafka · RabbitMQ · Bull/BullMQ · Celery · Background Job Processing · WebSockets · SignalR · Distributed Systems · Event-Driven Architecture · Clean Architecture · API Rate Limiting · Logging & Monitoring (Prometheus, Grafana) · Scalable Backend Design
+Redis Caching · Kafka · RabbitMQ · BullMQ · Celery · Background Job Processing · WebSockets · SignalR · Distributed Systems · Event-Driven Architecture · Clean Architecture · API Rate Limiting · Logging & Monitoring (Prometheus, Grafana)
 
 ## 🔐 Authentication & Security
 JWT · OAuth2 · RBAC · Spring Security · Firebase Authentication · Auth0 · Clerk · PBKDF2/BCrypt Hashing
 
 ## ☁️ DevOps, Cloud & Infrastructure
-Docker · Kubernetes · Terraform · GitHub Actions (CI/CD) · n8n · AWS (EC2, S3, Lambda, API Gateway, CloudFront, Step Functions, IAM, CloudWatch) · Azure · Linux · Nginx · Vercel · Railway · Render
+Docker · Kubernetes · Terraform · GitHub Actions (CI/CD) · n8n · AWS (EC2, S3, Lambda, API Gateway, CloudFront, Step Functions, IAM, CloudWatch) · Azure · Linux · Nginx
 
 ## 💳 Payments & Integrations
-Stripe Payments · Stripe Subscriptions · Stripe Webhooks · Billing Automation
+Stripe Payments · Stripe Subscriptions · Stripe Webhooks · PayFast · Billing Automation
 
 ## 🧪 Testing & Quality
 Jest · React Testing Library · Cypress · Pytest · Unit & Integration Testing · ESLint · Prettier
@@ -134,7 +117,7 @@ Jest · React Testing Library · Cypress · Pytest · Unit & Integration Testing
 ---
 
 ## 🤝 Let's Collaborate
-I'm open to working on **AI Systems**, **Distributed & Microservices Architecture**, **Full-Stack Applications**, **SaaS Platforms**, **Authentication Systems**, and **Real-Time Systems** — remote, hybrid, onsite, freelance, or contract.
+Open to **AI Systems**, **Distributed & Microservices Architecture**, **SaaS Platforms**, **Authentication Systems**, and **Real-Time Systems** — remote, hybrid, onsite, freelance, or contract.
 
 ---
 
