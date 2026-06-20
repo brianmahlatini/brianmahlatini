@@ -18,13 +18,15 @@ I'm a backend-heavy Full-Stack Engineer who builds scalable, real-time, producti
 - Built real-time systems using **SignalR** and **WebSockets** for live dashboards and notifications
 - Reduced manual workflows by ~35% by integrating **OpenAI and Claude APIs** for AI-driven automation
 - Integrated **Stripe** and **PayFast** billing for SaaS subscription and usage-based monetization
-- Deployed and maintained cloud infrastructure on **AWS** (EC2, S3, Lambda) with Docker-based CI/CD, reducing deployment issues by **20–40%**
+- Deployed and maintained cloud infrastructure on **AWS and Azure** using **Terraform** for infrastructure-as-code, with Docker-based CI/CD reducing deployment issues by **20–40%**
+- Managed application hosting and deployments across **Vercel, Railway, and Render**, plus domain/DNS administration via **GoDaddy and Namecheap**
 
 **Freelance Full-Stack Developer** — Remote Clients (China-based) *(Feb 2021 – Jun 2024)*
 - Built enterprise backend systems using **ASP.NET Core, Spring Boot, Node.js, and Express**
 - Developed REST APIs and backend services using **Python (Django, FastAPI)** for scalable application workflows
 - Improved database performance by **20–30%** through schema design, indexing, and query optimization (PostgreSQL, MongoDB)
-- Supported **AWS-based deployments** and infrastructure setup
+- Supported **AWS and Azure** deployments and infrastructure setup, including IaC provisioning with **Terraform**
+- Deployed and hosted client projects using **Vercel, Railway, and Render**, with domain management through **GoDaddy and Namecheap**
 - Delivered production-ready software in agile, cross-functional teams
 
 ---
@@ -99,7 +101,7 @@ Redis Caching · Kafka · RabbitMQ · BullMQ · Celery · Background Job Process
 JWT · OAuth2 · RBAC · Spring Security · Firebase Authentication · Auth0 · Clerk · PBKDF2/BCrypt Hashing
 
 ## ☁️ DevOps, Cloud & Infrastructure
-Docker · Kubernetes · Terraform · GitHub Actions (CI/CD) · n8n · AWS (EC2, S3, Lambda, API Gateway, CloudFront, Step Functions, IAM, CloudWatch) · Azure · Linux · Nginx
+Docker · Kubernetes · Terraform · GitHub Actions (CI/CD) · n8n · AWS (EC2, S3, Lambda, API Gateway, CloudFront, Step Functions, IAM, CloudWatch) · Azure · Linux · Nginx · Vercel · Railway · Render · GoDaddy · Namecheap (Domain & DNS Management)
 
 ## 💳 Payments & Integrations
 Stripe Payments · Stripe Subscriptions · Stripe Webhooks · PayFast · Billing Automation
