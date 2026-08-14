@@ -27,7 +27,7 @@ My work spans distributed systems, microservices, event-driven architecture, sec
 - Managed application hosting across Vercel, Railway, and Render, plus domain/DNS administration via GoDaddy and Namecheap
 
 ### Freelance Full-Stack Developer
-**Remote Clients** · China-based · *Feb 2021 – Jun 2024*
+**Wenzhou Hams IT Co., Ltd** · China-based · *Feb 2021 – Jun 2024*
 
 - Built enterprise backend systems using ASP.NET Core, Spring Boot, Node.js, and Express
 - Developed REST APIs and backend services using Python (Django, FastAPI) for scalable application workflows
