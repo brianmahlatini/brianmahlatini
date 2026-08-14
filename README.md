@@ -26,7 +26,7 @@ My work spans distributed systems, microservices, event-driven architecture, sec
 - Deployed and maintained cloud infrastructure on AWS and Azure using Terraform for infrastructure-as-code, with Docker-based CI/CD reducing deployment issues by **20–40%**
 - Managed application hosting across Vercel, Railway, and Render, plus domain/DNS administration via GoDaddy and Namecheap
 
-### Freelance Full-Stack Developer
+### Full-Stack Developer
 **Wenzhou Hams IT Co., Ltd** · China-based · *Feb 2021 – Jun 2024*
 
 - Built enterprise backend systems using ASP.NET Core, Spring Boot, Node.js, and Express
