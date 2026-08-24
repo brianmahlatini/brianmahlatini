@@ -136,7 +136,7 @@ Time-series forecasting with **trend, seasonality and stationarity analysis**, s
 
 | | |
 |---|---|
-| **Core** | Python · SQL · JavaScript/TypeScript · Node.js |
+| **Languages** | **Python** · **TypeScript** · **JavaScript** · SQL · Java · C# |
 | **AI & LLM Systems** | RAG · AI Agents & Tool Calling · Prompt Engineering · Structured Output · Claude API · OpenAI API · LangChain · MCP · Hugging Face · **LoRA/QLoRA Fine-Tuning** · Llama 3 · BERT |
 | **Machine Learning** | scikit-learn · XGBoost · LightGBM · PyTorch · CNNs & Transfer Learning · Prophet · Pandas · NumPy · SHAP/LIME · Feature Engineering · Imbalanced Data · Leakage Detection |
 | **Model Evaluation** | ROC-AUC · PR-AUC · Precision/Recall/F1 · NDCG@K · Cross-Validation · Threshold Optimisation |
@@ -148,7 +148,7 @@ Time-series forecasting with **trend, seasonality and stationarity analysis**, s
 | **Security** | JWT · OAuth2 · RBAC · HMAC-SHA256 · PBKDF2/BCrypt · POPIA-aware data handling |
 | **Frontend** | React · Next.js · TypeScript · Tailwind CSS |
 
-*Also worked with:* Java/Spring Boot · C#/ASP.NET Core · Angular · Kafka · RabbitMQ
+**Also worked with:** Java / Spring Boot · C# / ASP.NET Core · Angular · Kafka · RabbitMQ · SignalR · Elasticsearch
 
 ***
 
