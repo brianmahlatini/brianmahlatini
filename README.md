@@ -53,10 +53,15 @@ The thread running through all of it is **safety engineering**: *idempotency, co
 ### **Software Engineer — Backend & Data Systems**
 **Wenzhou Hams IT Co., Ltd** · Wenzhou, China · *Feb 2021 – Jun 2024*
 
-- Built **backend services and REST APIs** using Python, Node.js, and Express against PostgreSQL and MongoDB
-- Designed **ETL workflows** and integration services for ingestion, transformation, validation, and reporting
-- Designed **relational schemas and indexing strategies**; optimised slow query paths across reporting workloads
-- Delivered production software in **agile, cross-functional teams**
+- Built **backend services and REST APIs** using **Python** and **Node.js/Express** against PostgreSQL and MongoDB, serving internal business operations and client-facing applications
+- Designed **ETL workflows and integration services** covering ingestion, transformation, validation, persistence and reporting across multiple data sources
+- Designed **relational schemas and indexing strategies**, normalised existing models, and optimised slow query paths across reporting workloads
+- Implemented **authentication and access control** — JWT-based sessions, role-based permissions, and hashed credential storage
+- Built **data validation and cleaning layers** that caught malformed records at the boundary rather than downstream in reporting
+- Added **caching and background job processing** to move slow work off the request path and improve response times on high-read endpoints
+- Wrote **unit and integration tests**, structured logging, and error handling to make production issues diagnosable rather than mysterious
+- Supported **deployments and live production systems**, debugging incidents and shipping fixes against running services
+- Collaborated in **agile, cross-functional teams** — code review, version control workflows, and iterative delivery alongside frontend and product colleagues
 
 > `Python` · `Node.js` · `Express` · `PostgreSQL` · `MongoDB` · `Docker`
 
