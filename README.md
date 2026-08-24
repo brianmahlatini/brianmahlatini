@@ -12,11 +12,19 @@
 
 ***
 
-I build **AI systems that actually run in production.**
+I build **AI systems that actually run in production** — not demos, not notebooks. Systems that handle real traffic, fail safely, and leave an audit trail.
 
-My current work is an **agentic email triage platform live at a South African life insurer** — it reads a monitored mailbox, classifies real policyholder requests across four routing lanes, drafts responses grounded in policy documents and live policy-admin data, and logs every decision to an append-only audit trail.
+My work spans four connected areas:
 
-Most of what I do sits at the intersection of **LLM engineering**, **workflow automation**, and **backend integration** — with the safety engineering that regulated industries require: *idempotency, confidence gates, autonomy boundaries, quarantine paths, and human-in-the-loop escalation.*
+**🤖 AI Agents & LLM Engineering** — I design agentic pipelines that classify, reason, and act: multi-agent panels with disagreement detection, **RAG** grounded in real knowledge bases, structured output contracts, tool calling, and prompt engineering built around **confidence floors** rather than blind trust. I work with **Claude and OpenAI APIs**, and fine-tune open models with **LoRA/QLoRA** on Hugging Face when an API call isn't the right answer.
+
+**⚡ Workflow Automation** — I build large-scale **n8n** pipelines (40–113 nodes) that move work end to end: multi-source intake, parallel enrichment, deterministic pre-scoring that gates LLM spend, confidence-based routing, idempotent writes, and quarantine paths so nothing is ever silently dropped.
+
+**🧠 Machine Learning** — Classification, forecasting, recommendation and risk scoring with **scikit-learn, XGBoost, LightGBM and PyTorch** — with leakage-free feature engineering, threshold optimisation tied to business cost, **SHAP** explainability, and MLflow-tracked deployment rather than models that die in a notebook.
+
+**🔧 Backend & Integration** — **Python/FastAPI** and **Node.js** services, PostgreSQL schema and query design, ETL pipelines, third-party REST/SOAP integration, HMAC-secured APIs, atomic state machines, and AWS infrastructure provisioned with Terraform.
+
+The thread running through all of it is **safety engineering**: *idempotency, confidence gates, explicit autonomy boundaries, quarantine fallbacks, append-only audit rows, and human-in-the-loop escalation* — the things that decide whether an AI system survives contact with real users.
 
 ***
 
@@ -25,13 +33,12 @@ Most of what I do sits at the intersection of **LLM engineering**, **workflow au
 ### **AI & Automation Engineer**
 **Genius Humans** · Cape Town, South Africa · *Jul 2024 – Present*
 
-- Designed, built, and took live a **113-node agentic email triage system** processing real policyholder traffic for an insurance client — **four-lane classification** (claims · compliance · servicing · noise) with per-lane send gates and shadow-mode safety controls
-- Built the **LLM answering layer** using **RAG** over general terms, policy wording, and live policy-administration APIs — with a **placeholder guard** and citation requirement that blocks any ungrounded response from reaching a member
-- Delivered a **69-email production validation run** with a per-request executive report; identified and fixed **systematic misclassification defects** (body-before-subject classification, member deduplication) before go-live
-- Built a **document ingestion pipeline** — Terraform-provisioned **S3 with KMS encryption**, versioning, and write-only IAM; attachments fetched via **Microsoft Graph**, indexed by policy number in Postgres
+- Designed, built, and took live a **113-node agentic email triage system** processing real production traffic for an enterprise client — **four-lane classification** (claims · compliance · servicing · noise) with per-lane send gates and shadow-mode safety controls
+- Built the **LLM answering layer** using **RAG** over internal knowledge bases, source documents, and live system-of-record APIs — with a **placeholder guard** and citation requirement that blocks any ungrounded response from ever reaching a customer
+- Delivered a **69-email production validation run** with a per-request executive report; identified and fixed **systematic misclassification defects** (body-before-subject classification, sender deduplication) before go-live
+- Built a **document ingestion pipeline** — Terraform-provisioned **S3 with KMS encryption**, versioning, and write-only IAM; attachments fetched via **Microsoft Graph**, indexed by record key in Postgres
 - Built a **payments issuer API in FastAPI** — **HMAC-SHA256** verification, atomic account-locking state machine, spec-compliant completion/void, and a certification-style test suite
-- Automated claims processing across **six distinct claim types**, integrating policy-admin, home-affairs verification, bank-account validation, and batch payment systems
-- 🏆 Placed **first in an internal automation competition** — *92/100*
+- Automated case processing across **six distinct case types**, integrating system-of-record lookups, third-party identity verification, bank-account validation, and batch payment systems
 
 > `Python` · `FastAPI` · `n8n` · `Claude/OpenAI APIs` · `Supabase/PostgreSQL` · `AWS (S3, Lambda, IAM, KMS)` · `Terraform` · `Microsoft Graph` · `Docker`
 
@@ -161,7 +168,7 @@ Time-series forecasting with **trend, seasonality and stationarity analysis**, s
 
 ## 🎯 Currently
 
-- 🚀 Running a **live agentic AI system in production** at an insurance client
+- 🚀 Running a **live agentic AI system in production** handling real enterprise traffic
 - 🔬 Building out **production ML serving** with MLflow tracking and drift monitoring
 - 💼 Open to **AI/LLM Engineering** · **ML Engineering** · **Automation & Integration Engineering** — *remote or contract*
 
