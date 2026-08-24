@@ -1,193 +1,147 @@
-# Hi, I'm Brian Mahlatini 👋
+Hi, I'm Brian Mahlatini 👋
+AI & ML Engineer — Production LLM & Agentic Systems
 
-### Full-Stack & AI Systems Engineer
-**Java/Spring Boot · C#/.NET · Node.js · Python · React · Angular**
+Python · FastAPI · n8n · Node.js · AWS · LLMs, RAG, Fine-Tuning, MLOps
 
-I'm a backend-heavy Full-Stack Engineer who builds scalable, real-time, production-grade systems across multiple stacks — Spring Boot + Kafka, ASP.NET Core + SignalR, and Node.js/Python + AI. I'd rather solve the right problem with the right tool than force everything into one framework.
+I build AI systems that actually run in production. My current work is an agentic email triage platform live at a South African life insurer — it reads a monitored mailbox, classifies real policyholder requests across four routing lanes, drafts responses grounded in policy documents and live policy-admin data, and logs every decision to an append-only audit trail.
 
-My work spans distributed systems, microservices, event-driven architecture, secure authentication, payment integrations, and AI-powered automation.
+Most of what I do sits at the intersection of LLM engineering, workflow automation, and backend integration — with the safety engineering that regulated industries require: idempotency, confidence gates, autonomy boundaries, quarantine paths, and human-in-the-loop escalation.
 
-📍 Cape Town, South Africa
-🌍 Open to **remote · relocation · freelance · contract · full-time**
+📍 Cape Town, South Africa 🌍 Open to remote · contract · full-time
 
----
+💼 Experience
+AI & Automation Engineer
 
-## 💼 Professional Experience
+Genius Humans · Cape Town, South Africa · Jul 2024 – Present
 
-### Full-Stack Software Engineer
-**Genius Humans** · Cape Town, South Africa · *Jul 2024 – Present*
+Designed, built, and took live a 113-node agentic email triage system processing real policyholder traffic for an insurance client — four-lane classification (claims, compliance, servicing, noise) with per-lane send gates and shadow-mode safety controls
+Built the LLM answering layer using RAG over general terms, policy wording, and live policy-administration APIs — with a placeholder guard and citation requirement that blocks any ungrounded response from reaching a member
+Delivered a 69-email production validation run with a per-request executive report; identified and fixed systematic misclassification defects (body-before-subject classification, member deduplication) before go-live
+Built a document ingestion pipeline: Terraform-provisioned S3 with KMS encryption, versioning, and write-only IAM; attachments fetched via Microsoft Graph, indexed by policy number in Postgres
+Built a payments issuer API in FastAPI — HMAC-SHA256 verification, atomic account-locking state machine, spec-compliant completion/void, certification-style test suite
+Automated claims processing across six distinct claim types, integrating policy-admin, home-affairs verification, bank-account validation, and batch payment systems
+Placed first in an internal automation competition (92/100)
 
-- Architected microservices and event-driven systems using Spring Boot, Kafka, ASP.NET Core, RabbitMQ, and Node.js
-- Developed backend services and APIs using Python (Django, FastAPI) alongside Node.js and .NET workflows
-- Improved API performance by **35–45%** through Redis caching and query optimization
-- Built real-time systems using SignalR and WebSockets for live dashboards and notifications
-- Reduced manual workflows by **~35%** by integrating OpenAI and Claude APIs for AI-driven automation
-- Integrated Stripe and PayFast billing for SaaS subscription and usage-based monetization
-- Deployed and maintained cloud infrastructure on AWS and Azure using Terraform for infrastructure-as-code, with Docker-based CI/CD reducing deployment issues by **20–40%**
-- Managed application hosting across Vercel, Railway, and Render, plus domain/DNS administration via GoDaddy and Namecheap
+Python FastAPI n8n Claude/OpenAI APIs Supabase/PostgreSQL AWS (S3, Lambda, IAM, KMS) Terraform Microsoft Graph Docker
 
-### Full-Stack Developer
-**Wenzhou Hams IT Co., Ltd** · China-based · *Feb 2021 – Jun 2024*
+Software Engineer — Backend & Data Systems
 
-- Built enterprise backend systems using ASP.NET Core, Spring Boot, Node.js, and Express
-- Developed REST APIs and backend services using Python (Django, FastAPI) for scalable application workflows
-- Improved database performance by **20–30%** through schema design, indexing, and query optimization (PostgreSQL, MongoDB)
-- Supported AWS and Azure deployments and infrastructure setup, including IaC provisioning with Terraform
-- Deployed and hosted client projects using Vercel, Railway, and Render, with domain management through GoDaddy and Namecheap
-- Delivered production-ready software in agile, cross-functional teams
+Wenzhou Hams IT Co., Ltd · Wenzhou, China · Feb 2021 – Jun 2024
 
----
+Built backend services and REST APIs using Python, Node.js, and Express against PostgreSQL and MongoDB
+Designed ETL workflows and integration services for ingestion, transformation, validation, and reporting
+Designed relational schemas and indexing strategies; optimised slow query paths across reporting workloads
+Delivered production software in agile, cross-functional teams
 
-## 🚀 Selected Projects
+Python Node.js Express PostgreSQL MongoDB Docker
 
-### [Real-Time Banking Transaction System](https://github.com/brianmahlatini/Real-Time-Banking-Transaction-System.git)
-`Spring Boot` `Kafka` `PostgreSQL` `Redis` `Docker`
+🤖 Production Automation & Agentic Systems
 
-Financial-grade transaction system with ACID-compliant transfers, immutable ledger design, and a Kafka-based event pipeline for reliable async processing.
+Six production-grade n8n workflow showcases — each with full architecture documentation, decision-path tables, honest design trade-offs, and runnable demos.
 
-### [Distributed E-Commerce Microservices System](https://github.com/brianmahlatini/Distributed-E-Commerce-Microservices-System.git)
-`Spring Boot` `Spring Cloud` `Kafka` `PostgreSQL` `MongoDB`
+Multi-Agent Support Triage Orchestrator
 
-Decomposed a monolith into independent services, improving scalability by ~40%, with hybrid PostgreSQL/MongoDB modeling and Stripe webhook integration.
+n8n Multi-Agent HMAC PII Redaction — 66 nodes
 
-### [Real-Time Logistics & Delivery Platform](https://github.com/brianmahlatini/REAL-TIME-LOGISTICS-DELIVERY-PLATFORM)
-`ASP.NET Core` `SignalR` `RabbitMQ` `Prometheus` `Grafana`
+Multi-agent consensus pipeline with signature verification, parallel enrichment, a weighted agent panel, a disagreement index that forces human review when agents diverge, and a self-healing dead-letter replay path.
 
-Live fleet-tracking platform with an automated dispatch engine and near real-time GPS streaming via SignalR, monitored with Prometheus + Grafana.
+Idempotent Financial Reconciliation Engine
 
-### [AI Recruitment & ATS Platform](https://github.com/brianmahlatini/AI-Recruitment-ATS-Platform.git)
-`ASP.NET Core` `Elasticsearch` `RabbitMQ` `SignalR`
+n8n Reconciliation Idempotency — 44 nodes
 
-Full recruitment pipeline with AI-driven CV analysis and candidate ranking. Elasticsearch indexing improved search performance by ~50%.
+Scheduled three-way reconciliation across payment providers and a card gateway. Deterministic GL cross-reference with 0.01 tolerance, exposure-banded routing, and suspense-account parking for unmatched exposure.
 
-### [AI SaaS Automation Platform](https://github.com/brianmahlatini/AI-SAAS-AUTOMATION-PLATFORM)
-`Next.js` `Node.js` `Redis` `OpenAI` `Stripe`
+Real-Time E-Commerce Order Intelligence Pipeline
 
-AI-powered workflow automation engine with BullMQ background processing, real-time tracking via WebSockets, and usage-based Stripe billing.
+n8n Fraud Scoring LLM Cost Gate — 43 nodes
 
-### [AI Document Q&A System (RAG Platform)](https://github.com/brianmahlatini/RAG-PROJECT)
-`FastAPI` `OpenAI` `FAISS` `Docker`
+Dual-mode intake (webhook + batch sweep), parallel risk/inventory/shipping enrichment, a deterministic fraud prescorer that gates LLM spend, and confidence-gated fulfilment routing.
 
-Production-ready Retrieval-Augmented Generation system with multilingual support and an admin dashboard for analytics and audit logs.
+AI-Powered HR Candidate Screening Pipeline
 
----
+n8n Bias Shield Structured LLM Output — 40 nodes
 
-## 🎓 Education
+A bias shield scrubs PII and detects protected-attribute language before inference; the scorer only ever sees a scrubbed CV, and any bias flag forces unconditional human review.
 
-**BEng in Computer Science**
-Wenzhou University, China
+Multi-Channel Customer Support Triage & Auto-Resolution
 
----
+n8n Intent Classification SLA Engine — 47 nodes
 
-## 🛠️ Tech Stack
+Webhook + email intake, language detection, sentiment scoring, KB-powered auto-resolution, and SLA clocks scaled by tier and urgency — with complaints and non-English traffic always escalating to a human.
 
-**Languages**
-Java · C# · Python · JavaScript · TypeScript
+Claims Confidence-Gated Document Extraction
 
-**Frontend**
-React · Angular · Next.js · Razor Pages · Tailwind CSS
+n8n OCR Confidence Floors
 
-**Backend**
-Spring Boot · Spring Cloud · ASP.NET Core · Node.js · Express.js · Django · FastAPI
+Document extraction with per-field confidence floors — anything below threshold routes to human verification rather than silently entering the system.
 
-**Databases & ORM**
-PostgreSQL · MongoDB · SQL Server · Redis · Prisma · Entity Framework Core · Dapper
+Design principles shared across all six: idempotency-first · parallel enrichment · rules before models, with a measurable LLM cost gate · confidence floors · explicit autonomy boundaries · append-only audit rows · quarantine fallbacks · per-run metrics.
 
-**Messaging & Real-Time**
-Kafka · RabbitMQ · SignalR · Socket.io · WebSockets
+🧠 Machine Learning & AI Projects
+Fraud Detection System — Real-Time ML Risk Scoring
 
----
+Python LightGBM XGBoost SHAP FastAPI PostgreSQL
 
-## 🤖 AI & Machine Learning
+Millisecond transaction scoring. Logistic Regression, Random Forest, XGBoost and LightGBM compared on PR-AUC (0.871 best), with SHAP explainability and Postgres-backed audit logging behind a production inference API.
 
-**Data & Feature Engineering**
-NumPy · Pandas · Data Cleaning · Feature Scaling
+Customer Analytics & A/B Testing Platform
 
-**Core ML**
-Scikit-learn Pipelines · Random Forest · XGBoost · LightGBM · Hyperparameter Tuning
+Python scikit-learn FastAPI React Docker
 
-**Model Evaluation**
-Precision/Recall/F1 · ROC-AUC · Cross-Validation · Data Leakage Detection
+RFM segmentation, clustering, churn prediction, CLV modelling, cohort and funnel analysis, market basket analysis and A/B testing — with leakage-free feature engineering throughout.
 
-**Time Series**
-Trend/Seasonality/Stationarity · Time-Based Train/Test Splitting · Prophet
+RAG Document Q&A Platform
 
-**Deep Learning**
-PyTorch · Neural Networks · CNNs · Transfer Learning · Image Classification
+FastAPI OpenAI FAISS TF-IDF React
 
-**LLMs & Fine-Tuning**
-Hugging Face · BERT Fine-Tuning · LoRA/QLoRA · Llama 3 Fine-Tuning · RAG Systems · OpenAI/Claude APIs · AI Agents & Tool Calling · Prompt Engineering
+Retrieval-augmented question answering over uploaded PDFs. TF-IDF retrieval with optional FAISS acceleration, plus auth, RBAC, audit logging and an admin analytics dashboard.
 
-**MLOps**
-MLflow · Model Versioning & Registry · Drift Detection · Retraining Pipelines · Model Deployment
+Recommendation Engine
 
-**Explainability**
-SHAP · LIME · Feature Importance Analysis
+Python Matrix Factorization Neural CF FastAPI
 
----
+Collaborative filtering, SVD, neural collaborative filtering and popularity baselines — evaluated with Leave-One-Out validation, Hit Rate, Precision@K, NDCG@K and catalogue coverage. Shared feature pipelines eliminate train/serve skew.
 
-## ⚙️ Backend Engineering & System Design
+End-to-End Data Warehouse & Analytics Platform
 
-Redis Caching · Kafka · RabbitMQ · BullMQ · Celery · Background Job Processing · WebSockets · SignalR · Distributed Systems · Event-Driven Architecture · Clean Architecture · API Rate Limiting · Logging & Monitoring (Prometheus, Grafana)
+Python PostgreSQL SQLAlchemy FastAPI React
 
----
+ETL with validation and cleansing into a star-schema warehouse, reusable SQL analytics views powering executive KPIs, and a React BI dashboard over FastAPI.
 
-## 🔐 Authentication & Security
+🛠️ Tech Stack
 
-JWT · OAuth2 · RBAC · Spring Security · Firebase Authentication · Auth0 · Clerk · PBKDF2/BCrypt Hashing
+Core Python · SQL · JavaScript/TypeScript · Node.js
 
----
+AI & LLM Systems RAG · AI Agents & Tool Calling · Prompt Engineering · Structured Output · Claude API · OpenAI API · LangChain · MCP · Hugging Face · LoRA/QLoRA Fine-Tuning · Llama 3 · BERT
 
-## ☁️ DevOps, Cloud & Infrastructure
+Machine Learning scikit-learn · XGBoost · LightGBM · PyTorch · CNNs & Transfer Learning · Prophet · Pandas · NumPy · SHAP/LIME · Feature Engineering · Imbalanced Data · Leakage Detection
 
-**Cloud Platforms**
-AWS (EC2, S3, Lambda, API Gateway, CloudFront, Step Functions, IAM, CloudWatch) · Azure
+Model Evaluation ROC-AUC · PR-AUC · Precision/Recall/F1 · NDCG@K · Cross-Validation · Threshold Optimisation
 
-**Containers & IaC**
-Docker · Kubernetes · Terraform
+MLOps MLflow · Experiment Tracking · Model Registry & Versioning · Drift Detection · Retraining Pipelines · Model Deployment
 
-**CI/CD & Automation**
-GitHub Actions · n8n
+Backend & APIs FastAPI · Django · Express · REST · SQLAlchemy · Pydantic · WebSockets · Background Workers (Celery, BullMQ)
 
-**Hosting & Deployment**
-Vercel · Railway · Render
+Automation & Integration n8n · Microsoft Graph · Freshdesk · Payment gateways · Webhooks · Third-party REST/SOAP integration
 
-**Domain & DNS Management**
-GoDaddy · Namecheap
+Data PostgreSQL · Supabase · MongoDB · Redis · ETL · Star Schema · Data Validation
 
-**OS & Web Servers**
-Linux · Nginx
+Cloud & DevOps AWS (EC2, S3, Lambda, IAM, KMS, RDS) · Terraform · Docker · GitHub Actions · CI/CD · Nginx · Linux
 
----
+Security JWT · OAuth2 · RBAC · HMAC-SHA256 · PBKDF2/BCrypt · POPIA-aware data handling
 
-## 💳 Payments & Integrations
+Frontend React · Next.js · TypeScript · Tailwind CSS
 
-Stripe Payments · Stripe Subscriptions · Stripe Webhooks · PayFast · Billing Automation
+Also worked with: Java/Spring Boot, C#/ASP.NET Core, Angular, Kafka, RabbitMQ
 
----
+🎓 Education
 
-## 🧪 Testing & Quality
+B.Eng. Computer Science and Technology Wenzhou University, Zhejiang, China · 2021 – 2024
 
-Jest · React Testing Library · Cypress · Pytest · Unit & Integration Testing · ESLint · Prettier
+🎯 Currently
+Running a live agentic AI system in production at an insurance client
+Building out production ML serving with MLflow tracking and drift monitoring
+Open to AI/LLM Engineering · ML Engineering · Automation & Integration Engineering roles — remote or contract
+📫 Contact
 
----
-
-## 🚀 Currently Working On
-
-- AI-powered chatbots & AI agents
-- Distributed microservices and event-driven systems
-- Stripe-integrated SaaS platforms
-- Real-time analytics and monitoring dashboards
-
----
-
-## 🤝 Let's Collaborate
-
-Open to **AI Systems** · **Distributed & Microservices Architecture** · **SaaS Platforms** · **Authentication Systems** · **Real-Time Systems**
-Remote · Hybrid · Onsite · Freelance · Contract
-
----
-
-## 📫 Contact
-
-**Email:** mahlatinibrian@gmail.com
+Email: mahlatinibrian@gmail.com LinkedIn: https://www.linkedin.com/in/brian-m-a87a3341a
