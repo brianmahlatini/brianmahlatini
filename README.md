@@ -30,17 +30,19 @@ The thread running through all of it is **safety engineering**: *idempotency, co
 
 ## 💼 Experience
 
-### **AI & Automation Engineer**
+### **AI & Full-Stack Developer**
 **Genius Humans** · Cape Town, South Africa · *Jul 2024 – Present*
 
-- Designed, built, and took live a **113-node agentic email triage system** processing real production traffic for an enterprise client — **four-lane classification** (claims · compliance · servicing · noise) with per-lane send gates and shadow-mode safety controls
-- Built the **LLM answering layer** using **RAG** over internal knowledge bases, source documents, and live system-of-record APIs — with a **placeholder guard** and citation requirement that blocks any ungrounded response from ever reaching a customer
-- Delivered a **69-email production validation run** with a per-request executive report; identified and fixed **systematic misclassification defects** (body-before-subject classification, sender deduplication) before go-live
-- Built a **document ingestion pipeline** — Terraform-provisioned **S3 with KMS encryption**, versioning, and write-only IAM; attachments fetched via **Microsoft Graph**, indexed by record key in Postgres
-- Built a **payments issuer API in FastAPI** — **HMAC-SHA256** verification, atomic account-locking state machine, spec-compliant completion/void, and a certification-style test suite
-- Automated case processing across **six distinct case types**, integrating system-of-record lookups, third-party identity verification, bank-account validation, and batch payment systems
+- Designed and shipped **production agentic AI systems** — multi-lane classification pipelines, LLM answering layers grounded in **RAG**, structured output contracts, tool calling, and confidence-gated routing with explicit autonomy boundaries
+- Built **large-scale workflow automation** in **n8n** (40–113 node pipelines): multi-source intake, parallel enrichment, deterministic pre-scoring that gates LLM spend, idempotent writes, quarantine paths, and per-run metrics
+- Developed **backend services and REST APIs** in **Python/FastAPI** and **Node.js** — Pydantic validation, HMAC-secured endpoints, atomic state machines, structured logging, and full test suites
+- Built and served **machine learning models** for classification, forecasting and risk scoring — leakage-free feature engineering, threshold optimisation tied to business cost, **SHAP** explainability, and tracked deployment
+- Designed **PostgreSQL/Supabase schemas**, ETL pipelines, and analytics views supporting operational reporting and executive dashboards
+- Integrated **third-party REST and SOAP systems** — Microsoft Graph, helpdesk platforms, payment gateways, identity verification and banking validation services
+- Provisioned and secured **AWS infrastructure with Terraform** — S3 with KMS encryption and versioning, least-privilege IAM, Lambda, and Docker-based deployment
+- Built **React/Next.js frontends** and internal dashboards over FastAPI services for operational visibility
 
-> `Python` · `FastAPI` · `n8n` · `Claude/OpenAI APIs` · `Supabase/PostgreSQL` · `AWS (S3, Lambda, IAM, KMS)` · `Terraform` · `Microsoft Graph` · `Docker`
+> `Python` · `FastAPI` · `Node.js` · `n8n` · `Claude/OpenAI APIs` · `scikit-learn` · `PostgreSQL/Supabase` · `AWS (S3, Lambda, IAM, KMS)` · `Terraform` · `React` · `Docker`
 
 <br>
 
