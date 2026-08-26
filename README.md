@@ -161,6 +161,11 @@ Time-series forecasting with **trend, seasonality and stationarity analysis**, s
 
 ## 🌐 Full-Stack Applications
 
+### 🔷 [Subscription Billing & Reconciliation Engine](https://github.com/brianmahlatini/Subscription-Billing-Reconciliation-Engine)
+**`Django REST Framework`** **`React`** **`PostgreSQL`** **`Docker`** **`42 tests passing`**
+
+A billing system built on the assumption that **the payment provider will lie to you** — it redelivers webhooks, emits two event IDs for one charge, and hands you a settlement file that disagrees with your records in both directions. **Money is integer minor units throughout**, never a float, with half-up rounding, proration rounded once at the end, and remainder-preserving splits. **Three independent idempotency guards**: HMAC-SHA256 with a freshness window against replays, event-level uniqueness, and payment-level uniqueness for the case event dedup misses. **Immutable double-entry ledger** with no update or delete path — corrections are reversing pairs — and balances derived by summation so they cannot drift. Enforced invoice state machine where paid is terminal and refunds issue credit rather than reopening history. **Bidirectional settlement reconciliation** that parks every discrepancy with a reason instead of auto-correcting it.
+
 ### 🔷 [AI Triage Console](https://github.com/brianmahlatini/AI-Triage-Console)
 **`Django REST Framework`** **`React`** **`PostgreSQL`** **`Docker`** **`27 tests passing`**
 
