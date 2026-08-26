@@ -1,9 +1,13 @@
 <h1 align="center">Hi, I'm Brian Mahlatini 👋</h1>
 
-<h3 align="center">AI & ML Engineer — Production LLM & Agentic Systems</h3>
+<h3 align="center">AI & ML Engineer &nbsp;·&nbsp; Full-Stack Developer</h3>
+
+<p align="center"><em>Production LLM &amp; Agentic Systems</em></p>
 
 <p align="center">
-  <strong>Python</strong> · <strong>FastAPI</strong> · <strong>n8n</strong> · <strong>Node.js</strong> · <strong>AWS</strong> · <strong>LLMs, RAG, Fine-Tuning, MLOps</strong>
+  <strong>Python</strong> · <strong>TypeScript</strong> · <strong>FastAPI</strong> · <strong>Django</strong> · <strong>Node.js</strong> · <strong>React</strong> · <strong>Next.js</strong>
+  <br>
+  <strong>LLMs</strong> · <strong>RAG</strong> · <strong>AI Agents</strong> · <strong>Fine-Tuning (LoRA/QLoRA)</strong> · <strong>n8n</strong> · <strong>MLOps</strong> · <strong>AWS</strong>
 </p>
 
 <p align="center">
