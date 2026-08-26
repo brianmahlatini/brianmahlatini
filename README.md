@@ -120,6 +120,8 @@ Claims ingest with **automatic fault recovery** — failed records are quarantin
 
 ## 🧠 Machine Learning & AI Projects
 
+*Several of these ship as full-stack applications — FastAPI services with React dashboards over them — so the model or pipeline is reachable by a real user, not just a notebook.*
+
 ### 🔸 [Fraud Detection System — Real-Time ML Risk Scoring](https://github.com/brianmahlatini/Fraud-Detection-System)
 **`Python`** **`LightGBM`** **`XGBoost`** **`SHAP`** **`FastAPI`** **`PostgreSQL`**
 
