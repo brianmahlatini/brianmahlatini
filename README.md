@@ -162,14 +162,14 @@ Time-series forecasting with **trend, seasonality and stationarity analysis**, s
 ## 🌐 Full-Stack Applications
 
 ### 🔷 [Subscription Billing & Reconciliation Engine](https://github.com/brianmahlatini/Subscription-Billing-Reconciliation-Engine)
-**`Django REST Framework`** **`React`** **`PostgreSQL`** **`Docker`** **`42 tests passing`**
+**`Django REST Framework`** **`React`** **`PostgreSQL`** **`Docker`** — **42 tests**
 
-A billing system built on the assumption that **the payment provider will lie to you** — it redelivers webhooks, emits two event IDs for one charge, and hands you a settlement file that disagrees with your records in both directions. **Money is integer minor units throughout**, never a float, with half-up rounding, proration rounded once at the end, and remainder-preserving splits. **Three independent idempotency guards**: HMAC-SHA256 with a freshness window against replays, event-level uniqueness, and payment-level uniqueness for the case event dedup misses. **Immutable double-entry ledger** with no update or delete path — corrections are reversing pairs — and balances derived by summation so they cannot drift. Enforced invoice state machine where paid is terminal and refunds issue credit rather than reopening history. **Bidirectional settlement reconciliation** that parks every discrepancy with a reason instead of auto-correcting it.
+Billing built for providers that redeliver webhooks and disagree with your ledger. **Integer money** throughout with half-up rounding, **three idempotency guards** (HMAC replay window, event uniqueness, payment uniqueness), an **immutable double-entry ledger** where corrections are reversing pairs, and **bidirectional settlement reconciliation** that parks every discrepancy instead of auto-correcting it.
 
 ### 🔷 [AI Triage Console](https://github.com/brianmahlatini/AI-Triage-Console)
-**`Django REST Framework`** **`React`** **`PostgreSQL`** **`Docker`** **`27 tests passing`**
+**`Django REST Framework`** **`React`** **`PostgreSQL`** **`Docker`** — **27 tests**
 
-Multi-tenant support triage where an LLM classifier acts **only inside limits it cannot exceed**. Five ordered autonomy rules in one enforcement point: complaints never auto-resolve at any confidence, shadow mode records without acting, and confidence floors decide between acting alone, human review, and escalation. **Idempotent intake** enforced by a database constraint rather than a read-then-write check, **rules-before-models** pre-scoring that skipped inference on 7 of 10 seeded tickets, tenant isolation in a single queryset, RBAC, and an **append-only audit trail** with no update or delete path. The console's confidence gauge plots each decision against the thresholds that governed it.
+Multi-tenant support triage where an LLM classifier acts only inside limits it cannot exceed. Five ordered **autonomy rules** in one enforcement point, **idempotent intake** enforced by a database constraint, **rules-before-models** pre-scoring that skipped inference on 7 of 10 tickets, and an **append-only audit trail** with no update or delete path.
 
 ### 🔷 [AI SaaS Automation Platform](https://github.com/brianmahlatini/AI-SAAS-AUTOMATION-PLATFORM)
 **`Next.js`** **`Node.js`** **`Redis`** **`BullMQ`** **`Stripe`** **`OpenAI`**
