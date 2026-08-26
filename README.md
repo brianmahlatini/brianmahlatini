@@ -18,7 +18,7 @@
 
 I build **AI systems that actually run in production** — not demos, not notebooks. Systems that handle real traffic, fail safely, and leave an audit trail.
 
-My work spans four connected areas:
+My work spans five connected areas:
 
 **🤖 AI Agents & LLM Engineering** — I design agentic pipelines that classify, reason, and act: multi-agent panels with disagreement detection, **RAG** grounded in real knowledge bases, structured output contracts, tool calling, and prompt engineering built around **confidence floors** rather than blind trust. I work with **Claude and OpenAI APIs**, and fine-tune open models with **LoRA/QLoRA** on Hugging Face when an API call isn't the right answer.
 
@@ -26,7 +26,9 @@ My work spans four connected areas:
 
 **🧠 Machine Learning** — Classification, forecasting, recommendation and risk scoring with **scikit-learn, XGBoost, LightGBM and PyTorch** — with leakage-free feature engineering, threshold optimisation tied to business cost, **SHAP** explainability, and MLflow-tracked deployment rather than models that die in a notebook.
 
-**🔧 Backend & Integration** — **Python/FastAPI** and **Node.js** services, PostgreSQL schema and query design, ETL pipelines, third-party REST/SOAP integration, HMAC-secured APIs, atomic state machines, and AWS infrastructure provisioned with Terraform.
+**🔧 Backend & Integration** — **Python** services in **FastAPI** and **Django**, plus **Node.js/Express**. PostgreSQL and Supabase schema and query design, ETL pipelines, third-party REST/SOAP integration, HMAC-secured APIs, atomic state machines, and AWS infrastructure provisioned with **Terraform**.
+
+**🎨 Frontend** — **React** and **Next.js** with **TypeScript** and **Tailwind**. Operational dashboards, analytics interfaces with Chart.js and Recharts, and admin consoles over FastAPI services. I build the full path from model or pipeline through API to the screen someone actually uses.
 
 The thread running through all of it is **safety engineering**: *idempotency, confidence gates, explicit autonomy boundaries, quarantine fallbacks, append-only audit rows, and human-in-the-loop escalation* — the things that decide whether an AI system survives contact with real users.
 
