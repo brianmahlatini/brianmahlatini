@@ -26,7 +26,7 @@ My work spans five connected areas:
 
 **🧠 Machine Learning** — Classification, forecasting, recommendation and risk scoring with **scikit-learn, XGBoost, LightGBM and PyTorch** — with leakage-free feature engineering, threshold optimisation tied to business cost, **SHAP** explainability, and MLflow-tracked deployment rather than models that die in a notebook.
 
-**🔧 Backend & Integration** — **Python** services in **FastAPI** and **Django**, plus **Node.js/Express**. PostgreSQL and Supabase schema and query design, ETL pipelines, third-party REST/SOAP integration, HMAC-secured APIs, atomic state machines, and AWS infrastructure provisioned with **Terraform**.
+**🔧 Backend & Integration** — **Python** services in **FastAPI** and **Django**, plus **Node.js/Express**. PostgreSQL and Supabase schema and query design, ETL pipelines, third-party REST/SOAP integration, HMAC-secured APIs, atomic state machines, **payment integrations (Stripe, PayFast)** with webhook-driven reconciliation and idempotency control, and AWS infrastructure provisioned with **Terraform**.
 
 **🎨 Frontend** — **React** and **Next.js** with **TypeScript** and **Tailwind**. Operational dashboards, analytics interfaces with Chart.js and Recharts, and admin consoles over FastAPI services. I build the full path from model or pipeline through API to the screen someone actually uses.
 
@@ -48,6 +48,7 @@ The thread running through all of it is **safety engineering**: *idempotency, co
 - Worked with **deep learning and model fine-tuning** — **PyTorch** training loops, CNNs and transfer learning, and **LoRA/QLoRA fine-tuning** of open models (Llama 3, BERT) via **Hugging Face** where a hosted API wasn't the right fit
 - Applied **MLOps practice** — **MLflow** experiment tracking, model versioning and registry, drift detection, retraining pipelines, and containerised model deployment behind **FastAPI** inference endpoints
 - Designed **PostgreSQL/Supabase schemas**, ETL pipelines, and analytics views supporting operational reporting and executive dashboards
+- Built **payment and billing integrations** — **Stripe** subscriptions, usage-based billing and webhook handling, **PayFast** for the South African market, plus issuer-side payout APIs with HMAC verification, atomic state transitions and idempotency guards against double-payment
 - Integrated **third-party REST and SOAP systems** — Microsoft Graph, helpdesk platforms, payment gateways, identity verification and banking validation services
 - Provisioned and secured **AWS infrastructure with Terraform** — S3 with KMS encryption and versioning, least-privilege IAM, Lambda, and Docker-based deployment
 - Built **React/Next.js frontends** and internal dashboards over FastAPI services for operational visibility
@@ -169,6 +170,7 @@ Time-series forecasting with **trend, seasonality and stationarity analysis**, s
 | **Automation & Integration** | **n8n** · Microsoft Graph · Freshdesk · Payment gateways · Webhooks · Third-party REST/SOAP integration |
 | **Data** | PostgreSQL · Supabase · MongoDB · Redis · ETL · Star Schema · Data Validation |
 | **Cloud & DevOps** | AWS *(EC2, S3, Lambda, IAM, KMS, RDS)* · Terraform · Docker · GitHub Actions · CI/CD · Nginx · Linux |
+| **Payments & Billing** | **Stripe** *(Subscriptions, Usage-Based Billing, Webhooks)* · **PayFast** · Payout & Issuer APIs · Webhook Reconciliation · Idempotency Control |
 | **Security** | JWT · OAuth2 · RBAC · HMAC-SHA256 · PBKDF2/BCrypt · POPIA-aware data handling |
 | **Frontend** | React · Next.js · TypeScript · Tailwind CSS |
 
