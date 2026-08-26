@@ -161,6 +161,11 @@ Time-series forecasting with **trend, seasonality and stationarity analysis**, s
 
 ## 🌐 Full-Stack Applications
 
+### 🔷 [AI Triage Console](https://github.com/brianmahlatini/AI-Triage-Console)
+**`Django REST Framework`** **`React`** **`PostgreSQL`** **`Docker`** **`27 tests passing`**
+
+Multi-tenant support triage where an LLM classifier acts **only inside limits it cannot exceed**. Five ordered autonomy rules in one enforcement point: complaints never auto-resolve at any confidence, shadow mode records without acting, and confidence floors decide between acting alone, human review, and escalation. **Idempotent intake** enforced by a database constraint rather than a read-then-write check, **rules-before-models** pre-scoring that skipped inference on 7 of 10 seeded tickets, tenant isolation in a single queryset, RBAC, and an **append-only audit trail** with no update or delete path. The console's confidence gauge plots each decision against the thresholds that governed it.
+
 ### 🔷 [AI SaaS Automation Platform](https://github.com/brianmahlatini/AI-SAAS-AUTOMATION-PLATFORM)
 **`Next.js`** **`Node.js`** **`Redis`** **`BullMQ`** **`Stripe`** **`OpenAI`**
 
