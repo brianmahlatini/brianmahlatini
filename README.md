@@ -157,6 +157,30 @@ Time-series forecasting with **trend, seasonality and stationarity analysis**, s
 
 ***
 
+## 🌐 Full-Stack Applications
+
+### 🔷 [AI SaaS Automation Platform](https://github.com/brianmahlatini/AI-SAAS-AUTOMATION-PLATFORM)
+**`Next.js`** **`Node.js`** **`Redis`** **`BullMQ`** **`Stripe`** **`OpenAI`**
+
+AI-powered workflow automation with a **distributed execution engine**. Scalable background processing on **BullMQ** queues, real-time run tracking over **WebSockets**, token-based usage metering, and **Stripe subscription plus usage-based billing**.
+
+### 🔷 [Multi-Tenant SaaS Platform](https://github.com/brianmahlatini/SaaS-Multi-Tenant-Platform-Django-React-Stripe-RBAC-)
+**`Django`** **`PostgreSQL`** **`Redis`** **`Celery`** **`Stripe`**
+
+Multi-tenant backend with **organisation-level data isolation**, JWT auth and **RBAC**, Stripe subscription billing with webhook handling, API key management with usage tracking, and **Celery** for background processing.
+
+### 🔷 [Multi-Vendor E-Commerce Marketplace](https://github.com/brianmahlatini/MULTI-VENDOR-E-COMMERCE-MARKETPLACE)
+**`React`** **`Node.js`** **`PostgreSQL`** **`Redis`** **`Stripe`**
+
+Marketplace supporting **multi-vendor architecture** — product catalogue, checkout flow, order management, **Stripe payments with webhook-driven transaction handling**, Redis caching, background jobs, and real-time order tracking.
+
+### 🔷 [Real-Time Collaboration Chat Platform](https://github.com/brianmahlatini/REAL-TIME-COLLABORATION-CHAT-PLATFORM)
+**`React`** **`Node.js`** **`Socket.io`** **`MongoDB`** **`Redis`**
+
+Real-time messaging with channels, DMs and presence tracking. **Redis pub/sub WebSocket architecture** for multi-instance scaling, message persistence, S3 file uploads, and rate-limited APIs.
+
+***
+
 ## 🛠️ Tech Stack
 
 | | |
