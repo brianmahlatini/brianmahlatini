@@ -5,7 +5,7 @@
 <p align="center"><em>Production LLM &amp; Agentic Systems</em></p>
 
 <p align="center">
-  <strong>Python</strong> · <strong>TypeScript</strong> · <strong>FastAPI</strong> · <strong>Django</strong> · <strong>Node.js</strong> · <strong>React</strong> · <strong>Next.js</strong>
+  <strong>Python</strong> · <strong>TypeScript</strong> · <strong>FastAPI</strong> · <strong>Django</strong> · <strong>Node.js</strong> · <strong>React</strong> · <strong>Next.js</strong> · <strong>Angular</strong>
   <br>
   <strong>LLMs</strong> · <strong>RAG</strong> · <strong>AI Agents</strong> · <strong>Fine-Tuning (LoRA/QLoRA)</strong> · <strong>n8n</strong> · <strong>MLOps</strong> · <strong>AWS</strong>
 </p>
@@ -208,9 +208,9 @@ Real-time messaging with channels, DMs and presence tracking. **Redis pub/sub We
 | **Cloud & DevOps** | AWS *(EC2, S3, Lambda, IAM, KMS, RDS)* · Terraform · Docker · GitHub Actions · CI/CD · Nginx · Linux |
 | **Payments & Billing** | **Stripe** *(Subscriptions, Usage-Based Billing, Webhooks)* · **PayFast** · Payout & Issuer APIs · Webhook Reconciliation · Idempotency Control |
 | **Security** | JWT · OAuth2 · RBAC · HMAC-SHA256 · PBKDF2/BCrypt · POPIA-aware data handling |
-| **Frontend** | React · Next.js · TypeScript · Tailwind CSS |
+| **Frontend** | React · Next.js · **Angular** · TypeScript · Tailwind CSS |
 
-**Also worked with:** Java / Spring Boot · C# / ASP.NET Core · Angular · Kafka · RabbitMQ · SignalR · Elasticsearch
+**Also worked with:** Java / Spring Boot · C# / ASP.NET Core · Kafka · RabbitMQ · SignalR · Elasticsearch
 
 ***
 
