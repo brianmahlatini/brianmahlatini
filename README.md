@@ -57,6 +57,22 @@ The thread running through all of it is **safety engineering**: *idempotency, co
 
 <br>
 
+### **Artificial Intelligence Engineer**
+**KGA Life** · Stellenbosch, Western Cape, South Africa · *Jul 2025 – Sep 2026*
+
+- Designed and shipped **production AI systems for insurance operations** — agentic request classification, LLM answering layers grounded in **RAG** over policy documentation and live system-of-record APIs, and confidence-gated routing with explicit autonomy boundaries
+- Built **large-scale automation in n8n** (40–113 node pipelines): multi-source intake, parallel enrichment, deterministic pre-scoring that gates LLM spend, idempotent writes, quarantine paths and per-run metrics
+- Developed **machine learning models for insurance prediction** — risk scoring, lapse and churn prediction, and classification using **scikit-learn, XGBoost and LightGBM**, with leakage-free feature engineering, threshold optimisation tied to business cost and **SHAP** explainability
+- Automated **claims processing end to end** across multiple claim types, integrating policy administration, identity verification, bank-account validation and batch payment systems
+- Built **backend services and APIs** in **Python/FastAPI** — Pydantic validation, HMAC-secured endpoints, atomic state machines, structured logging and full test coverage
+- Provisioned and secured **AWS infrastructure with Terraform** — S3 with KMS encryption and versioning, least-privilege IAM, Lambda, and Docker-based deployment
+- Designed **PostgreSQL and Supabase schemas**, ETL pipelines and analytics views supporting operational reporting and executive dashboards
+- Integrated **third-party systems over REST and SOAP** — Microsoft Graph, helpdesk platforms, payment gateways and verification services
+
+> `Python` · `FastAPI` · `n8n` · `Claude/OpenAI APIs` · `scikit-learn` · `XGBoost` · `PostgreSQL/Supabase` · `AWS (S3, Lambda, IAM, KMS)` · `Terraform` · `Docker`
+
+<br>
+
 ### **Software Engineer — Backend & Data Systems**
 **Wenzhou Hams IT Co., Ltd** · Wenzhou, China · *Feb 2021 – Jun 2024*
 
