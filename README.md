@@ -58,7 +58,7 @@ The thread running through all of it is **safety engineering**: *idempotency, co
 <br>
 
 ### **Artificial Intelligence Engineer**
-**KGA Life** · Stellenbosch, Western Cape, South Africa · *Jul 2025 – Sep 2026*
+**KGA Life** · *Freelance* · Stellenbosch, Western Cape, South Africa · *Jul 2025 – Sep 2026*
 
 - Designed and shipped **production AI systems for insurance operations** — agentic request classification, LLM answering layers grounded in **RAG** over policy documentation and live system-of-record APIs, and confidence-gated routing with explicit autonomy boundaries
 - Built **large-scale automation in n8n** (40–113 node pipelines): multi-source intake, parallel enrichment, deterministic pre-scoring that gates LLM spend, idempotent writes, quarantine paths and per-run metrics
