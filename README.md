@@ -234,7 +234,7 @@ Java · Spring Boot · C# · ASP.NET Core · Kafka · RabbitMQ · SignalR · Ela
 ## 🎓 Education
 
 **B.Eng. Computer Science and Technology**
-*Wenzhou University, Zhejiang, China* · **2021 – 2024**
+*Wenzhou University, Zhejiang, China*
 
 ***
 
