@@ -221,12 +221,13 @@ Real-time messaging with channels, DMs and presence tracking. **Redis pub/sub We
 | **Backend & APIs** | FastAPI · Django · **Node.js** · Express · REST · SQLAlchemy · Pydantic · WebSockets · Background Workers *(Celery, BullMQ)* |
 | **Automation & Integration** | **n8n** · Microsoft Graph · Freshdesk · Payment gateways · Webhooks · Third-party REST/SOAP integration |
 | **Data** | PostgreSQL · Supabase · MongoDB · Redis · ETL · Star Schema · Data Validation |
-| **Cloud & DevOps** | AWS *(EC2, S3, Lambda, IAM, KMS, RDS)* · Terraform · Docker · GitHub Actions · CI/CD · Nginx · Linux |
+| **Cloud & DevOps** | AWS *(EC2, S3, Lambda, IAM, KMS, RDS)* · Azure · Terraform · Docker · GitHub Actions · CI/CD · Nginx · Linux |
 | **Payments & Billing** | **Stripe** *(Subscriptions, Usage-Based Billing, Webhooks)* · **PayFast** · Payout & Issuer APIs · Webhook Reconciliation · Idempotency Control |
 | **Security** | JWT · OAuth2 · RBAC · HMAC-SHA256 · PBKDF2/BCrypt · POPIA-aware data handling |
 | **Frontend** | React · Next.js · **Angular** · TypeScript · Tailwind CSS |
 
-**Also worked with:** Java / Spring Boot · C# / ASP.NET Core · Kafka · RabbitMQ · SignalR · Elasticsearch
+**Secondary stack** — not my day-to-day focus, but I've built with these and am comfortable picking them up on a project:
+Java · Spring Boot · C# · ASP.NET Core · Kafka · RabbitMQ · SignalR · Elasticsearch · Azure
 
 ***
 
