@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  📍 Cape Town, South Africa &nbsp;•&nbsp; 🌍 Open to <strong>Remote · Contract · Full-Time</strong>
+  📍 Cape Town, South Africa &nbsp;•&nbsp; 🌍 Open to <strong>Remote · Relocation · Contract · Full-Time</strong>
 </p>
 
 ***
@@ -242,7 +242,7 @@ Java · Spring Boot · C# · ASP.NET Core · Kafka · RabbitMQ · SignalR · Ela
 
 - 🚀 Running a **live agentic AI system in production** handling real enterprise traffic
 - 🔬 Building out **production ML serving** with MLflow tracking and drift monitoring
-- 💼 Open to **AI/LLM Engineering** · **ML Engineering** · **Automation & Integration Engineering** — *remote or contract*
+- 💼 Open to **AI/LLM Engineering** · **ML Engineering** · **Automation & Integration Engineering** — *remote, relocation, contract or full-time*
 
 ***
 
