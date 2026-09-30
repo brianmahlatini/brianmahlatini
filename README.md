@@ -177,6 +177,8 @@ Time-series forecasting with **trend, seasonality and stationarity analysis**, s
 
 ## 🌐 Full-Stack Applications
 
+*Six applications built end to end — Django and Node backends, React and Next.js frontends — covering multi-tenancy, authentication and RBAC, payments and billing, real-time messaging and background processing. Each ships with the infrastructure to run it, not just the code.*
+
 ### 🔷 [Subscription Billing & Reconciliation Engine](https://github.com/brianmahlatini/Subscription-Billing-Reconciliation-Engine)
 **`Django REST Framework`** **`React`** **`PostgreSQL`** **`Docker`** — **42 tests**
 
