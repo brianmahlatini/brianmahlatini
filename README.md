@@ -229,7 +229,7 @@ Real-time messaging with channels, DMs and presence tracking. **Redis pub/sub We
 | **Frontend** | React · Next.js · **Angular** · TypeScript · Tailwind CSS |
 
 **Secondary stack** — not my day-to-day focus, but I've built with these and am comfortable picking them up on a project:
-Java · Spring Boot · C# · ASP.NET Core · Kafka · RabbitMQ · SignalR · Elasticsearch · Azure
+Java · Spring Boot · C# · ASP.NET Core · Go · PHP · C++ · C · Kafka · RabbitMQ · SignalR · Elasticsearch · Azure
 
 ***
 
