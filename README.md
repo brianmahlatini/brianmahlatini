@@ -1,8 +1,8 @@
 <h1 align="center">Hi, I'm Brian Mahlatini 👋</h1>
 
-<h3 align="center">Data Engineer &nbsp;·&nbsp; Data Analyst &nbsp;·&nbsp; Power BI Developer</h3>
-
 <h3 align="center">AI & ML Engineer &nbsp;·&nbsp; Full-Stack Developer</h3>
+
+<h3 align="center">Data Engineer &nbsp;·&nbsp; Data Analyst &nbsp;·&nbsp; Power BI Developer</h3>
 
 <p align="center"><em>Production LLM &amp; Agentic Systems</em></p>
 
@@ -83,7 +83,7 @@ The thread running through all of it is **safety engineering**: *idempotency, co
 <br>
 
 ### **Software Engineer | ML & Data**
-**Wenzhou Hams Information Technology Company Limited** · Full-time · Wenzhou, Zhejiang, China · *Feb 2021 – Jun 2024*
+**Wenzhou Hams Information Technology Company Limited** · Wenzhou, Zhejiang, China · *Feb 2021 – Jun 2024*
 
 - Built **backend services and REST APIs** using **Python** and **Node.js/Express** against PostgreSQL and MongoDB, serving internal business operations and client-facing applications
 - Designed **ETL workflows and integration services** covering ingestion, transformation, validation, persistence and reporting across multiple data sources
