@@ -260,20 +260,22 @@ Real-time messaging with channels, DMs and presence tracking. **Redis pub/sub We
 
 | | |
 |---|---|
-| **Languages** | **Python** · **TypeScript** · **JavaScript** · SQL · Java · C# |
-| **AI & LLM Systems** | RAG · AI Agents & Tool Calling · Prompt Engineering · Structured Output · Claude API · OpenAI API · LangChain · MCP · Hugging Face · **LoRA/QLoRA Fine-Tuning** · Llama 3 · BERT |
-| **Machine Learning** | scikit-learn · XGBoost · LightGBM · PyTorch · CNNs & Transfer Learning · Prophet · Pandas · NumPy · SHAP/LIME · Feature Engineering · Imbalanced Data · Leakage Detection |
-| **Model Evaluation** | ROC-AUC · PR-AUC · Precision/Recall/F1 · NDCG@K · Cross-Validation · Threshold Optimisation |
-| **MLOps** | MLflow · Experiment Tracking · Model Registry & Versioning · Drift Detection · Retraining Pipelines · Model Deployment |
-| **Backend & APIs** | FastAPI · Django · **Node.js** · Express · REST · SQLAlchemy · Pydantic · WebSockets · Background Workers *(Celery, BullMQ)* |
-| **Automation & Integration** | **n8n** · Microsoft Graph · Freshdesk · Payment gateways · Webhooks · Third-party REST/SOAP integration |
-| **Data Engineering** | ETL/ELT · Databricks · Apache Spark · PySpark · Delta Lake · Apache Airflow · Kafka · Lakehouse (Bronze/Silver/Gold) · Dimensional Modelling · Star Schema · Data Quality & Validation |
-| **BI & Analytics** | **Power BI** · **DAX** · **Power Query** · Tableau · Looker · Qlik Sense · KPI Design · Cohort & Retention Analysis · EDA · A/B Testing |
-| **Databases** | PostgreSQL · MySQL · Supabase · MongoDB · SQLite · Redis |
-| **Cloud & DevOps** | AWS *(EC2, S3, Lambda, IAM, KMS, RDS)* · Azure · Terraform · Docker · GitHub Actions · CI/CD · Nginx · Linux |
-| **Payments & Billing** | **Stripe** *(Subscriptions, Usage-Based Billing, Webhooks)* · **PayFast** · Payout & Issuer APIs · Webhook Reconciliation · Idempotency Control |
-| **Security** | JWT · OAuth2 · RBAC · HMAC-SHA256 · PBKDF2/BCrypt · POPIA-aware data handling |
-| **Frontend** | React · Next.js · **Angular** · TypeScript · Tailwind CSS |
+| **Languages** | **Python** · **TypeScript** · **JavaScript** · **SQL** · Java · C# · Go · PHP |
+| **AI & LLM Systems** | RAG · AI Agents & Tool Calling · Prompt Engineering · Structured Output · Claude API · OpenAI API · LLMs · LangChain · MCP · Hugging Face · **LoRA/QLoRA Fine-Tuning** · Llama 3 · BERT · Vector Databases (Pinecone, FAISS) · Vector Embeddings · Semantic & Similarity Search · Information Retrieval · Document Chunking · Reranking · TF-IDF · AI Workflow Automation |
+| **Machine Learning & Data Science** | scikit-learn · XGBoost · LightGBM · PyTorch · CNNs & Transfer Learning · Prophet · Pandas · NumPy · SciPy · imbalanced-learn · Classification · Regression · Time-Series Forecasting · Recommendation Systems (Collaborative Filtering, Matrix Factorization) · Churn & CLV Prediction · Customer Segmentation · K-Means Clustering · Gradient Boosting · Feature Engineering · Hyperparameter Optimisation · Imbalanced Data · Leakage Detection · Explainable AI (SHAP/LIME) |
+| **Model Evaluation** | ROC-AUC · PR-AUC · Precision/Recall/F1 · NDCG@K · Hit Rate · MAPE · MAE · RMSE · R² · Cross-Validation · Threshold Optimisation |
+| **MLOps** | MLflow · Experiment Tracking · Model Registry & Versioning · Model Deployment · Model Monitoring · Drift Detection · Retraining Pipelines · Train/Serve Skew Prevention |
+| **Backend & APIs** | FastAPI · Django · Flask · **Node.js** · Express · REST · Microservices · SQLAlchemy · Pydantic · Prisma · Mongoose · Middleware & Request Validation · WebSockets (Socket.IO) · Redis Pub/Sub · Background Workers *(Celery, BullMQ)* · Task Queues & Scheduled Jobs |
+| **Automation & Integration** | **n8n** · AI Workflow Automation · Microsoft Graph · Freshdesk · Payment gateways · Pay@ & BillPay integrations · Webhooks · Third-party REST/SOAP integration · API Management |
+| **Data Engineering** | ETL/ELT · Databricks · Apache Spark · PySpark · Spark SQL · Spark Structured Streaming · Delta Lake · Snowflake · Microsoft Fabric · Apache Airflow *(DAGs, retries, backfills)* · Kafka · Lakehouse (Bronze/Silver/Gold) · Dimensional Modelling · Star Schema · Data Marts · Analytical SQL Views · Incremental Loading & Idempotent Upserts · Deduplication · Data Lineage · Pipeline Monitoring · Data Quality & Validation |
+| **BI & Analytics** | **Power BI** · **DAX** · **Power Query** · Tableau · Looker · Qlik Sense · Data Visualisation · KPI Design · Sales & Financial Reporting · Cohort, Retention & Funnel Analysis · RFM & Market Basket Analysis · Statistical Analysis · Hypothesis Testing · A/B Testing · Trend & Root-Cause Analysis · EDA |
+| **Databases** | PostgreSQL · MySQL · Supabase · MongoDB · SQLite · Redis · Pinecone *(vector)* · Schema Design · Indexing · Query Optimisation · Migrations |
+| **Cloud & DevOps** | AWS *(EC2, S3, Lambda, IAM, KMS, RDS, CloudFront, CloudWatch, API Gateway, Elastic Beanstalk)* · Azure *(VMs, Functions, Blob Storage, Azure SQL, Azure Database for PostgreSQL, Entra ID, Azure RBAC, Monitor, Log Analytics, API Management)* · Terraform · Infrastructure as Code · Docker · Docker Compose · Kubernetes *(fundamentals)* · Git · GitHub Actions · CI/CD · Nginx · PM2 · Automated Testing & Deployment |
+| **Linux** | Command-Line · File Permissions · Users & Groups · Process & Service Management · Log Inspection · Bash · Environment Variables · Disk-Space Monitoring · Basic Network Troubleshooting |
+| **Architecture** | SaaS Platforms · Multi-Tenant Architecture · Distributed Systems · Event-Driven Systems · Microservices · Caching · Background Jobs · Scalable, Maintainable Design |
+| **Payments & Billing** | **Stripe** *(Subscriptions, Usage-Based Billing, Webhooks)* · **PayFast** · Pay@ · Payout & Issuer APIs · Webhook Reconciliation · Idempotency Control |
+| **Security** | JWT · OAuth2 · RBAC · Auth0 · Clerk · Firebase Auth · Microsoft Entra ID · HMAC-SHA256 · PBKDF2/BCrypt · Input Validation · Rate Limiting · Audit Logging · POPIA-aware data handling |
+| **Frontend** | React · Next.js · **Angular** · TypeScript · HTML5 · CSS3 · Tailwind CSS · Vite · Chart.js · Recharts · Responsive Design · State Management |
 
 **Secondary stack** — not my day-to-day focus, but I've built with these and am comfortable picking them up on a project:
 Java · Spring Boot · C# · ASP.NET Core · Go · PHP · C++ · C · Kafka · RabbitMQ · SignalR · Elasticsearch · Azure
