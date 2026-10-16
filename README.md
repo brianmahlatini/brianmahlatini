@@ -1,5 +1,7 @@
 <h1 align="center">Hi, I'm Brian Mahlatini 👋</h1>
 
+<h3 align="center">Data Engineer &nbsp;·&nbsp; Data Analyst &nbsp;·&nbsp; Power BI Developer</h3>
+
 <h3 align="center">AI & ML Engineer &nbsp;·&nbsp; Full-Stack Developer</h3>
 
 <p align="center"><em>Production LLM &amp; Agentic Systems</em></p>
@@ -8,6 +10,8 @@
   <strong>Python</strong> · <strong>TypeScript</strong> · <strong>FastAPI</strong> · <strong>Django</strong> · <strong>Node.js</strong> · <strong>React</strong> · <strong>Next.js</strong> · <strong>Angular</strong>
   <br>
   <strong>LLMs</strong> · <strong>RAG</strong> · <strong>AI Agents</strong> · <strong>Fine-Tuning (LoRA/QLoRA)</strong> · <strong>n8n</strong> · <strong>MLOps</strong> · <strong>AWS</strong>
+  <br>
+  <strong>SQL</strong> · <strong>Power BI</strong> · <strong>DAX</strong> · <strong>Power Query</strong> · <strong>Databricks</strong> · <strong>Spark</strong> · <strong>Airflow</strong> · <strong>Kafka</strong> · <strong>Delta Lake</strong> · <strong>ETL/ELT</strong>
 </p>
 
 <p align="center">
@@ -18,7 +22,9 @@
 
 I build **AI systems that actually run in production** — not demos, not notebooks. Systems that handle real traffic, fail safely, and leave an audit trail.
 
-My work spans five connected areas:
+My work spans six connected areas:
+
+**📊 Data Engineering, Analytics & Power BI** — I build **ETL/ELT pipelines** and analytical data platforms in **Python and SQL**: **lakehouse** and warehouse design on **Databricks, Spark and Delta Lake** (Bronze/Silver/Gold layers), **Airflow** orchestration with retries, backfills and idempotent incremental loads, **Kafka** streaming, and data-quality checks with quarantine paths. On the analytics side I turn trusted datasets into **Power BI** reporting — **DAX, Power Query**, KPI design, cohort and retention analysis, and sales, financial and operations dashboards.
 
 **🤖 AI Agents & LLM Engineering** — I design agentic pipelines that classify, reason, and act: multi-agent panels with disagreement detection, **RAG** grounded in real knowledge bases, structured output contracts, tool calling, and prompt engineering built around **confidence floors** rather than blind trust. I work with **Claude and OpenAI APIs**, and fine-tune open models with **LoRA/QLoRA** on Hugging Face when an API call isn't the right answer.
 
@@ -36,8 +42,8 @@ The thread running through all of it is **safety engineering**: *idempotency, co
 
 ## 💼 Experience
 
-### **AI & Full-Stack Developer**
-**Genius Humans** · Cape Town, South Africa · *Jul 2024 – Present*
+### **Software Engineer | AI & Data**
+**Genius Humans** · Full-time · Cape Town, South Africa · *Jun 2024 – Present*
 
 - Designed and shipped **production agentic AI systems** — multi-lane classification pipelines, LLM answering layers grounded in **RAG**, structured output contracts, tool calling, and confidence-gated routing with explicit autonomy boundaries
 - Built **large-scale workflow automation** in **n8n** (40–113 node pipelines): multi-source intake, parallel enrichment, deterministic pre-scoring that gates LLM spend, idempotent writes, quarantine paths, and per-run metrics
@@ -48,17 +54,19 @@ The thread running through all of it is **safety engineering**: *idempotency, co
 - Worked with **deep learning and model fine-tuning** — **PyTorch** training loops, CNNs and transfer learning, and **LoRA/QLoRA fine-tuning** of open models (Llama 3, BERT) via **Hugging Face** where a hosted API wasn't the right fit
 - Applied **MLOps practice** — **MLflow** experiment tracking, model versioning and registry, drift detection, retraining pipelines, and containerised model deployment behind **FastAPI** inference endpoints
 - Designed **PostgreSQL/Supabase schemas**, ETL pipelines, and analytics views supporting operational reporting and executive dashboards
+- Developed **Python- and SQL-based data workflows** to ingest, transform, validate and organise structured data, with validation rules, data-quality checks, logging and error handling to improve reliability
+- Prepared datasets and reusable transformations for **reporting, KPI analysis and business intelligence** — Power BI, DAX and Power Query — and analysed operational metrics to investigate anomalies
 - Built **payment and billing integrations** — **Stripe** subscriptions, usage-based billing and webhook handling, **PayFast** for the South African market, plus issuer-side payout APIs with HMAC verification, atomic state transitions and idempotency guards against double-payment
 - Integrated **third-party REST and SOAP systems** — Microsoft Graph, helpdesk platforms, payment gateways, identity verification and banking validation services
 - Provisioned and secured **AWS infrastructure with Terraform** — S3 with KMS encryption and versioning, least-privilege IAM, Lambda, and Docker-based deployment
 - Built **React/Next.js frontends** and internal dashboards over FastAPI services for operational visibility
 
-> `Python` · `FastAPI` · `Node.js` · `n8n` · `Claude/OpenAI APIs` · `scikit-learn` · `PostgreSQL/Supabase` · `AWS (S3, Lambda, IAM, KMS)` · `Terraform` · `React` · `Docker`
+> `Python` · `SQL` · `FastAPI` · `Node.js` · `n8n` · `Claude/OpenAI APIs` · `scikit-learn` · `PostgreSQL/Supabase` · `Power BI` · `AWS (S3, Lambda, IAM, KMS)` · `Terraform` · `React` · `Docker`
 
 <br>
 
 ### **Artificial Intelligence Engineer**
-**KGA Life** · *Freelance* · Stellenbosch, Western Cape, South Africa · *Jul 2025 – Sep 2026*
+**KGA Life** · Contract · Stellenbosch, Western Cape, South Africa (On-site) · *Jul 2025 – Sep 2026*
 
 - Designed and shipped **production AI systems for insurance operations** — agentic request classification, LLM answering layers grounded in **RAG** over policy documentation and live system-of-record APIs, and confidence-gated routing with explicit autonomy boundaries
 - Built **large-scale automation in n8n** (40–113 node pipelines): multi-source intake, parallel enrichment, deterministic pre-scoring that gates LLM spend, idempotent writes, quarantine paths and per-run metrics
@@ -68,13 +76,14 @@ The thread running through all of it is **safety engineering**: *idempotency, co
 - Provisioned and secured **AWS infrastructure with Terraform** — S3 with KMS encryption and versioning, least-privilege IAM, Lambda, and Docker-based deployment
 - Designed **PostgreSQL and Supabase schemas**, ETL pipelines and analytics views supporting operational reporting and executive dashboards
 - Integrated **third-party systems over REST and SOAP** — Microsoft Graph, helpdesk platforms, payment gateways and verification services
+- Contributed to a **claims portal** built with FastAPI, React, Supabase, AWS S3 and AI-powered document processing, and supported insurance and payment-related integrations including Pay@ and BillPay workflows
 
 > `Python` · `FastAPI` · `n8n` · `Claude/OpenAI APIs` · `scikit-learn` · `XGBoost` · `PostgreSQL/Supabase` · `AWS (S3, Lambda, IAM, KMS)` · `Terraform` · `Docker`
 
 <br>
 
-### **Software Engineer — Backend & Data Systems**
-**Wenzhou Hams IT Co., Ltd** · Wenzhou, China · *Feb 2021 – Jun 2024*
+### **Software Engineer | ML & Data**
+**Wenzhou Hams Information Technology Company Limited** · Full-time · Wenzhou, Zhejiang, China · *Feb 2021 – Jun 2024*
 
 - Built **backend services and REST APIs** using **Python** and **Node.js/Express** against PostgreSQL and MongoDB, serving internal business operations and client-facing applications
 - Designed **ETL workflows and integration services** covering ingestion, transformation, validation, persistence and reporting across multiple data sources
@@ -86,7 +95,7 @@ The thread running through all of it is **safety engineering**: *idempotency, co
 - Supported **deployments and live production systems**, debugging incidents and shipping fixes against running services
 - Collaborated in **agile, cross-functional teams** — code review, version control workflows, and iterative delivery alongside frontend and product colleagues
 
-> `Python` · `Node.js` · `Express` · `PostgreSQL` · `MongoDB` · `Docker`
+> `Python` · `SQL` · `Node.js` · `Express` · `PostgreSQL` · `MongoDB` · `Docker`
 
 ***
 
@@ -131,6 +140,42 @@ Claims ingest with **automatic fault recovery** — failed records are quarantin
 
 > ***Design principles shared across all seven:***
 > *idempotency-first · parallel enrichment · rules before models with a measurable LLM cost gate · confidence floors · explicit autonomy boundaries · append-only audit rows · quarantine fallbacks · per-run metrics*
+
+***
+
+## 📊 Data Engineering, Analytics & BI Projects
+
+*Pipelines, lakehouse and streaming platforms, plus Power BI reporting solutions built on trusted, validated datasets.*
+
+### 🔶 [Enterprise Lakehouse & Data Warehouse](https://github.com/brianmahlatini/Enterprise-Lakehouse-Data-Warehouse)
+**`Databricks`** **`Spark`** **`PySpark`** **`Delta Lake`** **`SQL`**
+
+Lakehouse platform organised into **Bronze, Silver and Gold layers** — raw ingestion, cleaned records and curated analytical datasets — using distributed processing and SQL transformations.
+
+### 🔶 [Automated ETL/ELT Orchestration & Data Quality Platform](https://github.com/brianmahlatini/Automated-ETL-ELT-Orchestration-Data-Quality-Platform)
+**`Airflow`** **`PostgreSQL`** **`FastAPI`** **`React`** **`Docker`**
+
+Scheduled **Airflow DAGs** with retries, backfills and failure callbacks; **watermark-based incremental loads with idempotent upserts**; data-quality checks and **rejected-record quarantine**; and a monitoring dashboard for pipeline health.
+
+### 🔶 [Real-Time Streaming & Event Processing Platform](https://github.com/brianmahlatini/Real-Time-Streaming-Event-Processing-Platform)
+**`Kafka`** **`Spark Structured Streaming`** **`PostgreSQL`** **`Docker`**
+
+Near-real-time event ingestion and stream transformation with validation, duplicate handling, and monitoring of throughput, errors and data freshness.
+
+### 🔶 [Enterprise Sales & Financial Performance Intelligence](https://github.com/brianmahlatini/Enterprise-Sales-Financial-Performance-Intelligence)
+**`Power BI`** **`DAX`** **`Power Query`** **`SQL`** **`PostgreSQL`**
+
+Business intelligence solution for **sales, revenue, profitability and KPI analysis**, with consistent dimensions and interactive comparisons across business dimensions and time periods.
+
+### 🔶 [Customer Retention & Revenue Intelligence](https://github.com/brianmahlatini/Customer-Retention-Revenue-Intelligence)
+**`Power BI`** **`DAX`** **`SQL`** **`Python`**
+
+Retention patterns, customer value and revenue performance — **customer segmentation and cohort analysis** to explain repeat-purchase behaviour.
+
+### 🔶 [Operations & Supply Chain Analytics](https://github.com/brianmahlatini/Operations-Supply-Chain-Analytics)
+**`Power BI`** **`SQL`** **`PostgreSQL`** **`Power Query`**
+
+Reporting views over fulfilment, inventory, supplier performance and service-level indicators, built to surface operational bottlenecks and exceptions.
 
 ***
 
@@ -222,7 +267,9 @@ Real-time messaging with channels, DMs and presence tracking. **Redis pub/sub We
 | **MLOps** | MLflow · Experiment Tracking · Model Registry & Versioning · Drift Detection · Retraining Pipelines · Model Deployment |
 | **Backend & APIs** | FastAPI · Django · **Node.js** · Express · REST · SQLAlchemy · Pydantic · WebSockets · Background Workers *(Celery, BullMQ)* |
 | **Automation & Integration** | **n8n** · Microsoft Graph · Freshdesk · Payment gateways · Webhooks · Third-party REST/SOAP integration |
-| **Data** | PostgreSQL · Supabase · MongoDB · Redis · ETL · Star Schema · Data Validation |
+| **Data Engineering** | ETL/ELT · Databricks · Apache Spark · PySpark · Delta Lake · Apache Airflow · Kafka · Lakehouse (Bronze/Silver/Gold) · Dimensional Modelling · Star Schema · Data Quality & Validation |
+| **BI & Analytics** | **Power BI** · **DAX** · **Power Query** · Tableau · Looker · Qlik Sense · KPI Design · Cohort & Retention Analysis · EDA · A/B Testing |
+| **Databases** | PostgreSQL · MySQL · Supabase · MongoDB · SQLite · Redis |
 | **Cloud & DevOps** | AWS *(EC2, S3, Lambda, IAM, KMS, RDS)* · Azure · Terraform · Docker · GitHub Actions · CI/CD · Nginx · Linux |
 | **Payments & Billing** | **Stripe** *(Subscriptions, Usage-Based Billing, Webhooks)* · **PayFast** · Payout & Issuer APIs · Webhook Reconciliation · Idempotency Control |
 | **Security** | JWT · OAuth2 · RBAC · HMAC-SHA256 · PBKDF2/BCrypt · POPIA-aware data handling |
@@ -244,7 +291,7 @@ Java · Spring Boot · C# · ASP.NET Core · Go · PHP · C++ · C · Kafka · R
 
 - 🚀 Running a **live agentic AI system in production** handling real enterprise traffic
 - 🔬 Building out **production ML serving** with MLflow tracking and drift monitoring
-- 💼 Open to **AI/LLM Engineering** · **ML Engineering** · **Automation & Integration Engineering** — *remote, relocation, contract or full-time*
+- 💼 Open to **Data Engineering** · **Data Analyst / Power BI** · **AI/LLM Engineering** · **ML Engineering** · **Automation & Integration Engineering** — *remote, relocation, contract or full-time*
 
 ***
 
