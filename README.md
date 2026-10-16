@@ -20,23 +20,23 @@
 
 ***
 
-I build **AI systems that actually run in production** — not demos, not notebooks. Systems that handle real traffic, fail safely, and leave an audit trail.
+I build **production systems that actually run** — full-stack applications, data platforms, ML models, BI dashboards and AI agents — not demos, not notebooks. Systems that handle real traffic, fail safely, and leave an audit trail.
 
 My work spans six connected areas:
 
-**📊 Data Engineering, Analytics & Power BI** — I build **ETL/ELT pipelines** and analytical data platforms in **Python and SQL**: **lakehouse** and warehouse design on **Databricks, Spark and Delta Lake** (Bronze/Silver/Gold layers), **Airflow** orchestration with retries, backfills and idempotent incremental loads, **Kafka** streaming, and data-quality checks with quarantine paths. On the analytics side I turn trusted datasets into **Power BI** reporting — **DAX, Power Query**, KPI design, cohort and retention analysis, and sales, financial and operations dashboards.
+**🌐 Full-Stack & Backend Engineering** — End-to-end web applications and SaaS platforms: **React, Next.js, Angular and TypeScript** frontends over **FastAPI, Django and Node.js/Express** backends. **PostgreSQL, Supabase and MongoDB** schema and query design, multi-tenancy, **JWT/RBAC** authentication, third-party REST/SOAP integration, HMAC-secured APIs, **payment integrations (Stripe, PayFast)** with webhook-driven reconciliation and idempotency control, background processing and real-time features, and **AWS** infrastructure provisioned with **Terraform** and shipped with **Docker and CI/CD**.
 
-**🤖 AI Agents & LLM Engineering** — I design agentic pipelines that classify, reason, and act: multi-agent panels with disagreement detection, **RAG** grounded in real knowledge bases, structured output contracts, tool calling, and prompt engineering built around **confidence floors** rather than blind trust. I work with **Claude and OpenAI APIs**, and fine-tune open models with **LoRA/QLoRA** on Hugging Face when an API call isn't the right answer.
+**📊 Data Engineering** — **ETL/ELT pipelines** and analytical data platforms in **Python and SQL**: lakehouse and warehouse design on **Databricks, Spark and Delta Lake** (Bronze/Silver/Gold layers), star-schema modelling, **Airflow** orchestration with retries, backfills and idempotent incremental loads, **Kafka** streaming, and data-quality checks with quarantine paths so bad records never reach reporting.
 
-**⚡ Workflow Automation** — I build large-scale **n8n** pipelines (40–113 nodes) that move work end to end: multi-source intake, parallel enrichment, deterministic pre-scoring that gates LLM spend, confidence-based routing, idempotent writes, and quarantine paths so nothing is ever silently dropped.
+**📈 Data Analytics & Power BI** — I turn trusted datasets into decisions: **Power BI, DAX and Power Query** reporting, KPI design, cohort, retention and funnel analysis, and sales, financial, customer and operations dashboards — plus the **SQL** and data modelling underneath them.
 
-**🧠 Machine Learning** — Classification, forecasting, recommendation and risk scoring with **scikit-learn, XGBoost, LightGBM and PyTorch** — with leakage-free feature engineering, threshold optimisation tied to business cost, **SHAP** explainability, and MLflow-tracked deployment rather than models that die in a notebook.
+**🧠 Machine Learning & Data Science** — Classification, forecasting, recommendation, churn and risk scoring with **scikit-learn, XGBoost, LightGBM and PyTorch** — with leakage-free feature engineering, statistical analysis and A/B testing, threshold optimisation tied to business cost, **SHAP** explainability, and **MLflow**-tracked deployment rather than models that die in a notebook.
 
-**🔧 Backend & Integration** — **Python** services in **FastAPI** and **Django**, plus **Node.js/Express**. PostgreSQL and Supabase schema and query design, ETL pipelines, third-party REST/SOAP integration, HMAC-secured APIs, atomic state machines, **payment integrations (Stripe, PayFast)** with webhook-driven reconciliation and idempotency control, and AWS infrastructure provisioned with **Terraform**.
+**🤖 AI Agents & LLM Engineering** — Agentic pipelines that classify, reason, and act: multi-agent panels with disagreement detection, **RAG** grounded in real knowledge bases, structured output contracts, tool calling, and prompt engineering built around **confidence floors** rather than blind trust. I work with **Claude and OpenAI APIs**, and fine-tune open models with **LoRA/QLoRA** on Hugging Face when an API call isn't the right answer.
 
-**🎨 Frontend** — **React** and **Next.js** with **TypeScript** and **Tailwind**. Operational dashboards, analytics interfaces with Chart.js and Recharts, and admin consoles over FastAPI services. I build the full path from model or pipeline through API to the screen someone actually uses.
+**⚡ Workflow Automation** — Large-scale **n8n** pipelines (40–113 nodes) that move work end to end: multi-source intake, parallel enrichment, deterministic pre-scoring that gates LLM spend, confidence-based routing, idempotent writes, and quarantine paths so nothing is ever silently dropped.
 
-The thread running through all of it is **safety engineering**: *idempotency, confidence gates, explicit autonomy boundaries, quarantine fallbacks, append-only audit rows, and human-in-the-loop escalation* — the things that decide whether an AI system survives contact with real users.
+The thread running through all of it is **reliability and safety engineering**: *idempotency, data-quality gates, confidence thresholds, explicit autonomy boundaries, quarantine fallbacks, append-only audit rows, and human-in-the-loop escalation* — the things that decide whether an application, a data pipeline, a dashboard or an AI system survives contact with real users.
 
 ***
 
