@@ -1,6 +1,8 @@
 <h1 align="center">Hi, I'm Brian Mahlatini 👋</h1>
 
-<h3 align="center">AI & ML Engineer &nbsp;·&nbsp; Data Scientist &nbsp;·&nbsp; Full-Stack Developer</h3>
+<h3 align="center">Artificial Intelligence Engineer &nbsp;·&nbsp; Machine Learning Engineer</h3>
+
+<h3 align="center">Data Scientist &nbsp;·&nbsp; Full-Stack Developer</h3>
 
 <h3 align="center">Data Engineer &nbsp;·&nbsp; Data Analyst &nbsp;·&nbsp; Power BI Developer</h3>
 
