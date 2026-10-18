@@ -181,9 +181,9 @@ Reporting views over fulfilment, inventory, supplier performance and service-lev
 
 ***
 
-## 🧠 Machine Learning & AI Projects
+## 🧠 Machine Learning, Data Science & AI Projects
 
-*Several of these ship as full-stack applications — FastAPI services with React dashboards over them — so the model or pipeline is reachable by a real user, not just a notebook.*
+*Data science and machine learning work — customer analytics and A/B testing, churn, fraud, forecasting and recommendation modelling, statistical analysis and explainability — alongside RAG and LLM systems. Several of these ship as full-stack applications — FastAPI services with React dashboards over them — so the model or pipeline is reachable by a real user, not just a notebook.*
 
 ### 🔸 [Fraud Detection System — Real-Time ML Risk Scoring](https://github.com/brianmahlatini/Fraud-Detection-System)
 **`Python`** **`LightGBM`** **`XGBoost`** **`SHAP`** **`FastAPI`** **`PostgreSQL`**
