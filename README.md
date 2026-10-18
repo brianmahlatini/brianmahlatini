@@ -143,6 +143,11 @@ Claims ingest with **automatic fault recovery** — failed records are quarantin
 > ***Design principles shared across all seven:***
 > *idempotency-first · parallel enrichment · rules before models with a measurable LLM cost gate · confidence floors · explicit autonomy boundaries · append-only audit rows · quarantine fallbacks · per-run metrics*
 
+### 🔹 [Incident Triage with Gemini](https://github.com/brianmahlatini/incident-triage-gemini)
+**`Python`** **`FastAPI`** **`React`** **`TypeScript`** **`Gemini (Vertex AI)`**
+
+Turns an unstructured operational incident report into a **validated, structured triage record** — category, summary, priority, recommended next action and an **explicit decision on whether a human must review it**. Gemini is measured against a keyword baseline, and a **deterministic offline provider** lets the whole system run with no credentials.
+
 ***
 
 ## 📊 Data Engineering, Analytics & BI Projects
@@ -220,11 +225,21 @@ End-to-end churn modelling with **leakage-aware feature engineering**, class-imb
 
 Time-series forecasting with **trend, seasonality and stationarity analysis**, strict **time-based train/test splitting** to prevent lookahead bias, and MAPE/MAE/RMSE evaluation.
 
+### 🔸 [AI Knowledge Base Platform](https://github.com/brianmahlatini/AI-Knowledge-Base-Platform)
+**`Next.js`** **`PostgreSQL`** **`pgvector`** **`Prisma`** **`OpenAI`**
+
+A Notion-plus-ChatGPT style workspace: rich-text documents, **embeddings with pgvector for semantic search**, document-aware **AI Q&A over a user's own content**, AI summaries, share links and version history on every save.
+
+### 🔸 [vecsearch — Vector Similarity Search Library](https://github.com/brianmahlatini/vecsearch)
+**`C++20`** **`AVX2/FMA`** **`IVF`** **`k-means`**
+
+Exact (flat) and approximate (**IVF**) k-nearest-neighbour search over float32 embeddings, with runtime-dispatched **AVX2/FMA kernels**, cache-tiled multithreaded batch search and zero-copy `mmap` index loading. On its 100k × 128-dimension benchmark, IVF reaches **recall@10 of 0.967 at about 50× the throughput of flat search** — the retrieval layer underneath RAG, built from first principles.
+
 ***
 
 ## 🌐 Full-Stack Applications
 
-*Six applications built end to end — Django and Node backends, React and Next.js frontends — covering multi-tenancy, authentication and RBAC, payments and billing, real-time messaging and background processing. Each ships with the infrastructure to run it, not just the code.*
+*Nine applications built end to end — Django, Node and ASP.NET Core backends, React, Next.js and Angular frontends — covering multi-tenancy, authentication and RBAC, payments and billing, real-time messaging and background processing. Each ships with the infrastructure to run it, not just the code.*
 
 ### 🔷 [Subscription Billing & Reconciliation Engine](https://github.com/brianmahlatini/Subscription-Billing-Reconciliation-Engine)
 **`Django REST Framework`** **`React`** **`PostgreSQL`** **`Docker`** — **42 tests**
@@ -255,6 +270,52 @@ Marketplace supporting **multi-vendor architecture** with vendor and customer wo
 **`React`** **`Node.js`** **`Socket.io`** **`MongoDB`** **`Redis`**
 
 Real-time messaging with channels, DMs, presence tracking and notifications. **Redis pub/sub WebSocket architecture** for multi-instance scaling, message persistence, S3 file uploads, and rate-limited APIs.
+
+### 🔷 [Enterprise AI CRM SaaS Platform](https://github.com/brianmahlatini/Enterprise-AI-CRM-SaaS-Platform)
+**`ASP.NET Core`** **`Angular`** **`PostgreSQL`** **`Redis`** **`RabbitMQ`** **`OpenAI`** **`Stripe`**
+
+Multi-tenant CRM SaaS inspired by Salesforce and HubSpot. **Clean Architecture with CQRS**, JWT and refresh tokens, RBAC policies, **AI-assisted CRM actions**, Stripe billing, SignalR real-time team updates, S3 uploads and Prometheus/Grafana metrics, with an Angular NgRx frontend.
+
+### 🔷 [AI Recruitment & ATS Platform](https://github.com/brianmahlatini/AI-Recruitment-ATS-Platform)
+**`ASP.NET Core`** **`React`** **`PostgreSQL`** **`Elasticsearch`** **`Redis`** **`RabbitMQ`** **`SignalR`**
+
+Applicant tracking system with separate **admin, employer and job-seeker** access paths, covering jobs, candidates, interviews, analytics and audit logs, with Hangfire background processing and **OpenAI-ready AI workflows**.
+
+### 🔷 [Enterprise Analytics Dashboard](https://github.com/brianmahlatini/Enterprise-Analytics-Dashboard)
+**`React`** **`TypeScript`** **`TanStack Query/Table`** **`Recharts`** **`Docker`**
+
+Data-heavy analytics UI in the style of Stripe and Datadog: a **10k-row virtualised table**, synchronised charts with drill-downs, date-range filters, CSV export, a drag-and-resize layout builder and live metric simulation.
+
+***
+
+## ☁️ Cloud, DevOps & Infrastructure
+
+*Infrastructure as code on both AWS and Azure, plus delivery pipelines and observability — each tested offline so the security properties are verified, not assumed.*
+
+### 🔺 [AWS Terraform Platform](https://github.com/brianmahlatini/aws-terraform-platform)
+**`Terraform`** **`AWS`** **`ECS Fargate`** **`ALB`** **`VPC`**
+
+Production-style AWS infrastructure: a **multi-AZ VPC** and a containerised service on **ECS Fargate behind an Application Load Balancer**, split into reusable modules with dev and prod environments, remote state with native S3 locking, and CI that tests every module offline with mocked providers.
+
+### 🔺 [Azure AKS Terraform](https://github.com/brianmahlatini/azure-aks-terraform)
+**`Terraform`** **`Azure`** **`AKS`** **`Entra ID`** **`Key Vault`**
+
+Hardened **Azure Kubernetes Service** platform: Entra ID-only cluster access with Azure RBAC, Azure CNI Overlay with Cilium network policy, **workload identity** for pods, ACR pulls through a managed identity, Key Vault via the Secrets Store CSI driver, and Container Insights.
+
+### 🔺 [Kubernetes GitOps Delivery Pipeline](https://github.com/brianmahlatini/k8s-gitops-app)
+**`Kubernetes`** **`Argo CD`** **`Kustomize`** **`GitHub Actions`** **`Trivy`**
+
+Container delivery from commit to cluster: a hardened non-root image that is **scanned, SBOM'd and signed (cosign)** in CI, end-to-end tested on a kind cluster, and released through **GitOps with Argo CD**.
+
+### 🔺 [Observability Stack](https://github.com/brianmahlatini/observability-stack)
+**`Prometheus`** **`Alertmanager`** **`Grafana`** **`promtool`**
+
+SRE-style monitoring with **SLO-based multi-window burn-rate alerting**, routing that separates pages from tickets, and Grafana dashboards provisioned as code. Every alert rule is **unit-tested** with promtool.
+
+### 🔺 [Cloud Ops Toolkit](https://github.com/brianmahlatini/cloud-ops-toolkit)
+**`Python`** **`boto3`** **`Bash`** **`AWS`**
+
+`cloud-janitor` finds unattached EBS volumes, stale snapshots, idle Elastic IPs and untagged instances ranked by estimated monthly cost, with safe cleanup; plus a **KMS-encrypted PostgreSQL backup to S3**. Tested against mocked AWS at 94% coverage.
 
 ***
 
