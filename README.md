@@ -152,27 +152,27 @@ Claims ingest with **automatic fault recovery** — failed records are quarantin
 ### 🔶 [Enterprise Lakehouse & Data Warehouse](https://github.com/brianmahlatini/Enterprise-Lakehouse-Data-Warehouse)
 **`Databricks`** **`Spark`** **`PySpark`** **`Delta Lake`** **`SQL`**
 
-Lakehouse platform organised into **Bronze, Silver and Gold layers** — raw ingestion, cleaned records and curated analytical datasets — using distributed processing and SQL transformations.
+Lakehouse platform organised into **Bronze, Silver and Gold layers** — raw ingestion, cleaned records and curated analytical datasets — using distributed processing and SQL transformations. Datasets are structured for reporting, consistency and reusable downstream business queries, with a focus on **data quality and maintainable warehouse architecture**.
 
 ### 🔶 [Automated ETL/ELT Orchestration & Data Quality Platform](https://github.com/brianmahlatini/Automated-ETL-ELT-Orchestration-Data-Quality-Platform)
 **`Airflow`** **`PostgreSQL`** **`FastAPI`** **`React`** **`Docker`**
 
-Scheduled **Airflow DAGs** with retries, backfills and failure callbacks; **watermark-based incremental loads with idempotent upserts**; data-quality checks and **rejected-record quarantine**; and a monitoring dashboard for pipeline health.
+Automated pipeline ingesting commerce events into PostgreSQL and transforming them into analytical tables. Scheduled **Airflow DAGs** with dependencies, retries, backfills, timeouts and failure callbacks; **watermark-based incremental loads with idempotent upserts**; data-quality checks for missing customer IDs, invalid order amounts, duplicates and freshness; **rejected-record quarantine** with pipeline-run metrics; a **FastAPI and React** monitoring dashboard for pipeline health; and Docker execution with **GitHub Actions** checks.
 
 ### 🔶 [Real-Time Streaming & Event Processing Platform](https://github.com/brianmahlatini/Real-Time-Streaming-Event-Processing-Platform)
 **`Kafka`** **`Spark Structured Streaming`** **`PostgreSQL`** **`Docker`**
 
-Near-real-time event ingestion and stream transformation with validation, duplicate handling, and monitoring of throughput, errors and data freshness.
+Near-real-time event ingestion and stream transformation with structured outputs for downstream consumers, event validation, duplicate handling and reliability controls, and monitoring of throughput, errors and data freshness. The architecture and its **streaming performance vs reliability trade-offs** are documented.
 
 ### 🔶 [Enterprise Sales & Financial Performance Intelligence](https://github.com/brianmahlatini/Enterprise-Sales-Financial-Performance-Intelligence)
 **`Power BI`** **`DAX`** **`Power Query`** **`SQL`** **`PostgreSQL`**
 
-Business intelligence solution for **sales, revenue, profitability and KPI analysis**, with consistent dimensions and interactive comparisons across business dimensions and time periods.
+Business intelligence solution for **sales, revenue, profitability and KPI analysis**, with consistent dimensions, SQL-prepared reporting datasets, and interactive Power BI visuals and performance indicators comparing results across business dimensions and time periods.
 
 ### 🔶 [Customer Retention & Revenue Intelligence](https://github.com/brianmahlatini/Customer-Retention-Revenue-Intelligence)
 **`Power BI`** **`DAX`** **`SQL`** **`Python`**
 
-Retention patterns, customer value and revenue performance — **customer segmentation and cohort analysis** to explain repeat-purchase behaviour.
+Retention patterns, customer value and revenue performance — **customer segmentation and cohort analysis** to explain repeat-purchase behaviour, with structured performance indicators for customer-focused reporting and decision-making.
 
 ### 🔶 [Operations & Supply Chain Analytics](https://github.com/brianmahlatini/Operations-Supply-Chain-Analytics)
 **`Power BI`** **`SQL`** **`PostgreSQL`** **`Power Query`**
@@ -188,17 +188,17 @@ Reporting views over fulfilment, inventory, supplier performance and service-lev
 ### 🔸 [Fraud Detection System — Real-Time ML Risk Scoring](https://github.com/brianmahlatini/Fraud-Detection-System)
 **`Python`** **`LightGBM`** **`XGBoost`** **`SHAP`** **`FastAPI`** **`PostgreSQL`**
 
-Millisecond transaction scoring. Logistic Regression, Random Forest, XGBoost and LightGBM compared on **PR-AUC — 0.871 best**, with **SHAP explainability** and Postgres-backed audit logging behind a production inference API.
+Millisecond transaction scoring. Logistic Regression, Random Forest, XGBoost and LightGBM compared on **PR-AUC — 0.871 best**, detecting **~93% of fraudulent transactions on unseen data**, with **SHAP explainability** and Postgres-backed audit logging behind a production inference API.
 
 ### 🔸 [Customer Analytics & A/B Testing Platform](https://github.com/brianmahlatini/Customer-Analytics-AB-Testing-Platform)
 **`Python`** **`scikit-learn`** **`FastAPI`** **`React`** **`Docker`**
 
-**RFM segmentation**, clustering, churn prediction, **CLV modelling**, cohort and funnel analysis, market basket analysis and **A/B testing** — with **leakage-free feature engineering** throughout.
+**RFM segmentation**, clustering, churn prediction, **CLV modelling**, cohort and funnel analysis, market basket analysis and **A/B testing** — with **leakage-free feature engineering** throughout, and predictive models exposed through FastAPI and React dashboards.
 
-### 🔸 [RAG Document Q&A Platform](https://github.com/brianmahlatini/RAG-PROJECT)
+### 🔸 [RAG Document Q&A Platform (Tesla ChatBot)](https://github.com/brianmahlatini/RAG-PROJECT)
 **`FastAPI`** **`OpenAI`** **`FAISS`** **`TF-IDF`** **`React`**
 
-Retrieval-augmented question answering over uploaded PDFs. **TF-IDF retrieval with optional FAISS acceleration**, plus auth, RBAC, audit logging and an admin analytics dashboard.
+Retrieval-augmented question answering over uploaded PDFs. **TF-IDF retrieval with optional FAISS acceleration**, with OpenAI generating context-aware answers from retrieved passages. Includes a **multilingual translation pipeline**, auth, RBAC, rate limiting, structured logging, audit logs, exports and an admin analytics dashboard.
 
 ### 🔸 [Recommendation Engine](https://github.com/brianmahlatini/Recommendation-Engine)
 **`Python`** **`Matrix Factorization`** **`Neural CF`** **`FastAPI`**
@@ -208,7 +208,7 @@ Collaborative filtering, **SVD**, **neural collaborative filtering** and popular
 ### 🔸 [End-to-End Data Warehouse & Analytics Platform](https://github.com/brianmahlatini/End-to-End-Data-Warehouse-Analytics-Platform)
 **`Python`** **`PostgreSQL`** **`SQLAlchemy`** **`FastAPI`** **`React`**
 
-ETL with validation and cleansing into a **star-schema warehouse**, reusable SQL analytics views powering **executive KPIs**, and a React BI dashboard over FastAPI.
+ETL with validation and cleansing into a **star-schema warehouse**, reusable SQL analytics views powering **executive KPIs**, and a React BI dashboard over FastAPI — covering revenue, profitability, customer growth, retention and product performance.
 
 ### 🔸 [Customer Churn Prediction Platform](https://github.com/brianmahlatini/Customer-Churn-Prediction-Platform)
 **`Python`** **`scikit-learn`** **`XGBoost`** **`FastAPI`**
@@ -239,22 +239,22 @@ Multi-tenant support triage where an LLM classifier acts only inside limits it c
 ### 🔷 [AI SaaS Automation Platform](https://github.com/brianmahlatini/AI-SAAS-AUTOMATION-PLATFORM)
 **`Next.js`** **`Node.js`** **`Redis`** **`BullMQ`** **`Stripe`** **`OpenAI`**
 
-AI-powered workflow automation with a **distributed execution engine**. Scalable background processing on **BullMQ** queues, real-time run tracking over **WebSockets**, token-based usage metering, and **Stripe subscription plus usage-based billing**.
+AI-powered workflow automation with a **distributed execution engine** and interfaces for configuring and running automated workflows. Scalable background processing on **BullMQ** queues, real-time run tracking over **WebSockets**, token-based usage metering, and **Stripe subscription plus usage-based billing**.
 
 ### 🔷 [Multi-Tenant SaaS Platform](https://github.com/brianmahlatini/SaaS-Multi-Tenant-Platform-Django-React-Stripe-RBAC-)
 **`Django`** **`PostgreSQL`** **`Redis`** **`Celery`** **`Stripe`**
 
-Multi-tenant backend with **organisation-level data isolation**, JWT auth and **RBAC**, Stripe subscription billing with webhook handling, API key management with usage tracking, and **Celery** for background processing.
+Multi-tenant Django and PostgreSQL backend with **organisation-level data isolation**, REST APIs, JWT auth and **RBAC**, Stripe subscription billing with webhook handling, API key management with usage tracking, and **Celery** for background processing.
 
 ### 🔷 [Multi-Vendor E-Commerce Marketplace](https://github.com/brianmahlatini/MULTI-VENDOR-E-COMMERCE-MARKETPLACE)
 **`React`** **`Node.js`** **`PostgreSQL`** **`Redis`** **`Stripe`**
 
-Marketplace supporting **multi-vendor architecture** — product catalogue, checkout flow, order management, **Stripe payments with webhook-driven transaction handling**, Redis caching, background jobs, and real-time order tracking.
+Marketplace supporting **multi-vendor architecture** with vendor and customer workflows — PostgreSQL data model for products, orders and transactions, product catalogue, checkout flow, order management, **Stripe payments with webhook-driven transaction handling**, Redis caching, background jobs, and real-time order tracking.
 
 ### 🔷 [Real-Time Collaboration Chat Platform](https://github.com/brianmahlatini/REAL-TIME-COLLABORATION-CHAT-PLATFORM)
 **`React`** **`Node.js`** **`Socket.io`** **`MongoDB`** **`Redis`**
 
-Real-time messaging with channels, DMs and presence tracking. **Redis pub/sub WebSocket architecture** for multi-instance scaling, message persistence, S3 file uploads, and rate-limited APIs.
+Real-time messaging with channels, DMs, presence tracking and notifications. **Redis pub/sub WebSocket architecture** for multi-instance scaling, message persistence, S3 file uploads, and rate-limited APIs.
 
 ***
 
