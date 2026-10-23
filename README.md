@@ -11,7 +11,7 @@
 <p align="center">
   <strong>Python</strong> · <strong>TypeScript</strong> · <strong>FastAPI</strong> · <strong>Django</strong> · <strong>Node.js</strong> · <strong>React</strong> · <strong>Next.js</strong> · <strong>Angular</strong>
   <br>
-  <strong>LLMs</strong> · <strong>RAG</strong> · <strong>AI Agents</strong> · <strong>Fine-Tuning (LoRA/QLoRA)</strong> · <strong>n8n</strong> · <strong>MLOps</strong> · <strong>AWS</strong> · <strong>Azure</strong>
+  <strong>LLMs</strong> · <strong>RAG</strong> · <strong>AI Agents</strong> · <strong>Fine-Tuning (LoRA/QLoRA · YOLO)</strong> · <strong>n8n</strong> · <strong>MLOps</strong> · <strong>AWS</strong> · <strong>Azure</strong>
   <br>
   <strong>SQL</strong> · <strong>Power BI</strong> · <strong>DAX</strong> · <strong>Power Query</strong> · <strong>Databricks</strong> · <strong>Spark</strong> · <strong>Airflow</strong> · <strong>Kafka</strong> · <strong>Delta Lake</strong> · <strong>ETL/ELT</strong>
 </p>
@@ -53,7 +53,7 @@ The thread running through all of it is **reliability and safety engineering**: 
 - **Trained, evaluated and deployed machine learning models** for classification, forecasting, recommendation and risk scoring using **scikit-learn, XGBoost and LightGBM** — with cross-validation, hyperparameter tuning, class-imbalance handling, and **data-leakage detection** built into every pipeline
 - Built **end-to-end ML pipelines** covering ingestion, preprocessing, **feature engineering**, training, validation, inference and serving — with shared feature code across train and serve to **eliminate train/serve skew**
 - Evaluated models on the metrics that match the decision, not just accuracy — **ROC-AUC, PR-AUC, precision/recall/F1, NDCG@K, MAPE/RMSE** — with **threshold optimisation tied to business cost** and **SHAP/LIME explainability** for stakeholder-facing decisions
-- Worked with **deep learning and model fine-tuning** — **PyTorch** training loops, CNNs and transfer learning, and **LoRA/QLoRA fine-tuning** of open models (Llama 3, BERT) via **Hugging Face** where a hosted API wasn't the right fit
+- Worked with **deep learning and model fine-tuning** — **PyTorch** training loops, CNNs and transfer learning, **YOLO fine-tuning** for object detection, and **LoRA/QLoRA fine-tuning** of open models (Llama 3, BERT) via **Hugging Face** where a hosted API wasn't the right fit
 - Applied **MLOps practice** — **MLflow** experiment tracking, model versioning and registry, drift detection, retraining pipelines, and containerised model deployment behind **FastAPI** inference endpoints
 - Designed **PostgreSQL/Supabase schemas**, ETL pipelines, and analytics views supporting operational reporting and executive dashboards
 - Developed **Python- and SQL-based data workflows** to ingest, transform, validate and organise structured data, with validation rules, data-quality checks, logging and error handling to improve reliability
@@ -324,7 +324,7 @@ SRE-style monitoring with **SLO-based multi-window burn-rate alerting**, routing
 | | |
 |---|---|
 | **Languages** | **Python** · **TypeScript** · **JavaScript** · **SQL** · Java · C# · Go · PHP |
-| **AI & LLM Systems** | RAG · AI Agents & Tool Calling · Prompt Engineering · Structured Output · Claude API · OpenAI API · LLMs · LangChain · MCP · Hugging Face · **LoRA/QLoRA Fine-Tuning** · Llama 3 · BERT · Vector Databases (Pinecone, FAISS) · Vector Embeddings · Semantic & Similarity Search · Information Retrieval · Document Chunking · Reranking · TF-IDF · AI Workflow Automation |
+| **AI & LLM Systems** | RAG · AI Agents & Tool Calling · Prompt Engineering · Structured Output · Claude API · OpenAI API · LLMs · LangChain · MCP · Hugging Face · **LoRA/QLoRA Fine-Tuning** · **YOLO Fine-Tuning (Object Detection)** · Llama 3 · BERT · Vector Databases (Pinecone, FAISS) · Vector Embeddings · Semantic & Similarity Search · Information Retrieval · Document Chunking · Reranking · TF-IDF · AI Workflow Automation |
 | **Machine Learning & Data Science** | scikit-learn · XGBoost · LightGBM · PyTorch · CNNs & Transfer Learning · Prophet · Pandas · NumPy · SciPy · imbalanced-learn · Classification · Regression · Time-Series Forecasting · Recommendation Systems (Collaborative Filtering, Matrix Factorization) · Churn & CLV Prediction · Customer Segmentation · K-Means Clustering · Gradient Boosting · Feature Engineering · Hyperparameter Optimisation · Imbalanced Data · Leakage Detection · Explainable AI (SHAP/LIME) |
 | **Model Evaluation** | ROC-AUC · PR-AUC · Precision/Recall/F1 · NDCG@K · Hit Rate · MAPE · MAE · RMSE · R² · Cross-Validation · Threshold Optimisation |
 | **MLOps** | MLflow · Experiment Tracking · Model Registry & Versioning · Model Deployment · Model Monitoring · Drift Detection · Retraining Pipelines · Train/Serve Skew Prevention |
