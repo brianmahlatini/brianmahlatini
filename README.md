@@ -188,7 +188,7 @@ Reporting views over fulfilment, inventory, supplier performance and service-lev
 
 ## 🧠 Machine Learning, Data Science & AI Projects
 
-*Data science and machine learning work — customer analytics and A/B testing, churn, fraud, forecasting and recommendation modelling, statistical analysis and explainability — alongside RAG and LLM systems. Several of these ship as full-stack applications — FastAPI services with React dashboards over them — so the model or pipeline is reachable by a real user, not just a notebook.*
+*Data science and machine learning work — customer analytics and A/B testing, churn, fraud, forecasting and recommendation modelling, NLP and computer vision (YOLO), statistical analysis, uplift modelling and explainability — alongside RAG and LLM systems. Several of these ship as full-stack applications — FastAPI services with React dashboards over them — so the model or pipeline is reachable by a real user, not just a notebook.*
 
 ### 🔸 [Fraud Detection System — Real-Time ML Risk Scoring](https://github.com/brianmahlatini/Fraud-Detection-System)
 **`Python`** **`LightGBM`** **`XGBoost`** **`SHAP`** **`FastAPI`** **`PostgreSQL`**
@@ -224,6 +224,51 @@ End-to-end churn modelling with **leakage-aware feature engineering**, class-imb
 **`Python`** **`Prophet`** **`Time Series`** **`FastAPI`**
 
 Time-series forecasting with **trend, seasonality and stationarity analysis**, strict **time-based train/test splitting** to prevent lookahead bias, and MAPE/MAE/RMSE evaluation.
+
+### 🔸 [Customer Analytics & A/B Testing Experimentation Platform](https://github.com/brianmahlatini/Customer-Analytics-A-B-Testing-Experimentation-Platform)
+**`Python`** **`Statistics`** **`Uplift Modelling`** **`FastAPI`** **`React`** **`PostgreSQL`**
+
+Decides whether a campaign or product change *actually* improves outcomes. **Power analysis** for sample size and duration, z-tests and Welch tests with 95% confidence intervals, **sample-ratio-mismatch detection** (chi-square), data-quality checks, guardrail metrics, and a **T-learner uplift model** with segment-level CATE ranking for targeting — ending in a clear launch recommendation on a React dashboard. Built on generated experiment data.
+
+### 🔸 [Retail Sales & Demand Forecasting Platform](https://github.com/brianmahlatini/Retail-Sales-Demand-Forecasting-Platform)
+**`Python`** **`SARIMA`** **`LightGBM`** **`FastAPI`** **`React`** **`Power BI`**
+
+Product-store demand forecasting that benchmarks a seasonal-naive baseline, **SARIMA**, Random Forest and **LightGBM** on a strict time-based split with lag and rolling features, adds **prediction intervals**, and converts forecasts into **inventory actions** (days of cover, stockout and overstock probability). Built on generated retail data.
+
+### 🔸 [Intelligent Fraud Detection & Risk Scoring System](https://github.com/brianmahlatini/Intelligent-Fraud-Detection-Risk-Scoring-System)
+**`Python`** **`XGBoost`** **`SHAP`** **`FastAPI`** **`React`** **`Docker`**
+
+Scores each transaction on a **0–1000 risk scale** with class-weighted training, Logistic Regression, Random Forest, Gradient Boosting and XGBoost compared, and **cost-aware threshold tuning** that weighs fraud loss against analyst review cost. SHAP explanations and a React monitoring dashboard support analyst investigation. Trained on a generated, heavily imbalanced dataset.
+
+### 🔸 [Customer Profitability, Churn & Retention Prediction](https://github.com/brianmahlatini/Customer-Profitability-Churn-Retention-Prediction)
+**`Python`** **`XGBoost`** **`SHAP`** **`FastAPI`** **`React`** **`Power BI`**
+
+Predicts 90-day churn, estimates **customer profitability** (revenue minus attributable cost) and segments customers by commercial value, with **probability calibration**, ROC-AUC, PR-AUC and Brier score. Reason codes explain churn drivers and retention work is **ranked by expected financial value**.
+
+### 🔸 [Customer Feedback Intelligence & Sentiment Analysis](https://github.com/brianmahlatini/Customer-Feedback-Intelligence-Sentiment-Analysis)
+**`Python`** **`NLP`** **`XGBoost`** **`TF-IDF`** **`Hugging Face`** **`FastAPI`** **`React`**
+
+NLP pipeline for reviews, tickets and surveys: TF-IDF + Logistic Regression baseline against Random Forest and **XGBoost sentiment classifiers**, a **complaint-category classifier**, an optional Hugging Face transformer comparison, and a Plotly dashboard that surfaces recurring complaints and the feedback that needs human review.
+
+### 🔸 [Sales Recommendation & Next-Best-Product Engine](https://github.com/brianmahlatini/Sales-Recommendation-Next-Best-Product-Engine)
+**`Python`** **`Gradient Boosting`** **`FastAPI`** **`React`**
+
+Recommends the next product to offer each customer by predicting **45-day purchase probability**, blended with similarity and business-value ranking signals. Evaluated with **Precision@K, Recall@K, NDCG@K**, ROC-AUC and average precision, and shown with expected business impact on a React dashboard.
+
+### 🔸 [YOLO-Based Retail Product Detection & Sales Forecasting](https://github.com/brianmahlatini/YOLO-Based-Retail-Product-Detection-Sales-Forecasting)
+**`Python`** **`YOLO`** **`Computer Vision`** **`scikit-learn`** **`FastAPI`** **`React`**
+
+**Computer vision meets demand planning:** a YOLO-format shelf-image dataset and product-detection service turn visible shelf counts into planning signals, feeding a separate supervised model (Random Forest vs Gradient Boosting, evaluated on MAE, RMSE and WAPE) that predicts next-period sales and potential stock shortages.
+
+### 🔸 [YOLO-Based Medical Image Abnormality Detection](https://github.com/brianmahlatini/YOLO-Based-Medical-Image-Abnormality-Detection)
+**`Python`** **`YOLO`** **`Ultralytics`** **`XGBoost`** **`FastAPI`** **`React`**
+
+Detects and **localises suspected abnormalities** in chest X-ray-like images: YOLO-format bounding-box annotations, an optional **Ultralytics YOLO training path**, a supervised classifier (Random Forest vs XGBoost), precision, recall, **mAP@50 and mAP@50-95** evaluation, and a React upload interface returning probabilities with boxes and confidence. Experimental research system on generated images — not a diagnostic tool.
+
+### 🔸 [Drug Recommendation & Treatment Decision Support System](https://github.com/brianmahlatini/Drug-Recommendation-Treatment-Decision-Support-System)
+**`Python`** **`FastAPI`** **`React`** **`XGBoost`** **`TF-IDF`** **`PostgreSQL`** **`Docker`**
+
+Clinical decision-support prototype that ranks candidate treatments for a patient profile using **TF-IDF and cosine-similarity matching**, rule alignment and outcome models (Random Forest, XGBoost), with **contraindication, allergy and drug-interaction checks** and a transparent explanation trail for every recommendation. Prototype on synthetic data, not a prescribing tool.
 
 ### 🔸 [AI Knowledge Base Platform](https://github.com/brianmahlatini/AI-Knowledge-Base-Platform)
 **`Next.js`** **`PostgreSQL`** **`pgvector`** **`Prisma`** **`OpenAI`**
@@ -325,7 +370,7 @@ SRE-style monitoring with **SLO-based multi-window burn-rate alerting**, routing
 |---|---|
 | **Languages** | **Python** · **TypeScript** · **JavaScript** · **SQL** · Java · C# · Go · PHP |
 | **AI & LLM Systems** | RAG · AI Agents & Tool Calling · Prompt Engineering · Structured Output · Claude API · OpenAI API · LLMs · LangChain · MCP · Hugging Face · **LoRA/QLoRA Fine-Tuning** · **YOLO Fine-Tuning (Object Detection)** · Llama 3 · BERT · Vector Databases (Pinecone, FAISS) · Vector Embeddings · Semantic & Similarity Search · Information Retrieval · Document Chunking · Reranking · TF-IDF · AI Workflow Automation |
-| **Machine Learning & Data Science** | scikit-learn · XGBoost · LightGBM · PyTorch · CNNs & Transfer Learning · Prophet · Pandas · NumPy · SciPy · imbalanced-learn · Classification · Regression · Time-Series Forecasting · Recommendation Systems (Collaborative Filtering, Matrix Factorization) · Churn & CLV Prediction · Customer Segmentation · K-Means Clustering · Gradient Boosting · Feature Engineering · Hyperparameter Optimisation · Imbalanced Data · Leakage Detection · Explainable AI (SHAP/LIME) |
+| **Machine Learning & Data Science** | scikit-learn · XGBoost · LightGBM · PyTorch · CNNs & Transfer Learning · Prophet · Pandas · NumPy · SciPy · imbalanced-learn · Classification · Regression · Time-Series Forecasting · Recommendation Systems (Collaborative Filtering, Matrix Factorization) · Churn & CLV Prediction · Customer Segmentation · K-Means Clustering · Gradient Boosting · Feature Engineering · Hyperparameter Optimisation · Imbalanced Data · Leakage Detection · Uplift Modelling & Causal Inference · Statistical Power Analysis · NLP & Sentiment Analysis · Computer Vision (YOLO Object Detection) · SARIMA · Explainable AI (SHAP/LIME) |
 | **Model Evaluation** | ROC-AUC · PR-AUC · Precision/Recall/F1 · NDCG@K · Hit Rate · MAPE · MAE · RMSE · R² · Cross-Validation · Threshold Optimisation |
 | **MLOps** | MLflow · Experiment Tracking · Model Registry & Versioning · Model Deployment · Model Monitoring · Drift Detection · Retraining Pipelines · Train/Serve Skew Prevention |
 | **Backend & APIs** | FastAPI · Django · Flask · **Node.js** · Express · REST · Microservices · SQLAlchemy · Pydantic · Prisma · Mongoose · Middleware & Request Validation · WebSockets (Socket.IO) · Redis Pub/Sub · Background Workers *(Celery, BullMQ)* · Task Queues & Scheduled Jobs |
