@@ -200,7 +200,7 @@ Millisecond transaction scoring. Logistic Regression, Random Forest, XGBoost and
 
 **RFM segmentation**, clustering, churn prediction, **CLV modelling**, cohort and funnel analysis, market basket analysis and **A/B testing** — with **leakage-free feature engineering** throughout, and predictive models exposed through FastAPI and React dashboards.
 
-### 🔸 [RAG Document Q&A Platform (Tesla ChatBot)](https://github.com/brianmahlatini/RAG-PROJECT)
+### 🔸 [RAG Document Q&A Platform (Tesla ChatBot)](https://github.com/brianmahlatini/RAG-Document-QA-Platform-Tesla-ChatBot)
 **`FastAPI`** **`OpenAI`** **`FAISS`** **`TF-IDF`** **`React`**
 
 Retrieval-augmented question answering over uploaded PDFs. **TF-IDF retrieval with optional FAISS acceleration**, with OpenAI generating context-aware answers from retrieved passages. Includes a **multilingual translation pipeline**, auth, RBAC, rate limiting, structured logging, audit logs, exports and an admin analytics dashboard.
