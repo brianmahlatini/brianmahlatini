@@ -168,6 +168,11 @@ Security-operations platform that scores events with **explainable rules plus an
 
 Support automation across text, voice recordings, screenshots and uploaded documents: transcription, **intent and sentiment detection**, account lookup, resolution recommendations and ticket creation, with a **human-handover policy**, conversation memory and an audit trail, plus a React case-triage console. Provider abstraction runs in mock mode or with OpenAI.
 
+### 🔹 [AI ModelOps & LLM Observability Platform](https://github.com/brianmahlatini/AI-ModelOps-and-LLM-Observability-Platform)
+**`Python`** **`FastAPI`** **`React`** **`PostgreSQL`** **`Prometheus`** **`Grafana`** **`OpenTelemetry`** **`Docker`**
+
+Operator dashboard ("Sentinel") for running AI applications in production: LLM **request tracing, token and cost accounting, latency (P95) and reliability metrics**, model and provider comparison, a **prompt-version registry**, quality and hallucination-risk signals, and **drift and threshold alerts** from consecutive 14-day windows. Exposes Prometheus metrics with a provisioned Grafana dashboard, optional OpenTelemetry/Langfuse-compatible export, tests and CI. Seeded with synthetic traces; the evaluator is a disclosed heuristic, not a production safety control.
+
 ***
 
 ## 📊 Data Engineering, Analytics & BI Projects
@@ -381,15 +386,6 @@ SRE-style monitoring with **SLO-based multi-window burn-rate alerting**, routing
 **`Python`** **`boto3`** **`Bash`** **`AWS`**
 
 `cloud-janitor` finds unattached EBS volumes, stale snapshots, idle Elastic IPs and untagged instances ranked by estimated monthly cost, with safe cleanup; plus a **KMS-encrypted PostgreSQL backup to S3**. Tested against mocked AWS at 94% coverage.
-
-***
-
-## 🚧 In Development
-
-### 🧩 AI ModelOps & LLM Observability Platform
-**`Python`** **`FastAPI`** **`MLflow`** **`Langfuse`** **`OpenTelemetry`** **`Prometheus`** **`Grafana`** **`Docker`**
-
-*Currently being built — repository to be linked here when released.* Monitoring for AI applications and ML models in production: LLM requests and responses, token use and cost, latency, hallucination and quality evaluation, drift, provider comparison, prompt-version regression tests and degradation alerts.
 
 ***
 
