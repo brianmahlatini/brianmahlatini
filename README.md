@@ -148,6 +148,26 @@ Claims ingest with **automatic fault recovery** — failed records are quarantin
 
 Turns an unstructured operational incident report into a **validated, structured triage record** — category, summary, priority, recommended next action and an **explicit decision on whether a human must review it**. Gemini is measured against a keyword baseline, and a **deterministic offline provider** lets the whole system run with no credentials.
 
+### 🔹 [Autonomous AI Data Engineer Agent](https://github.com/brianmahlatini/Autonomous-AI-Data-Engineer-Agent)
+**`Python`** **`FastAPI`** **`Agent Workflow`** **`Airflow`** **`Databricks`** **`PostgreSQL`** **`React`** **`Docker`**
+
+Observability and remediation for failed data pipelines. The agent monitors Airflow and Databricks jobs, diagnoses root causes from logs, proposes SQL or Python fixes, **validates every change before it runs**, retries only the failures that pass the gates, and **escalates high-risk incidents to a human engineer**. Handles late-arriving partitions, schema drift, null explosions and notebook failures, with a React triage dashboard. Runs against mock Airflow/Databricks connectors and synthetic incident data.
+
+### 🔹 [Multi-Agent Financial Intelligence Platform](https://github.com/brianmahlatini/Multi-Agent-Financial-Intelligence-Platform)
+**`Python`** **`FastAPI`** **`Agent Workflow`** **`Pandas`** **`PostgreSQL`** **`React`** **`TypeScript`** **`Plotly`**
+
+An AI analyst workspace where specialised agents handle research, data normalisation, ratio analysis, risk review and report writing. **Financial ratios and trends are calculated in Python, not guessed by the LLM**; reports carry **source citations**, multi-year historical comparisons, a JSONL audit log, and a **human approve/reject step** before anything is finalised.
+
+### 🔹 [AI Cybersecurity Threat Detection & Response Agent](https://github.com/brianmahlatini/AI-Cybersecurity-Threat-Detection-and-Response-Agent)
+**`Python`** **`FastAPI`** **`scikit-learn`** **`Isolation Forest`** **`React`** **`PostgreSQL`** **`Docker`**
+
+Security-operations platform that scores events with **explainable rules plus an Isolation Forest anomaly score**, correlates them into incidents by user and source IP, enriches them against a threat-intelligence IOC feed, and prepares response recommendations (deterministic by default, optional OpenAI assessment). **Containment is simulated and always requires human approval.** Built on synthetic security events with tests.
+
+### 🔹 [Multimodal AI Customer Support Agent](https://github.com/brianmahlatini/Multimodal-AI-Customer-Support-Agent)
+**`Python`** **`FastAPI`** **`Multimodal LLM`** **`Speech-to-Text`** **`PostgreSQL`** **`Redis`** **`React`** **`Docker`**
+
+Support automation across text, voice recordings, screenshots and uploaded documents: transcription, **intent and sentiment detection**, account lookup, resolution recommendations and ticket creation, with a **human-handover policy**, conversation memory and an audit trail, plus a React case-triage console. Provider abstraction runs in mock mode or with OpenAI.
+
 ***
 
 ## 📊 Data Engineering, Analytics & BI Projects
@@ -364,34 +384,12 @@ SRE-style monitoring with **SLO-based multi-window burn-rate alerting**, routing
 
 ***
 
-## 🚧 In Development — Next Agentic & AI Platform Builds
-
-*Five production-oriented systems currently being designed and built. They are **not released yet** — each will link to its repository here as it ships. Every one keeps the same safety principles as my existing work: human approval for consequential actions, audit logs, and measured evaluation.*
-
-### 🧩 Autonomous AI Data Engineer Agent
-**`Python`** **`FastAPI`** **`LangGraph`** **`Airflow`** **`Databricks`** **`PySpark`** **`PostgreSQL`** **`Great Expectations`** **`Claude/OpenAI`** **`Docker`** **`AWS`**
-
-An agent that watches data pipelines, detects failed Airflow and Databricks jobs, analyses error logs to find the root cause, proposes SQL or Python fixes, **runs validation tests before applying anything**, retries with controlled permissions, and escalates critical failures to a human engineer.
-
-### 🧩 Multi-Agent Financial Intelligence Platform
-**`Python`** **`FastAPI`** **`LangGraph`** **`PostgreSQL`** **`Pandas`** **`RAG`** **`Plotly`** **`Docker`**
-
-A team of specialised agents — research, data, analyst, risk and report — that turns company financial statements into executive reports. **Financial ratios and trends are calculated in Python, not guessed by the LLM**, with source citations, historical comparisons, human approval of reports and a full audit log.
-
-### 🧩 AI Cybersecurity Threat Detection & Response Agent
-**`Python`** **`FastAPI`** **`scikit-learn`** **`XGBoost`** **`SHAP`** **`LangGraph`** **`OpenSearch`** **`MITRE ATT&CK`**
-
-Ingests security logs, detects anomalies and classifies incidents with ML, then uses an LLM to investigate incident context, correlate events across systems, recommend containment actions and draft incident reports. **Any disruptive action requires human approval.**
-
-### 🧩 Multimodal AI Customer Support Agent
-**`Python`** **`FastAPI`** **`OpenAI multimodal`** **`Speech-to-Text`** **`LangGraph`** **`PostgreSQL`** **`Redis`** **`Next.js`** **`AWS S3`**
-
-A support agent that understands voice recordings, text, uploaded documents and screenshots: it transcribes, identifies intent and sentiment, retrieves answers, checks customer account data through APIs, creates tickets, and **hands difficult cases to a human agent** with the conversation context.
+## 🚧 In Development
 
 ### 🧩 AI ModelOps & LLM Observability Platform
 **`Python`** **`FastAPI`** **`MLflow`** **`Langfuse`** **`OpenTelemetry`** **`Prometheus`** **`Grafana`** **`Docker`**
 
-Monitors AI applications and ML models in production: LLM requests and responses, token use and cost, latency, hallucination and quality evaluation, accuracy and drift, provider comparison and prompt-version regression tests, with alerts when performance degrades.
+*Currently being built — repository to be linked here when released.* Monitoring for AI applications and ML models in production: LLM requests and responses, token use and cost, latency, hallucination and quality evaluation, drift, provider comparison, prompt-version regression tests and degradation alerts.
 
 ***
 
