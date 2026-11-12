@@ -364,6 +364,37 @@ SRE-style monitoring with **SLO-based multi-window burn-rate alerting**, routing
 
 ***
 
+## 🚧 In Development — Next Agentic & AI Platform Builds
+
+*Five production-oriented systems currently being designed and built. They are **not released yet** — each will link to its repository here as it ships. Every one keeps the same safety principles as my existing work: human approval for consequential actions, audit logs, and measured evaluation.*
+
+### 🧩 Autonomous AI Data Engineer Agent
+**`Python`** **`FastAPI`** **`LangGraph`** **`Airflow`** **`Databricks`** **`PySpark`** **`PostgreSQL`** **`Great Expectations`** **`Claude/OpenAI`** **`Docker`** **`AWS`**
+
+An agent that watches data pipelines, detects failed Airflow and Databricks jobs, analyses error logs to find the root cause, proposes SQL or Python fixes, **runs validation tests before applying anything**, retries with controlled permissions, and escalates critical failures to a human engineer.
+
+### 🧩 Multi-Agent Financial Intelligence Platform
+**`Python`** **`FastAPI`** **`LangGraph`** **`PostgreSQL`** **`Pandas`** **`RAG`** **`Plotly`** **`Docker`**
+
+A team of specialised agents — research, data, analyst, risk and report — that turns company financial statements into executive reports. **Financial ratios and trends are calculated in Python, not guessed by the LLM**, with source citations, historical comparisons, human approval of reports and a full audit log.
+
+### 🧩 AI Cybersecurity Threat Detection & Response Agent
+**`Python`** **`FastAPI`** **`scikit-learn`** **`XGBoost`** **`SHAP`** **`LangGraph`** **`OpenSearch`** **`MITRE ATT&CK`**
+
+Ingests security logs, detects anomalies and classifies incidents with ML, then uses an LLM to investigate incident context, correlate events across systems, recommend containment actions and draft incident reports. **Any disruptive action requires human approval.**
+
+### 🧩 Multimodal AI Customer Support Agent
+**`Python`** **`FastAPI`** **`OpenAI multimodal`** **`Speech-to-Text`** **`LangGraph`** **`PostgreSQL`** **`Redis`** **`Next.js`** **`AWS S3`**
+
+A support agent that understands voice recordings, text, uploaded documents and screenshots: it transcribes, identifies intent and sentiment, retrieves answers, checks customer account data through APIs, creates tickets, and **hands difficult cases to a human agent** with the conversation context.
+
+### 🧩 AI ModelOps & LLM Observability Platform
+**`Python`** **`FastAPI`** **`MLflow`** **`Langfuse`** **`OpenTelemetry`** **`Prometheus`** **`Grafana`** **`Docker`**
+
+Monitors AI applications and ML models in production: LLM requests and responses, token use and cost, latency, hallucination and quality evaluation, accuracy and drift, provider comparison and prompt-version regression tests, with alerts when performance degrades.
+
+***
+
 ## 🛠️ Tech Stack
 
 | | |
