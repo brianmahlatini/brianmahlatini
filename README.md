@@ -68,7 +68,7 @@ The thread running through all of it is **reliability and safety engineering**: 
 <br>
 
 ### **Artificial Intelligence Engineer**
-**KGA Life** · Contract · Stellenbosch, Western Cape, South Africa (On-site) · Remote-based project · *Jul 2025 – Sep 2026*
+**KGA Life** · Contract · Stellenbosch, Western Cape, South Africa · Remote-based project · *Jul 2025 – Sep 2026*
 
 - Designed and shipped **production AI systems for insurance operations** — agentic request classification, LLM answering layers grounded in **RAG** over policy documentation and live system-of-record APIs, and confidence-gated routing with explicit autonomy boundaries
 - Built **large-scale automation in n8n** (40–113 node pipelines): multi-source intake, parallel enrichment, deterministic pre-scoring that gates LLM spend, idempotent writes, quarantine paths and per-run metrics
