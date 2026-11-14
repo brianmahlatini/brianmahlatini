@@ -85,7 +85,7 @@ The thread running through all of it is **reliability and safety engineering**: 
 <br>
 
 ### **Software Engineer | ML & Data**
-**Wenzhou Hams Information Technology Company Limited** · Wenzhou, Zhejiang, China · *Feb 2021 – Jun 2024*
+**Wenzhou Hams Information Technology Company Limited** · Wenzhou, Zhejiang, China · *Oct 2021 – Jun 2024*
 
 - Built **backend services and REST APIs** using **Python** and **Node.js/Express** against PostgreSQL and MongoDB, serving internal business operations and client-facing applications
 - Designed **ETL workflows and integration services** covering ingestion, transformation, validation, persistence and reporting across multiple data sources
