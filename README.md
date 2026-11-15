@@ -45,7 +45,7 @@ The thread running through all of it is **reliability and safety engineering**: 
 ## 💼 Experience
 
 ### **Software Engineer | AI & Data**
-**Genius Humans** · Full-time · Cape Town, South Africa · *Jun 2024 – Present*
+**Genius Humans** · Full-time · Hybrid · Cape Town, South Africa · *Jun 2024 – Present*
 
 - Designed and shipped **production agentic AI systems** — multi-lane classification pipelines, LLM answering layers grounded in **RAG**, structured output contracts, tool calling, and confidence-gated routing with explicit autonomy boundaries
 - Built **large-scale workflow automation** in **n8n** (40–113 node pipelines): multi-source intake, parallel enrichment, deterministic pre-scoring that gates LLM spend, idempotent writes, quarantine paths, and per-run metrics
