@@ -1,10 +1,8 @@
 <h1 align="center">Hi, I'm Brian Mahlatini 👋</h1>
 
-<h3 align="center">Artificial Intelligence Engineer &nbsp;·&nbsp; Machine Learning Engineer</h3>
+<h3 align="center">Artificial Intelligence Engineer &nbsp;·&nbsp; Generative AI Engineer &nbsp;·&nbsp; Applied AI Engineer</h3>
 
-<h3 align="center">Data Scientist &nbsp;·&nbsp; Full-Stack Developer</h3>
-
-<h3 align="center">Data Engineer &nbsp;·&nbsp; Data Analyst &nbsp;·&nbsp; Power BI Developer</h3>
+<h3 align="center">Machine Learning Engineer &nbsp;·&nbsp; Data Scientist &nbsp;·&nbsp; Full-Stack Developer</h3>
 
 <p align="center"><em>Production LLM &amp; Agentic Systems</em></p>
 
@@ -12,8 +10,6 @@
   <strong>Python</strong> · <strong>TypeScript</strong> · <strong>FastAPI</strong> · <strong>Django</strong> · <strong>Node.js</strong> · <strong>React</strong> · <strong>Next.js</strong> · <strong>Angular</strong>
   <br>
   <strong>LLMs</strong> · <strong>RAG</strong> · <strong>AI Agents</strong> · <strong>Fine-Tuning (LoRA/QLoRA · YOLO)</strong> · <strong>n8n</strong> · <strong>MLOps</strong> · <strong>AWS</strong> · <strong>Azure</strong>
-  <br>
-  <strong>SQL</strong> · <strong>Power BI</strong> · <strong>DAX</strong> · <strong>Power Query</strong> · <strong>Databricks</strong> · <strong>Spark</strong> · <strong>Airflow</strong> · <strong>Kafka</strong> · <strong>Delta Lake</strong> · <strong>ETL/ELT</strong>
 </p>
 
 <p align="center">
@@ -24,13 +20,11 @@
 
 I build **production systems that actually run** — full-stack applications, data platforms, ML models, BI dashboards and AI agents — not demos, not notebooks. Systems that handle real traffic, fail safely, and leave an audit trail.
 
-My work spans six connected areas:
+My work spans five connected areas:
 
 **🌐 Full-Stack & Backend Engineering** — End-to-end web applications and SaaS platforms: **React, Next.js, Angular and TypeScript** frontends over **FastAPI, Django and Node.js/Express** backends. **PostgreSQL, Supabase and MongoDB** schema and query design, multi-tenancy, **JWT/RBAC** authentication, third-party REST/SOAP integration, HMAC-secured APIs, **payment integrations (Stripe, PayFast)** with webhook-driven reconciliation and idempotency control, background processing and real-time features, and **AWS** infrastructure provisioned with **Terraform** and shipped with **Docker and CI/CD**.
 
-**📊 Data Engineering** — **ETL/ELT pipelines** and analytical data platforms in **Python and SQL**: lakehouse and warehouse design on **Databricks, Spark and Delta Lake** (Bronze/Silver/Gold layers), star-schema modelling, **Airflow** orchestration with retries, backfills and idempotent incremental loads, **Kafka** streaming, and data-quality checks with quarantine paths so bad records never reach reporting.
-
-**📈 Data Analytics & Power BI** — I turn trusted datasets into decisions: **Power BI, DAX and Power Query** reporting, KPI design, cohort, retention and funnel analysis, and sales, financial, customer and operations dashboards — plus the **SQL** and data modelling underneath them.
+**📊 Data & Analytics** — **ETL pipelines** in **Python and SQL**, star-schema modelling, data-quality checks with quarantine paths so bad records never reach reporting, and **Power BI, DAX and Power Query** reporting — KPI design, cohort, retention and funnel analysis, and sales, financial, customer and operations dashboards.
 
 **🧠 Machine Learning & Data Science** — Classification, forecasting, recommendation, churn and risk scoring with **scikit-learn, XGBoost, LightGBM and PyTorch** — with leakage-free feature engineering, statistical analysis and A/B testing, threshold optimisation tied to business cost, **SHAP** explainability, and **MLflow**-tracked deployment rather than models that die in a notebook.
 
@@ -175,24 +169,9 @@ Operator dashboard ("Sentinel") for running AI applications in production: LLM *
 
 ***
 
-## 📊 Data Engineering, Analytics & BI Projects
+## 📊 Data Analytics & BI Projects
 
-*Pipelines, lakehouse and streaming platforms, plus Power BI reporting solutions built on trusted, validated datasets.*
-
-### 🔶 [Enterprise Lakehouse & Data Warehouse](https://github.com/brianmahlatini/Enterprise-Lakehouse-Data-Warehouse)
-**`Databricks`** **`Spark`** **`PySpark`** **`Delta Lake`** **`SQL`**
-
-Lakehouse platform organised into **Bronze, Silver and Gold layers** — raw ingestion, cleaned records and curated analytical datasets — using distributed processing and SQL transformations. Datasets are structured for reporting, consistency and reusable downstream business queries, with a focus on **data quality and maintainable warehouse architecture**.
-
-### 🔶 [Automated ETL/ELT Orchestration & Data Quality Platform](https://github.com/brianmahlatini/Automated-ETL-ELT-Orchestration-Data-Quality-Platform)
-**`Airflow`** **`PostgreSQL`** **`FastAPI`** **`React`** **`Docker`**
-
-Automated pipeline ingesting commerce events into PostgreSQL and transforming them into analytical tables. Scheduled **Airflow DAGs** with dependencies, retries, backfills, timeouts and failure callbacks; **watermark-based incremental loads with idempotent upserts**; data-quality checks for missing customer IDs, invalid order amounts, duplicates and freshness; **rejected-record quarantine** with pipeline-run metrics; a **FastAPI and React** monitoring dashboard for pipeline health; and Docker execution with **GitHub Actions** checks.
-
-### 🔶 [Real-Time Streaming & Event Processing Platform](https://github.com/brianmahlatini/Real-Time-Streaming-Event-Processing-Platform)
-**`Kafka`** **`Spark Structured Streaming`** **`PostgreSQL`** **`Docker`**
-
-Near-real-time event ingestion and stream transformation with structured outputs for downstream consumers, event validation, duplicate handling and reliability controls, and monitoring of throughput, errors and data freshness. The architecture and its **streaming performance vs reliability trade-offs** are documented.
+*Power BI reporting solutions built on trusted, validated datasets.*
 
 ### 🔶 [Enterprise Sales & Financial Performance Intelligence](https://github.com/brianmahlatini/Enterprise-Sales-Financial-Performance-Intelligence)
 **`Power BI`** **`DAX`** **`Power Query`** **`SQL`** **`PostgreSQL`**
@@ -400,7 +379,7 @@ SRE-style monitoring with **SLO-based multi-window burn-rate alerting**, routing
 | **MLOps** | MLflow · Experiment Tracking · Model Registry & Versioning · Model Deployment · Model Monitoring · Drift Detection · Retraining Pipelines · Train/Serve Skew Prevention |
 | **Backend & APIs** | FastAPI · Django · Flask · **Node.js** · Express · REST · Microservices · SQLAlchemy · Pydantic · Prisma · Mongoose · Middleware & Request Validation · WebSockets (Socket.IO) · Redis Pub/Sub · Background Workers *(Celery, BullMQ)* · Task Queues & Scheduled Jobs |
 | **Automation & Integration** | **n8n** · AI Workflow Automation · Microsoft Graph · Freshdesk · Payment gateways · Pay@ & BillPay integrations · Webhooks · Third-party REST/SOAP integration · API Management |
-| **Data Engineering** | ETL/ELT · Databricks · Apache Spark · PySpark · Spark SQL · Spark Structured Streaming · Delta Lake · Snowflake · Microsoft Fabric · Apache Airflow *(DAGs, retries, backfills)* · Kafka · Lakehouse (Bronze/Silver/Gold) · Dimensional Modelling · Star Schema · Data Marts · Analytical SQL Views · Incremental Loading & Idempotent Upserts · Deduplication · Data Lineage · Pipeline Monitoring · Data Quality & Validation |
+| **Data Processing** | ETL · Data Validation & Cleaning · Star Schema · Analytical SQL Views · Incremental Loading & Idempotent Upserts · Deduplication · Data Quality |
 | **BI & Analytics** | **Power BI** · **DAX** · **Power Query** · Tableau · Looker · Qlik Sense · Data Visualisation · KPI Design · Sales & Financial Reporting · Cohort, Retention & Funnel Analysis · RFM & Market Basket Analysis · Statistical Analysis · Hypothesis Testing · A/B Testing · Trend & Root-Cause Analysis · EDA |
 | **Databases** | PostgreSQL · MySQL · Supabase · MongoDB · SQLite · Redis · Pinecone *(vector)* · Schema Design · Indexing · Query Optimisation · Migrations |
 | **Cloud Platforms: AWS & Microsoft Azure** | **AWS:** EC2 · S3 · Lambda · RDS · IAM · CloudWatch · API Gateway · KMS · CloudFront · Elastic Beanstalk <br> **Microsoft Azure (equivalents):** Azure Virtual Machines · Azure Blob Storage · Azure Functions · Azure SQL Database · Azure Database for PostgreSQL · Microsoft Entra ID · Azure Role-Based Access Control (Azure RBAC) · Azure Monitor · Log Analytics · Azure API Management <br> **Cloud Concepts:** Virtual Servers · Object Storage · Serverless Computing · Managed Relational Databases · Identity & Access Management · Logging & Monitoring · API Management |
@@ -412,7 +391,7 @@ SRE-style monitoring with **SLO-based multi-window burn-rate alerting**, routing
 | **Frontend** | React · Next.js · **Angular** · TypeScript · HTML5 · CSS3 · Tailwind CSS · Vite · Chart.js · Recharts · Responsive Design · State Management |
 
 **Secondary stack** — not my day-to-day focus, but I've built with these and am comfortable picking them up on a project:
-Java · Spring Boot · C# · ASP.NET Core · Go · PHP · C++ · C · Kafka · RabbitMQ · SignalR · Elasticsearch · Azure
+Java · Spring Boot · C# · ASP.NET Core · Go · PHP · C++ · C · RabbitMQ · SignalR · Elasticsearch · Azure
 
 ***
 
@@ -427,7 +406,7 @@ Java · Spring Boot · C# · ASP.NET Core · Go · PHP · C++ · C · Kafka · R
 
 - 🚀 Running a **live agentic AI system in production** handling real enterprise traffic
 - 🔬 Building out **production ML serving** with MLflow tracking and drift monitoring
-- 💼 Open to **Data Engineering** · **Data Analyst / Power BI** · **AI/LLM Engineering** · **ML Engineering** · **Automation & Integration Engineering** — *remote, relocation, contract or full-time*
+- 💼 Open to **AI / LLM Engineering** · **Generative & Applied AI** · **ML Engineering** · **Data Science** · **Full-Stack Engineering** · **Automation & Integration Engineering** — *remote, relocation, contract or full-time*
 
 ***
 
