@@ -2,12 +2,12 @@
 
 <h3 align="center">Artificial Intelligence Engineer &nbsp;·&nbsp; Generative AI Engineer &nbsp;·&nbsp; Applied AI Engineer</h3>
 
-<h3 align="center">Machine Learning Engineer &nbsp;·&nbsp; Data Scientist &nbsp;·&nbsp; Full-Stack Developer</h3>
+<h3 align="center">Machine Learning Engineer &nbsp;·&nbsp; Data Scientist</h3>
 
 <p align="center"><em>Production LLM &amp; Agentic Systems</em></p>
 
 <p align="center">
-  <strong>Python</strong> · <strong>TypeScript</strong> · <strong>FastAPI</strong> · <strong>Django</strong> · <strong>Node.js</strong> · <strong>React</strong> · <strong>Next.js</strong> · <strong>Angular</strong>
+  <strong>Python</strong> · <strong>PyTorch</strong> · <strong>scikit-learn</strong> · <strong>XGBoost</strong> · <strong>LightGBM</strong> · <strong>FastAPI</strong> · <strong>SQL</strong>
   <br>
   <strong>LLMs</strong> · <strong>RAG</strong> · <strong>AI Agents</strong> · <strong>Fine-Tuning (LoRA/QLoRA · YOLO)</strong> · <strong>n8n</strong> · <strong>MLOps</strong> · <strong>AWS</strong> · <strong>Azure</strong>
 </p>
@@ -18,13 +18,9 @@
 
 ***
 
-I build **production systems that actually run** — full-stack applications, data platforms, ML models, BI dashboards and AI agents — not demos, not notebooks. Systems that handle real traffic, fail safely, and leave an audit trail.
+I build **production systems that actually run** — generative AI systems, ML models and AI agents — not demos, not notebooks. Systems that handle real traffic, fail safely, and leave an audit trail.
 
-My work spans five connected areas:
-
-**🌐 Full-Stack & Backend Engineering** — End-to-end web applications and SaaS platforms: **React, Next.js, Angular and TypeScript** frontends over **FastAPI, Django and Node.js/Express** backends. **PostgreSQL, Supabase and MongoDB** schema and query design, multi-tenancy, **JWT/RBAC** authentication, third-party REST/SOAP integration, HMAC-secured APIs, **payment integrations (Stripe, PayFast)** with webhook-driven reconciliation and idempotency control, background processing and real-time features, and **AWS** infrastructure provisioned with **Terraform** and shipped with **Docker and CI/CD**.
-
-**📊 Data & Analytics** — **ETL pipelines** in **Python and SQL**, star-schema modelling, data-quality checks with quarantine paths so bad records never reach reporting, and **Power BI, DAX and Power Query** reporting — KPI design, cohort, retention and funnel analysis, and sales, financial, customer and operations dashboards.
+My work spans three connected areas:
 
 **🧠 Machine Learning & Data Science** — Classification, forecasting, recommendation, churn and risk scoring with **scikit-learn, XGBoost, LightGBM and PyTorch** — with leakage-free feature engineering, statistical analysis and A/B testing, threshold optimisation tied to business cost, **SHAP** explainability, and **MLflow**-tracked deployment rather than models that die in a notebook.
 
@@ -43,21 +39,13 @@ The thread running through all of it is **reliability and safety engineering**: 
 
 - Designed and shipped **production agentic AI systems** — multi-lane classification pipelines, LLM answering layers grounded in **RAG**, structured output contracts, tool calling, and confidence-gated routing with explicit autonomy boundaries
 - Built **large-scale workflow automation** in **n8n** (40–113 node pipelines): multi-source intake, parallel enrichment, deterministic pre-scoring that gates LLM spend, idempotent writes, quarantine paths, and per-run metrics
-- Developed **backend services and REST APIs** in **Python/FastAPI** and **Node.js** — Pydantic validation, HMAC-secured endpoints, atomic state machines, structured logging, and full test suites
 - **Trained, evaluated and deployed machine learning models** for classification, forecasting, recommendation and risk scoring using **scikit-learn, XGBoost and LightGBM** — with cross-validation, hyperparameter tuning, class-imbalance handling, and **data-leakage detection** built into every pipeline
 - Built **end-to-end ML pipelines** covering ingestion, preprocessing, **feature engineering**, training, validation, inference and serving — with shared feature code across train and serve to **eliminate train/serve skew**
 - Evaluated models on the metrics that match the decision, not just accuracy — **ROC-AUC, PR-AUC, precision/recall/F1, NDCG@K, MAPE/RMSE** — with **threshold optimisation tied to business cost** and **SHAP/LIME explainability** for stakeholder-facing decisions
 - Worked with **deep learning and model fine-tuning** — **PyTorch** training loops, CNNs and transfer learning, **YOLO fine-tuning** for object detection, and **LoRA/QLoRA fine-tuning** of open models (Llama 3, BERT) via **Hugging Face** where a hosted API wasn't the right fit
 - Applied **MLOps practice** — **MLflow** experiment tracking, model versioning and registry, drift detection, retraining pipelines, and containerised model deployment behind **FastAPI** inference endpoints
-- Designed **PostgreSQL/Supabase schemas**, ETL pipelines, and analytics views supporting operational reporting and executive dashboards
-- Developed **Python- and SQL-based data workflows** to ingest, transform, validate and organise structured data, with validation rules, data-quality checks, logging and error handling to improve reliability
-- Prepared datasets and reusable transformations for **reporting, KPI analysis and business intelligence** — Power BI, DAX and Power Query — and analysed operational metrics to investigate anomalies
-- Built **payment and billing integrations** — **Stripe** subscriptions, usage-based billing and webhook handling, **PayFast** for the South African market, plus issuer-side payout APIs with HMAC verification, atomic state transitions and idempotency guards against double-payment
-- Integrated **third-party REST and SOAP systems** — Microsoft Graph, helpdesk platforms, payment gateways, identity verification and banking validation services
-- Provisioned and secured **AWS infrastructure with Terraform** — S3 with KMS encryption and versioning, least-privilege IAM, Lambda, and Docker-based deployment
-- Built **React/Next.js frontends** and internal dashboards over FastAPI services for operational visibility
 
-> `Python` · `SQL` · `FastAPI` · `Node.js` · `n8n` · `Claude/OpenAI APIs` · `scikit-learn` · `PostgreSQL/Supabase` · `Power BI` · `AWS (S3, Lambda, IAM, KMS)` · `Terraform` · `React` · `Docker`
+> `Python` · `SQL` · `FastAPI` · `n8n` · `Claude/OpenAI APIs` · `scikit-learn` · `XGBoost` · `PyTorch` · `MLflow` · `PostgreSQL/Supabase` · `AWS` · `Docker`
 
 <br>
 
@@ -68,13 +56,9 @@ The thread running through all of it is **reliability and safety engineering**: 
 - Built **large-scale automation in n8n** (40–113 node pipelines): multi-source intake, parallel enrichment, deterministic pre-scoring that gates LLM spend, idempotent writes, quarantine paths and per-run metrics
 - Developed **machine learning models for insurance prediction** — risk scoring, lapse and churn prediction, and classification using **scikit-learn, XGBoost and LightGBM**, with leakage-free feature engineering, threshold optimisation tied to business cost and **SHAP** explainability
 - Automated **claims processing end to end** across multiple claim types, integrating policy administration, identity verification, bank-account validation and batch payment systems
-- Built **backend services and APIs** in **Python/FastAPI** — Pydantic validation, HMAC-secured endpoints, atomic state machines, structured logging and full test coverage
-- Provisioned and secured **AWS infrastructure with Terraform** — S3 with KMS encryption and versioning, least-privilege IAM, Lambda, and Docker-based deployment
-- Designed **PostgreSQL and Supabase schemas**, ETL pipelines and analytics views supporting operational reporting and executive dashboards
-- Integrated **third-party systems over REST and SOAP** — Microsoft Graph, helpdesk platforms, payment gateways and verification services
 - Contributed to a **claims portal** built with FastAPI, React, Supabase, AWS S3 and AI-powered document processing, and supported insurance and payment-related integrations including Pay@ and BillPay workflows
 
-> `Python` · `FastAPI` · `n8n` · `Claude/OpenAI APIs` · `scikit-learn` · `XGBoost` · `PostgreSQL/Supabase` · `AWS (S3, Lambda, IAM, KMS)` · `Terraform` · `Docker`
+> `Python` · `FastAPI` · `n8n` · `Claude/OpenAI APIs` · `scikit-learn` · `XGBoost` · `PostgreSQL/Supabase` · `AWS` · `Docker`
 
 <br>
 
@@ -142,11 +126,6 @@ Claims ingest with **automatic fault recovery** — failed records are quarantin
 
 Turns an unstructured operational incident report into a **validated, structured triage record** — category, summary, priority, recommended next action and an **explicit decision on whether a human must review it**. Gemini is measured against a keyword baseline, and a **deterministic offline provider** lets the whole system run with no credentials.
 
-### 🔹 [Autonomous AI Data Engineer Agent](https://github.com/brianmahlatini/Autonomous-AI-Data-Engineer-Agent)
-**`Python`** **`FastAPI`** **`Agent Workflow`** **`Airflow`** **`Databricks`** **`PostgreSQL`** **`React`** **`Docker`**
-
-Observability and remediation for failed data pipelines. The agent monitors Airflow and Databricks jobs, diagnoses root causes from logs, proposes SQL or Python fixes, **validates every change before it runs**, retries only the failures that pass the gates, and **escalates high-risk incidents to a human engineer**. Handles late-arriving partitions, schema drift, null explosions and notebook failures, with a React triage dashboard. Runs against mock Airflow/Databricks connectors and synthetic incident data.
-
 ### 🔹 [Multi-Agent Financial Intelligence Platform](https://github.com/brianmahlatini/Multi-Agent-Financial-Intelligence-Platform)
 **`Python`** **`FastAPI`** **`Agent Workflow`** **`Pandas`** **`PostgreSQL`** **`React`** **`TypeScript`** **`Plotly`**
 
@@ -167,26 +146,15 @@ Support automation across text, voice recordings, screenshots and uploaded docum
 
 Operator dashboard ("Sentinel") for running AI applications in production: LLM **request tracing, token and cost accounting, latency (P95) and reliability metrics**, model and provider comparison, a **prompt-version registry**, quality and hallucination-risk signals, and **drift and threshold alerts** from consecutive 14-day windows. Exposes Prometheus metrics with a provisioned Grafana dashboard, optional OpenTelemetry/Langfuse-compatible export, tests and CI. Seeded with synthetic traces; the evaluator is a disclosed heuristic, not a production safety control.
 
-***
+### 🔹 [AI Triage Console](https://github.com/brianmahlatini/AI-Triage-Console)
+**`Django REST Framework`** **`React`** **`PostgreSQL`** **`Docker`** — **27 tests**
 
-## 📊 Data Analytics & BI Projects
+Multi-tenant support triage where an LLM classifier acts only inside limits it cannot exceed. Five ordered **autonomy rules** in one enforcement point, **idempotent intake** enforced by a database constraint, **rules-before-models** pre-scoring that skipped inference on 7 of 10 tickets, and an **append-only audit trail** with no update or delete path.
 
-*Power BI reporting solutions built on trusted, validated datasets.*
+### 🔹 [AI SaaS Automation Platform](https://github.com/brianmahlatini/AI-SAAS-AUTOMATION-PLATFORM)
+**`Next.js`** **`Node.js`** **`Redis`** **`BullMQ`** **`Stripe`** **`OpenAI`**
 
-### 🔶 [Enterprise Sales & Financial Performance Intelligence](https://github.com/brianmahlatini/Enterprise-Sales-Financial-Performance-Intelligence)
-**`Power BI`** **`DAX`** **`Power Query`** **`SQL`** **`PostgreSQL`**
-
-Business intelligence solution for **sales, revenue, profitability and KPI analysis**, with consistent dimensions, SQL-prepared reporting datasets, and interactive Power BI visuals and performance indicators comparing results across business dimensions and time periods.
-
-### 🔶 [Customer Retention & Revenue Intelligence](https://github.com/brianmahlatini/Customer-Retention-Revenue-Intelligence)
-**`Power BI`** **`DAX`** **`SQL`** **`Python`**
-
-Retention patterns, customer value and revenue performance — **customer segmentation and cohort analysis** to explain repeat-purchase behaviour, with structured performance indicators for customer-focused reporting and decision-making.
-
-### 🔶 [Operations & Supply Chain Analytics](https://github.com/brianmahlatini/Operations-Supply-Chain-Analytics)
-**`Power BI`** **`SQL`** **`PostgreSQL`** **`Power Query`**
-
-Reporting views over fulfilment, inventory, supplier performance and service-level indicators, built to surface operational bottlenecks and exceptions.
+AI-powered workflow automation with a **distributed execution engine** and interfaces for configuring and running automated workflows. Scalable background processing on **BullMQ** queues, real-time run tracking over **WebSockets**, token-based usage metering, and **Stripe subscription plus usage-based billing**.
 
 ***
 
@@ -214,11 +182,6 @@ Retrieval-augmented question answering over uploaded PDFs. **TF-IDF retrieval wi
 
 Collaborative filtering, **SVD**, **neural collaborative filtering** and popularity baselines — evaluated with **Leave-One-Out validation, Hit Rate, Precision@K, NDCG@K** and catalogue coverage. Shared feature pipelines **eliminate train/serve skew**.
 
-### 🔸 [End-to-End Data Warehouse & Analytics Platform](https://github.com/brianmahlatini/End-to-End-Data-Warehouse-Analytics-Platform)
-**`Python`** **`PostgreSQL`** **`SQLAlchemy`** **`FastAPI`** **`React`**
-
-ETL with validation and cleansing into a **star-schema warehouse**, reusable SQL analytics views powering **executive KPIs**, and a React BI dashboard over FastAPI — covering revenue, profitability, customer growth, retention and product performance.
-
 ### 🔸 [Customer Churn Prediction Platform](https://github.com/brianmahlatini/Customer-Churn-Prediction-Platform)
 **`Python`** **`scikit-learn`** **`XGBoost`** **`FastAPI`**
 
@@ -235,7 +198,7 @@ Time-series forecasting with **trend, seasonality and stationarity analysis**, s
 Decides whether a campaign or product change *actually* improves outcomes. **Power analysis** for sample size and duration, z-tests and Welch tests with 95% confidence intervals, **sample-ratio-mismatch detection** (chi-square), data-quality checks, guardrail metrics, and a **T-learner uplift model** with segment-level CATE ranking for targeting — ending in a clear launch recommendation on a React dashboard. Built on generated experiment data.
 
 ### 🔸 [Retail Sales & Demand Forecasting Platform](https://github.com/brianmahlatini/Retail-Sales-Demand-Forecasting-Platform)
-**`Python`** **`SARIMA`** **`LightGBM`** **`FastAPI`** **`React`** **`Power BI`**
+**`Python`** **`SARIMA`** **`LightGBM`** **`FastAPI`** **`React`**
 
 Product-store demand forecasting that benchmarks a seasonal-naive baseline, **SARIMA**, Random Forest and **LightGBM** on a strict time-based split with lag and rolling features, adds **prediction intervals**, and converts forecasts into **inventory actions** (days of cover, stockout and overstock probability). Built on generated retail data.
 
@@ -245,7 +208,7 @@ Product-store demand forecasting that benchmarks a seasonal-naive baseline, **SA
 Scores each transaction on a **0–1000 risk scale** with class-weighted training, Logistic Regression, Random Forest, Gradient Boosting and XGBoost compared, and **cost-aware threshold tuning** that weighs fraud loss against analyst review cost. SHAP explanations and a React monitoring dashboard support analyst investigation. Trained on a generated, heavily imbalanced dataset.
 
 ### 🔸 [Customer Profitability, Churn & Retention Prediction](https://github.com/brianmahlatini/Customer-Profitability-Churn-Retention-Prediction)
-**`Python`** **`XGBoost`** **`SHAP`** **`FastAPI`** **`React`** **`Power BI`**
+**`Python`** **`XGBoost`** **`SHAP`** **`FastAPI`** **`React`**
 
 Predicts 90-day churn, estimates **customer profitability** (revenue minus attributable cost) and segments customers by commercial value, with **probability calibration**, ROC-AUC, PR-AUC and Brier score. Reason codes explain churn drivers and retention work is **ranked by expected financial value**.
 
@@ -286,109 +249,19 @@ Exact (flat) and approximate (**IVF**) k-nearest-neighbour search over float32 e
 
 ***
 
-## 🌐 Full-Stack Applications
-
-*Nine applications built end to end — Django, Node and ASP.NET Core backends, React, Next.js and Angular frontends — covering multi-tenancy, authentication and RBAC, payments and billing, real-time messaging and background processing. Each ships with the infrastructure to run it, not just the code.*
-
-### 🔷 [Subscription Billing & Reconciliation Engine](https://github.com/brianmahlatini/Subscription-Billing-Reconciliation-Engine)
-**`Django REST Framework`** **`React`** **`PostgreSQL`** **`Docker`** — **42 tests**
-
-Billing built for providers that redeliver webhooks and disagree with your ledger. **Integer money** throughout with half-up rounding, **three idempotency guards** (HMAC replay window, event uniqueness, payment uniqueness), an **immutable double-entry ledger** where corrections are reversing pairs, and **bidirectional settlement reconciliation** that parks every discrepancy instead of auto-correcting it.
-
-### 🔷 [AI Triage Console](https://github.com/brianmahlatini/AI-Triage-Console)
-**`Django REST Framework`** **`React`** **`PostgreSQL`** **`Docker`** — **27 tests**
-
-Multi-tenant support triage where an LLM classifier acts only inside limits it cannot exceed. Five ordered **autonomy rules** in one enforcement point, **idempotent intake** enforced by a database constraint, **rules-before-models** pre-scoring that skipped inference on 7 of 10 tickets, and an **append-only audit trail** with no update or delete path.
-
-### 🔷 [AI SaaS Automation Platform](https://github.com/brianmahlatini/AI-SAAS-AUTOMATION-PLATFORM)
-**`Next.js`** **`Node.js`** **`Redis`** **`BullMQ`** **`Stripe`** **`OpenAI`**
-
-AI-powered workflow automation with a **distributed execution engine** and interfaces for configuring and running automated workflows. Scalable background processing on **BullMQ** queues, real-time run tracking over **WebSockets**, token-based usage metering, and **Stripe subscription plus usage-based billing**.
-
-### 🔷 [Multi-Tenant SaaS Platform](https://github.com/brianmahlatini/SaaS-Multi-Tenant-Platform-Django-React-Stripe-RBAC-)
-**`Django`** **`PostgreSQL`** **`Redis`** **`Celery`** **`Stripe`**
-
-Multi-tenant Django and PostgreSQL backend with **organisation-level data isolation**, REST APIs, JWT auth and **RBAC**, Stripe subscription billing with webhook handling, API key management with usage tracking, and **Celery** for background processing.
-
-### 🔷 [Multi-Vendor E-Commerce Marketplace](https://github.com/brianmahlatini/MULTI-VENDOR-E-COMMERCE-MARKETPLACE)
-**`React`** **`Node.js`** **`PostgreSQL`** **`Redis`** **`Stripe`**
-
-Marketplace supporting **multi-vendor architecture** with vendor and customer workflows — PostgreSQL data model for products, orders and transactions, product catalogue, checkout flow, order management, **Stripe payments with webhook-driven transaction handling**, Redis caching, background jobs, and real-time order tracking.
-
-### 🔷 [Real-Time Collaboration Chat Platform](https://github.com/brianmahlatini/REAL-TIME-COLLABORATION-CHAT-PLATFORM)
-**`React`** **`Node.js`** **`Socket.io`** **`MongoDB`** **`Redis`**
-
-Real-time messaging with channels, DMs, presence tracking and notifications. **Redis pub/sub WebSocket architecture** for multi-instance scaling, message persistence, S3 file uploads, and rate-limited APIs.
-
-### 🔷 [Enterprise AI CRM SaaS Platform](https://github.com/brianmahlatini/Enterprise-AI-CRM-SaaS-Platform)
-**`ASP.NET Core`** **`Angular`** **`PostgreSQL`** **`Redis`** **`RabbitMQ`** **`OpenAI`** **`Stripe`**
-
-Multi-tenant CRM SaaS inspired by Salesforce and HubSpot. **Clean Architecture with CQRS**, JWT and refresh tokens, RBAC policies, **AI-assisted CRM actions**, Stripe billing, SignalR real-time team updates, S3 uploads and Prometheus/Grafana metrics, with an Angular NgRx frontend.
-
-### 🔷 [AI Recruitment & ATS Platform](https://github.com/brianmahlatini/AI-Recruitment-ATS-Platform)
-**`ASP.NET Core`** **`React`** **`PostgreSQL`** **`Elasticsearch`** **`Redis`** **`RabbitMQ`** **`SignalR`**
-
-Applicant tracking system with separate **admin, employer and job-seeker** access paths, covering jobs, candidates, interviews, analytics and audit logs, with Hangfire background processing and **OpenAI-ready AI workflows**.
-
-### 🔷 [Enterprise Analytics Dashboard](https://github.com/brianmahlatini/Enterprise-Analytics-Dashboard)
-**`React`** **`TypeScript`** **`TanStack Query/Table`** **`Recharts`** **`Docker`**
-
-Data-heavy analytics UI in the style of Stripe and Datadog: a **10k-row virtualised table**, synchronised charts with drill-downs, date-range filters, CSV export, a drag-and-resize layout builder and live metric simulation.
-
-***
-
-## ☁️ Cloud, DevOps & Infrastructure
-
-*Infrastructure as code on both AWS and Azure, plus delivery pipelines and observability — each tested offline so the security properties are verified, not assumed.*
-
-### 🔺 [AWS Terraform Platform](https://github.com/brianmahlatini/aws-terraform-platform)
-**`Terraform`** **`AWS`** **`ECS Fargate`** **`ALB`** **`VPC`**
-
-Production-style AWS infrastructure: a **multi-AZ VPC** and a containerised service on **ECS Fargate behind an Application Load Balancer**, split into reusable modules with dev and prod environments, remote state with native S3 locking, and CI that tests every module offline with mocked providers.
-
-### 🔺 [Azure AKS Terraform](https://github.com/brianmahlatini/azure-aks-terraform)
-**`Terraform`** **`Azure`** **`AKS`** **`Entra ID`** **`Key Vault`**
-
-Hardened **Azure Kubernetes Service** platform: Entra ID-only cluster access with Azure RBAC, Azure CNI Overlay with Cilium network policy, **workload identity** for pods, ACR pulls through a managed identity, Key Vault via the Secrets Store CSI driver, and Container Insights.
-
-### 🔺 [Kubernetes GitOps Delivery Pipeline](https://github.com/brianmahlatini/k8s-gitops-app)
-**`Kubernetes`** **`Argo CD`** **`Kustomize`** **`GitHub Actions`** **`Trivy`**
-
-Container delivery from commit to cluster: a hardened non-root image that is **scanned, SBOM'd and signed (cosign)** in CI, end-to-end tested on a kind cluster, and released through **GitOps with Argo CD**.
-
-### 🔺 [Observability Stack](https://github.com/brianmahlatini/observability-stack)
-**`Prometheus`** **`Alertmanager`** **`Grafana`** **`promtool`**
-
-SRE-style monitoring with **SLO-based multi-window burn-rate alerting**, routing that separates pages from tickets, and Grafana dashboards provisioned as code. Every alert rule is **unit-tested** with promtool.
-
-### 🔺 [Cloud Ops Toolkit](https://github.com/brianmahlatini/cloud-ops-toolkit)
-**`Python`** **`boto3`** **`Bash`** **`AWS`**
-
-`cloud-janitor` finds unattached EBS volumes, stale snapshots, idle Elastic IPs and untagged instances ranked by estimated monthly cost, with safe cleanup; plus a **KMS-encrypted PostgreSQL backup to S3**. Tested against mocked AWS at 94% coverage.
-
-***
-
 ## 🛠️ Tech Stack
 
 | | |
 |---|---|
-| **Languages** | **Python** · **TypeScript** · **JavaScript** · **SQL** · Java · C# · Go · PHP |
+| **Languages** | **Python** · **SQL** · TypeScript · JavaScript |
 | **AI & LLM Systems** | RAG · AI Agents & Tool Calling · Prompt Engineering · Structured Output · Claude API · OpenAI API · LLMs · LangChain · MCP · Hugging Face · **LoRA/QLoRA Fine-Tuning** · **YOLO Fine-Tuning (Object Detection)** · Llama 3 · BERT · Vector Databases (Pinecone, FAISS) · Vector Embeddings · Semantic & Similarity Search · Information Retrieval · Document Chunking · Reranking · TF-IDF · AI Workflow Automation |
 | **Machine Learning & Data Science** | scikit-learn · XGBoost · LightGBM · PyTorch · CNNs & Transfer Learning · Prophet · Pandas · NumPy · SciPy · imbalanced-learn · Classification · Regression · Time-Series Forecasting · Recommendation Systems (Collaborative Filtering, Matrix Factorization) · Churn & CLV Prediction · Customer Segmentation · K-Means Clustering · Gradient Boosting · Feature Engineering · Hyperparameter Optimisation · Imbalanced Data · Leakage Detection · Uplift Modelling & Causal Inference · Statistical Power Analysis · NLP & Sentiment Analysis · Computer Vision (YOLO Object Detection) · SARIMA · Explainable AI (SHAP/LIME) |
 | **Model Evaluation** | ROC-AUC · PR-AUC · Precision/Recall/F1 · NDCG@K · Hit Rate · MAPE · MAE · RMSE · R² · Cross-Validation · Threshold Optimisation |
-| **MLOps** | MLflow · Experiment Tracking · Model Registry & Versioning · Model Deployment · Model Monitoring · Drift Detection · Retraining Pipelines · Train/Serve Skew Prevention |
-| **Backend & APIs** | FastAPI · Django · Flask · **Node.js** · Express · REST · Microservices · SQLAlchemy · Pydantic · Prisma · Mongoose · Middleware & Request Validation · WebSockets (Socket.IO) · Redis Pub/Sub · Background Workers *(Celery, BullMQ)* · Task Queues & Scheduled Jobs |
+| **MLOps** | MLflow · Experiment Tracking · Model Registry & Versioning · Model Deployment · Model Monitoring · Drift Detection · Retraining Pipelines · Train/Serve Skew Prevention · Containerised Deployment (Docker) |
+| **Model Serving & APIs** | FastAPI · Flask · Django · REST · Pydantic · SQLAlchemy · Background Workers (Celery) |
 | **Automation & Integration** | **n8n** · AI Workflow Automation · Microsoft Graph · Freshdesk · Payment gateways · Pay@ & BillPay integrations · Webhooks · Third-party REST/SOAP integration · API Management |
-| **Data Processing** | ETL · Data Validation & Cleaning · Star Schema · Analytical SQL Views · Incremental Loading & Idempotent Upserts · Deduplication · Data Quality |
-| **BI & Analytics** | **Power BI** · **DAX** · **Power Query** · Tableau · Looker · Qlik Sense · Data Visualisation · KPI Design · Sales & Financial Reporting · Cohort, Retention & Funnel Analysis · RFM & Market Basket Analysis · Statistical Analysis · Hypothesis Testing · A/B Testing · Trend & Root-Cause Analysis · EDA |
-| **Databases** | PostgreSQL · MySQL · Supabase · MongoDB · SQLite · Redis · Pinecone *(vector)* · Schema Design · Indexing · Query Optimisation · Migrations |
+| **Databases** | PostgreSQL · Supabase · MongoDB · Redis · Pinecone *(vector)* · pgvector · SQLite |
 | **Cloud Platforms: AWS & Microsoft Azure** | **AWS:** EC2 · S3 · Lambda · RDS · IAM · CloudWatch · API Gateway · KMS · CloudFront · Elastic Beanstalk <br> **Microsoft Azure (equivalents):** Azure Virtual Machines · Azure Blob Storage · Azure Functions · Azure SQL Database · Azure Database for PostgreSQL · Microsoft Entra ID · Azure Role-Based Access Control (Azure RBAC) · Azure Monitor · Log Analytics · Azure API Management <br> **Cloud Concepts:** Virtual Servers · Object Storage · Serverless Computing · Managed Relational Databases · Identity & Access Management · Logging & Monitoring · API Management |
-| **DevOps & Infrastructure** | Terraform · Infrastructure as Code · Docker · Docker Compose · Kubernetes *(fundamentals)* · Git · GitHub Actions · CI/CD · Nginx · PM2 · Automated Testing & Deployment |
-| **Linux** | Command-Line · File Permissions · Users & Groups · Process & Service Management · Log Inspection · Bash · Environment Variables · Disk-Space Monitoring · Basic Network Troubleshooting |
-| **Architecture** | SaaS Platforms · Multi-Tenant Architecture · Distributed Systems · Event-Driven Systems · Microservices · Caching · Background Jobs · Scalable, Maintainable Design |
-| **Payments & Billing** | **Stripe** *(Subscriptions, Usage-Based Billing, Webhooks)* · **PayFast** · Pay@ · Payout & Issuer APIs · Webhook Reconciliation · Idempotency Control |
-| **Security** | JWT · OAuth2 · RBAC · Auth0 · Clerk · Firebase Auth · Microsoft Entra ID · HMAC-SHA256 · PBKDF2/BCrypt · Input Validation · Rate Limiting · Audit Logging · POPIA-aware data handling |
-| **Frontend** | React · Next.js · **Angular** · TypeScript · HTML5 · CSS3 · Tailwind CSS · Vite · Chart.js · Recharts · Responsive Design · State Management |
 
 **Secondary stack** — not my day-to-day focus, but I've built with these and am comfortable picking them up on a project:
 Java · Spring Boot · C# · ASP.NET Core · Go · PHP · C++ · C · RabbitMQ · SignalR · Elasticsearch · Azure
@@ -406,7 +279,7 @@ Java · Spring Boot · C# · ASP.NET Core · Go · PHP · C++ · C · RabbitMQ �
 
 - 🚀 Running a **live agentic AI system in production** handling real enterprise traffic
 - 🔬 Building out **production ML serving** with MLflow tracking and drift monitoring
-- 💼 Open to **AI / LLM Engineering** · **Generative & Applied AI** · **ML Engineering** · **Data Science** · **Full-Stack Engineering** · **Automation & Integration Engineering** — *remote, relocation, contract or full-time*
+- 💼 Open to **AI / LLM Engineering** · **Generative & Applied AI** · **ML Engineering** · **Data Science** · **Automation & Integration Engineering** — *remote, relocation, contract or full-time*
 
 ***
 
